@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>XPS / UPS 光电子能谱 教程 — 结构分析表征 — 结构分析表征</title>
+<title data-i18n="title.xps">XPS / UPS 光电子能谱教程 — 结构分析表征</title>
 <meta name="description" content="X 射线光电子能谱 / 紫外光电子能谱的数据分析、分峰拟合与软件实操教程，覆盖 Avantage、CasaXPS、XPSPEAK、PeakForge 等主流软件。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611090734">
 </head>
 <body data-page="xps">
 <header class="site-header">
@@ -15,62 +15,73 @@
       <span class="logo-badge">表</span>
       <span class="logo-text"><strong>结构分析表征</strong><small>Structure Analysis &amp; Characterization</small></span>
     </a>
-    <nav><ul><li><a href="../index.html">首页</a></li>
-<li><a href="../xps/index.html" class="active">XPS / UPS</a></li>
-<li><a href="../xrd-powder/index.html">粉末衍射</a></li>
-<li><a href="../scxrd/index.html">单晶衍射</a></li>
-<li><a href="../hrms/index.html">高分辨质谱</a></li>
-<li><a href="../dataplot/index.html">数据与绘图</a></li>
-<li><a href="../cooperation/index.html">商务合作</a></li>
-<li><a href="../about/index.html">关于</a></li></ul></nav>
+    <nav><ul><li><a href="../index.html" data-i18n="nav.home">首页</a></li>
+<li><a href="../xps/index.html" class="active" data-i18n="nav.xps">XPS / UPS</a></li>
+<li><a href="../xrd-powder/index.html" data-i18n="nav.xrd">粉末衍射</a></li>
+<li><a href="../scxrd/index.html" data-i18n="nav.scxrd">单晶衍射</a></li>
+<li><a href="../hrms/index.html" data-i18n="nav.hrms">高分辨质谱</a></li>
+<li><a href="../dataplot/index.html" data-i18n="nav.dataplot">数据与绘图</a></li>
+<li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
+<li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
+<li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
+    <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
   </div>
 </header>
 <main>
 
 <section class="page-head">
   <div class="wrap">
-    <p class="crumb"><a href="../index.html">首页</a> / XPS / UPS</p>
-    <h1>XPS / UPS 光电子能谱 <small>Photoelectron Spectroscopy</small></h1>
-    <p class="page-desc">X 射线光电子能谱 / 紫外光电子能谱的数据分析、分峰拟合与软件实操教程，覆盖 Avantage、CasaXPS、XPSPEAK、PeakForge 等主流软件。</p>
+    <p class="crumb"><a href="../index.html" data-i18n="nav.home">首页</a> / <span data-i18n="nav.xps">XPS / UPS</span></p>
+    <h1><span data-i18n="cat.xps.title">XPS / UPS 光电子能谱</span> <small>Photoelectron Spectroscopy</small></h1>
+    <p class="page-desc" data-i18n="cat.xps.desc">X 射线光电子能谱 / 紫外光电子能谱的数据分析、分峰拟合与软件实操教程，覆盖 Avantage、CasaXPS、XPSPEAK、PeakForge 等主流软件。</p>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <h2><span class="h-num">01</span>软件介绍</h2>
-    <p class="section-sub">点击软件卡片可筛选该软件的相关视频</p>
+    <h2><span class="h-num">01</span><span data-i18n="sec.software">软件介绍</span></h2>
+    <p class="section-sub" data-i18n="sec.software.sub">点击软件卡片可筛选该软件的相关视频</p>
     <div class="sw-grid" id="sw-grid"></div>
   </div>
 </section>
 <section class="section section-alt">
   <div class="wrap">
-    <h2><span class="h-num">02</span>视频教程 <span class="count-badge" id="v-count"></span></h2>
+    <h2><span class="h-num">02</span><span data-i18n="sec.videos">视频教程</span> <span class="count-badge" id="v-count"></span></h2>
     <div class="toolbar">
       <div class="chips" id="type-chips">
-        <button class="chip active" data-type="all">全部</button>
-        <button class="chip" data-type="a">数据分析</button>
-        <button class="chip" data-type="s">软件介绍</button>
-        <button class="chip" data-type="p">原理科普</button>
+        <button class="chip active" data-type="all" data-i18n="chip.all">全部</button>
+        <button class="chip" data-type="a" data-i18n="chip.a">数据分析</button>
+        <button class="chip" data-type="s" data-i18n="chip.s">软件介绍</button>
+        <button class="chip" data-type="p" data-i18n="chip.p">原理科普</button>
       </div>
-      <input id="search" class="search" type="search" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
+      <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
     <div class="v-grid" id="video-grid"></div>
-    <div class="more-row"><button id="more" class="btn ghost">加载更多</button></div>
+    <div class="more-row"><button id="more" class="btn ghost" data-i18n="load.more">加载更多</button></div>
   </div>
 </section>
 <section class="section">
   <div class="wrap">
-    <h2><span class="h-num">03</span>图文教程 · 公众号</h2>
-    <div class="note-panel">
-      <p><strong>深度图文教程整理中。</strong>《光电子能谱分部》、《结构分析表征》 的图文内容将陆续收录到本栏目（按 数据分析 / 软件介绍 / 文献解读 分类展示）。</p>
-      <p class="muted">现有图文请先移步微信公众号阅读；站点维护者把文章链接按 <code>tools/articles.json</code> 的格式填好后重新构建即可自动展示。</p>
+    <h2><span class="h-num">03</span><span data-i18n="sec.articles">图文教程 · 公众号</span> <span class="count-badge" id="a-count"></span></h2>
+    <div class="toolbar">
+      <div class="chips" id="atype-chips">
+        <button class="chip active" data-atype="all" data-i18n="chip.all">全部</button>
+        <button class="chip" data-atype="a" data-i18n="chip.a">数据分析</button>
+        <button class="chip" data-atype="s" data-i18n="chip.s">软件介绍</button>
+        <button class="chip" data-atype="p" data-i18n="chip.p">原理科普</button>
+        <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
+      </div>
     </div>
+    <div class="v-grid" id="article-grid"></div>
+    <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
+    <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
 </section>
+
 <section class="section section-alt" style="padding-top:0">
   <div class="wrap">
     <div class="note-panel">
-      <p>以上只是本站收录的合集内容，<strong>全部视频（含未分组）请移步 B 站主页</strong>：
+      <p><span data-i18n="bili.more1">以上只是本站收录的合集内容，</span><strong data-i18n="bili.more2">全部视频（含未分组）请移步 B 站主页</strong>：
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener">space.bilibili.com/386282560 ↗</a></p>
     </div>
   </div>
@@ -80,7 +91,7 @@
   <div class="wrap footer-inner">
     <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部</div>
     <div class="footer-links">
-      <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener">B站主页</a>
+      <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
       <a href="mailto:jgfxbz@gmail.com">jgfxbz@gmail.com</a>
     </div>
   </div>
@@ -90,10 +101,10 @@
   <div class="modal-body">
     <div class="modal-bar"><span id="modal-title"></span><button class="modal-close" data-close>✕</button></div>
     <div class="modal-player"><iframe id="modal-frame" src="" allowfullscreen scrolling="no" frameborder="0"></iframe></div>
-    <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener">在 B 站打开（点赞投币收藏）↗</a></div>
+    <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js"></script>
-<script src="../assets/js/main.js"></script>
+<script src="../assets/js/data.js?v=202611090734"></script>
+<script src="../assets/js/main.js?v=202611090734"></script>
 </body>
 </html>

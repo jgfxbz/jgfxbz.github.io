@@ -50,6 +50,11 @@ nav a {
 }
 nav a:hover { background: var(--bg-alt); text-decoration: none; }
 nav a.active { background: var(--primary); color: #fff; }
+.lang-toggle {
+  border: 1px solid var(--line); background: #fff; color: #33475b; border-radius: 20px;
+  padding: 6px 14px; font-size: 13px; cursor: pointer; transition: .15s; flex: none;
+}
+.lang-toggle:hover { border-color: var(--primary); color: var(--primary); }
 
 /* ---------- hero ---------- */
 .hero {
@@ -136,7 +141,12 @@ nav a.active { background: var(--primary); color: #fff; }
 .v-tag.s { background: #e8f4ec; color: #1e7a46; }
 .v-tag.p { background: #fdf1e3; color: #b05e12; }
 .more-row { text-align: center; margin-top: 20px; }
-#more[hidden] { display: none; }
+#more[hidden], #amore[hidden] { display: none; }
+a.v-card { color: var(--ink); }
+a.v-card:hover { text-decoration: none; }
+.v-src { color: var(--primary); font-weight: 600; }
+.script-card .btn-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.script-card h3 .tag { margin-left: 8px; }
 
 /* ---------- panels ---------- */
 .note-panel {
