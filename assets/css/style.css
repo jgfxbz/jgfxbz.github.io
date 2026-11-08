@@ -75,7 +75,7 @@ nav a.active { background: var(--primary); color: #fff; }
 .btn:hover { text-decoration: none; transform: translateY(-1px); }
 .btn.primary { background: #fff; color: var(--primary-dark); font-weight: 600; }
 .btn.ghost { background: rgba(255, 255, 255, .16); color: #fff; border-color: rgba(255, 255, 255, .75); }
-section .btn.ghost { color: var(--primary); border-color: var(--primary); }
+.section .btn.ghost { color: var(--primary); border-color: var(--primary); background: transparent; }
 .btn.small { padding: 5px 12px; font-size: 13px; border-radius: 8px; }
 
 /* ---------- sections ---------- */
