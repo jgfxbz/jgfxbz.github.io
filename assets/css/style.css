@@ -169,6 +169,19 @@ a.v-card:hover { text-decoration: none; }
 .qr-box img { width: 150px; height: 150px; object-fit: contain; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-alt); min-height: 150px; }
 .qr-tip { display: block; font-size: 12px; color: var(--muted); margin-top: 6px; }
 
+/* ---------- 首页商务合作横幅 ---------- */
+.coop-band { display: flex; gap: 28px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.coop-info { flex: 1; min-width: 300px; }
+.coop-types { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.coop-types > span {
+  border: 1px solid var(--line); background: #fff; color: #33475b; border-radius: 20px;
+  padding: 5px 14px; font-size: 13px;
+}
+.coop-mail { margin: 6px 0 4px; font-size: 15px; }
+.coop-more { margin-top: 12px; }
+.coop-qr { text-align: center; flex: none; }
+.coop-qr img { width: 120px; height: 120px; object-fit: contain; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+
 /* ---------- page head ---------- */
 .page-head { background: var(--bg-alt); padding: 34px 0 26px; border-bottom: 1px solid var(--line); }
 .crumb { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
