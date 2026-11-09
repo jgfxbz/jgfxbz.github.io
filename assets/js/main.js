@@ -31,7 +31,10 @@
   }
 
   function vCard(v) {
+    var picUrl = v.p ? (v.p.indexOf("hdslb.com") >= 0 ? v.p + "@480w_270h_1c.webp" : v.p) : "";
+    var pic = picUrl ? '<img class="v-thumb" src="' + esc(picUrl) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
     return '<div class="v-card" data-bvid="' + esc(v.b) + '" data-title="' + esc(v.t) + '">' +
+      pic +
       '<p class="v-title">' + esc(v.t) + "</p>" +
       '<div class="v-meta">' +
       '<span class="v-tag ' + v.y + '">' + esc(t("type." + v.y)) + "</span>" +
@@ -43,8 +46,10 @@
   }
 
   function aCard(a) {
-    return '<a class="v-card a-card" href="' + esc(a.l) + '" target="_blank" rel="noopener">' +
-      '<p class="v-title">' + esc(a.t) + " ↗</p>" +
+    var dig = a.g ? '<p class="v-digest">' + esc(String(a.g).slice(0, 70)) + "</p>" : "";
+    var pic = a.p ? '<img class="v-thumb" loading="lazy" src="' + esc(a.p) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
+    return '<a class="v-card a-card" href="' + esc(a.l) + '" target="_blank" rel="noopener">' + pic +
+      '<p class="v-title">' + esc(a.t) + " ↗</p>" + dig +
       '<div class="v-meta">' +
       '<span class="v-tag ' + a.y + '">' + esc(t("type." + a.y)) + "</span>" +
       '<span class="v-src">' + esc(a.s) + "</span>" +
@@ -112,13 +117,16 @@
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
 
-  /* ---------- 动态区块（语言切换后重渲染） ---------- */
+  /* ---------- 首页：最新更新（视频 + 文章混合流） ---------- */
   var latest = document.getElementById("latest-grid");
   var rerenderLatest = function () {};
   if (latest) {
     rerenderLatest = function () {
-      var byDate = videos.slice().sort(function (a, b) { return b.d < a.d ? -1 : 1; }).slice(0, 8);
-      latest.innerHTML = byDate.map(vCard).join("");
+      var items = [];
+      videos.forEach(function (v) { items.push({ d: v.d, h: vCard(v) }); });
+      (D.articles || []).forEach(function (a) { items.push({ d: a.d, h: aCard(a) }); });
+      items.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+      latest.innerHTML = items.slice(0, 10).map(function (it) { return it.h; }).join("");
     };
   }
 
@@ -200,6 +208,37 @@
     render();
   }
 
+  /* ---------- 站内搜索页 ---------- */
+  var siteQ = document.getElementById("site-q");
+  var rerenderSearch = function () {};
+  if (siteQ && document.getElementById("search-grid")) {
+    var sGrid = document.getElementById("search-grid");
+    var sCount = document.getElementById("s-count");
+    var sCap = 60;
+    function renderSearch() {
+      var kw = siteQ.value.trim().toLowerCase();
+      var res = [];
+      if (kw) {
+        videos.forEach(function (v) {
+          if (v.t.toLowerCase().indexOf(kw) >= 0) res.push({ d: v.d, h: vCard(v) });
+        });
+        (D.articles || []).forEach(function (a) {
+          if (a.t.toLowerCase().indexOf(kw) >= 0) res.push({ d: a.d, h: aCard(a) });
+        });
+        res.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+      }
+      sCount.textContent = kw ? t("search.results").replace("{n}", res.length) : "";
+      sGrid.innerHTML = res.slice(0, sCap).map(function (r) { return r.h; }).join("") ||
+        (kw ? '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>" : "");
+    }
+    var sTimer = null;
+    siteQ.addEventListener("input", function () {
+      clearTimeout(sTimer);
+      sTimer = setTimeout(renderSearch, 200);
+    });
+    rerenderSearch = renderSearch;
+  }
+
   /* ---------- 公众号图文栏目 ---------- */
   var aGrid = document.getElementById("article-grid");
   var rerenderArticles = function () {};
@@ -245,6 +284,7 @@
     rerenderLatest();
     rerenderCat();
     rerenderArticles();
+    rerenderSearch();
   }
 
   applyLang();

@@ -6,7 +6,7 @@
 <title data-i18n="title.dataplot">数据处理与绘图教程 — 结构分析表征</title>
 <meta name="description" content="Origin 作图与数据处理的常见问题（断点、曲线填充、峰拟合、微分、版本转换），以及自研 Python 小脚本：CIF 下载、红外基线校正、mol 文件批量下载等。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css?v=202611090750">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611090858">
 </head>
 <body data-page="dataplot">
 <header class="site-header">
@@ -22,6 +22,7 @@
 <li><a href="../hrms/index.html" data-i18n="nav.hrms">高分辨质谱</a></li>
 <li><a href="../dataplot/index.html" class="active" data-i18n="nav.dataplot">数据与绘图</a></li>
 <li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
+<li><a href="../search/index.html" data-i18n="nav.search">搜索</a></li>
 <li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
 <li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
     <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
@@ -41,7 +42,10 @@
   <div class="wrap">
     <h2><span class="h-num">01</span><span data-i18n="sec.software">软件介绍</span></h2>
     <p class="section-sub" data-i18n="sec.software.sub">点击软件卡片可筛选该软件的相关视频</p>
-    <div class="sw-grid" id="sw-grid"></div>
+    <div class="sw-grid" id="sw-grid"><div class="sw-card" data-kw="origin"><h3>Origin<span class="vendor">OriginLab</span></h3><p>断点、填充谱图、单峰/双峰拟合、微分、高低版本转换。</p></div>
+<div class="sw-card" data-kw="脚本"><h3>Python 脚本<span class="vendor">自研工具</span></h3><p>CIF 下载、红外基线校正等效率脚本（相关脚本分布在各仪器分类页）。</p></div>
+<div class="sw-card" data-kw="peakforge"><h3>PeakForge<span class="vendor">谱图拟合</span></h3><p>碳谱等多组分谱图拟合实操。</p></div>
+<div class="sw-card" data-kw="pdf"><h3>实用小技巧<span class="vendor">科研日常</span></h3><p>PDF 页面删除等科研中的实用小操作。</p></div></div>
   </div>
 </section>
 <section class="section section-alt">
@@ -56,7 +60,30 @@
       </div>
       <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
-    <div class="v-grid" id="video-grid"></div>
+    <div class="v-grid" id="video-grid"><div class="v-card" data-bvid="BV1Xpxf6QE9p" data-title="peakforge碳谱拟合"><p class="v-title">peakforge碳谱拟合</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-11-05</span><span>⏱ 2:08</span><span>▶ 162</span></div></div>
+<div class="v-card" data-bvid="BV1JMTa6kEoA" data-title="红外数据基线校正的脚本"><p class="v-title">红外数据基线校正的脚本</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-07-01</span><span>⏱ 1:05</span><span>▶ 834</span></div></div>
+<div class="v-card" data-bvid="BV14ekeBjECn" data-title="多重分裂在元素化学态判断中的应用"><p class="v-title">多重分裂在元素化学态判断中的应用</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-01-23</span><span>⏱ 3:34</span><span>▶ 466</span></div></div>
+<div class="v-card" data-bvid="BV1tZ421M7me" data-title="origin不能微分的原因"><p class="v-title">origin不能微分的原因</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2024-06-18</span><span>⏱ 1:31</span><span>▶ 5408</span></div></div>
+<div class="v-card" data-bvid="BV16y411a7vP" data-title="origin高版本格式转低版本"><p class="v-title">origin高版本格式转低版本</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2024-05-20</span><span>⏱ 1:04</span><span>▶ 8656</span></div></div>
+<div class="v-card" data-bvid="BV1oS4y1g7SD" data-title="如何利用origin断点功能隐藏不需要的区域"><p class="v-title">如何利用origin断点功能隐藏不需要的区域</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-03-11</span><span>⏱ 4:54</span><span>▶ 2.5万</span></div></div>
+<div class="v-card" data-bvid="BV1P64y1C7hC" data-title="origin填充谱图的万能办法"><p class="v-title">origin填充谱图的万能办法</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2021-06-09</span><span>⏱ 6:37</span><span>▶ 2.8万</span></div></div>
+<div class="v-card" data-bvid="BV18i4y1G7nD" data-title="origin双峰拟合的基本操作"><p class="v-title">origin双峰拟合的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2020-06-21</span><span>⏱ 11:36</span><span>▶ 1.5万</span></div></div>
+<div class="v-card" data-bvid="BV1D5411W7bv" data-title="origin单峰拟合的基本操作"><p class="v-title">origin单峰拟合的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2020-06-20</span><span>⏱ 9:12</span><span>▶ 1.1万</span></div></div>
+<div class="v-card" data-bvid="BV1bz411e7zC" data-title="origin填充曲线避免基线上扬"><p class="v-title">origin填充曲线避免基线上扬</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-06-18</span><span>⏱ 3:43</span><span>▶ 8427</span></div></div>
+<div class="v-card" data-bvid="BV1Ki4y1b7Dp" data-title="origin如何调平基线方法2"><p class="v-title">origin如何调平基线方法2</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-05-02</span><span>⏱ 4:07</span><span>▶ 1.6万</span></div></div>
+<div class="v-card" data-bvid="BV1PE411A7Lr" data-title="origin堆叠图的添加和删除"><p class="v-title">origin堆叠图的添加和删除</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-20</span><span>⏱ 3:52</span><span>▶ 1.4万</span></div></div>
+<div class="v-card" data-bvid="BV11E41157gt" data-title="科普-origin绘制双Y轴箱线图"><p class="v-title">科普-origin绘制双Y轴箱线图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-16</span><span>⏱ 3:26</span><span>▶ 1.3万</span></div></div>
+<div class="v-card" data-bvid="BV13E41147HL" data-title="origin如何绘制双Y轴堆积条形图"><p class="v-title">origin如何绘制双Y轴堆积条形图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-07</span><span>⏱ 3:26</span><span>▶ 8866</span></div></div>
+<div class="v-card" data-bvid="BV13E41147Uc" data-title="origin如何绘制双Y轴图"><p class="v-title">origin如何绘制双Y轴图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-04</span><span>⏱ 2:48</span><span>▶ 1.1万</span></div></div>
+<div class="v-card" data-bvid="BV15J41187pk" data-title="origin如何实现曲线的颜色填充"><p class="v-title">origin如何实现曲线的颜色填充</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-06</span><span>⏱ 3:24</span><span>▶ 4.7万</span></div></div>
+<div class="v-card" data-bvid="BV1JJ4118776" data-title="origin实现曲线的放大镜功能"><p class="v-title">origin实现曲线的放大镜功能</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-05</span><span>⏱ 7:00</span><span>▶ 9246</span></div></div>
+<div class="v-card" data-bvid="BV1kJ411a7Tf" data-title="如何在origin中加上下标"><p class="v-title">如何在origin中加上下标</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-31</span><span>⏱ 4:43</span><span>▶ 3.7万</span></div></div>
+<div class="v-card" data-bvid="BV1AJ411x76D" data-title="origin如何实现对局部弱峰谱图的放大"><p class="v-title">origin如何实现对局部弱峰谱图的放大</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-25</span><span>⏱ 6:38</span><span>▶ 3.3万</span></div></div>
+<div class="v-card" data-bvid="BV1CJ41147Rq" data-title="如何用origin制作类似3D柱状图的二维柱状图"><p class="v-title">如何用origin制作类似3D柱状图的二维柱状图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-24</span><span>⏱ 4:44</span><span>▶ 2万</span></div></div>
+<div class="v-card" data-bvid="BV13J411b7FK" data-title="如何用origin软件绘制三维效果图"><p class="v-title">如何用origin软件绘制三维效果图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-21</span><span>⏱ 3:29</span><span>▶ 4.5万</span></div></div>
+<div class="v-card" data-bvid="BV1XJ41147Cf" data-title="如何用avantage实现堆叠效果"><p class="v-title">如何用avantage实现堆叠效果</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-19</span><span>⏱ 4:18</span><span>▶ 9534</span></div></div>
+<div class="v-card" data-bvid="BV1dJ41167dp" data-title="如何用origin绘制堆叠效果图"><p class="v-title">如何用origin绘制堆叠效果图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-18</span><span>⏱ 5:35</span><span>▶ 4.8万</span></div></div>
+<div class="v-card" data-bvid="BV1CJ411k7Rb" data-title="科普-如何用origin对做好的图进行调色"><p class="v-title">科普-如何用origin对做好的图进行调色</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-12-12</span><span>⏱ 5:20</span><span>▶ 1.9万</span></div></div></div>
     <div class="more-row"><button id="more" class="btn ghost" data-i18n="load.more">加载更多</button></div>
   </div>
 </section>
@@ -72,7 +99,18 @@
         <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
       </div>
     </div>
-    <div class="v-grid" id="article-grid"></div>
+    <div class="v-grid" id="article-grid"><a class="v-card a-card" href="https://mp.weixin.qq.com/s/sn3ySuEydysA9NJ9ftK-rw" target="_blank" rel="noopener"><p class="v-title">固体紫外-可见光谱带隙计算工具 v5.2 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-08-23</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/MTFYZYOHvcV85QBF63tYrg" target="_blank" rel="noopener"><p class="v-title">PDF 页面分割工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-08-09</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/CBjBulzB1u9JKmsg4WIisg" target="_blank" rel="noopener"><p class="v-title">红外光谱基线自动校正工具 v7 (Peak Manager) - 中英文说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-26</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/b3m-c9ZXz15Qj2hwYL9P-g" target="_blank" rel="noopener"><p class="v-title">Git LFS GitHub 上传工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-20</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/oSckq2t6kunoWU_6ETo4hA" target="_blank" rel="noopener"><p class="v-title">红外光谱基线自动校正工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-05</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/D8luxBjcoi991UYA1OGZgw" target="_blank" rel="noopener"><p class="v-title">红外光谱基线自动校正工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-03</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/X0aNRrVhtiCtmkRaHA__jA" target="_blank" rel="noopener"><p class="v-title">红外光谱基线自动校正工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-01</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/A6LyPRG8DfbkdB-yxhkVDg" target="_blank" rel="noopener"><p class="v-title">目前制作的程序和小工具-1 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-01</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/efUN3YIRlkjLiXYD34nqhA" target="_blank" rel="noopener"><p class="v-title">目前制作的程序和小工具-1 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-06-22</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/TfUS8w_5os0GZensHFqodg" target="_blank" rel="noopener"><p class="v-title">失业预警之-python帮我续能量 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-06-02</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/tLT04nUMDBRGGCL4tmui1Q" target="_blank" rel="noopener"><p class="v-title">多功能环糊精衍生物同步调控结晶与离子分布实现高效稳定窄带隙锡铅钙钛矿太阳能电池 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2025-12-09</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/hu0XTvVI9Xf5pWP8rK07cQ" target="_blank" rel="noopener"><p class="v-title">excel表头的固定 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2024-09-19</span></div></a></div>
     <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
     <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
@@ -89,8 +127,9 @@
 </main>
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部</div>
+    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-09</div>
     <div class="footer-links">
+      <span class="bz">👁 <span id="busuanzi_value_site_pv"></span> · 👤 <span id="busuanzi_value_site_uv"></span></span>
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
       <a href="mailto:jgfxbz@gmail.com">jgfxbz@gmail.com</a>
     </div>
@@ -104,7 +143,8 @@
     <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js?v=202611090750"></script>
-<script src="../assets/js/main.js?v=202611090750"></script>
+<script src="../assets/js/data.js?v=202611090858"></script>
+<script src="../assets/js/main.js?v=202611090858"></script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>

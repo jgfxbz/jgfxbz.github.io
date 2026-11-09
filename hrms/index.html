@@ -6,7 +6,7 @@
 <title data-i18n="title.hrms">高分辨质谱教程 — 结构分析表征</title>
 <meta name="description" content="高分辨质谱数据处理：精确分子量与质荷比计算、二级碎片模拟、定量分析与未知物筛查，覆盖 Thermo / Agilent / Waters / SCIEX 各家软件。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css?v=202611090750">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611090858">
 </head>
 <body data-page="hrms">
 <header class="site-header">
@@ -22,6 +22,7 @@
 <li><a href="../hrms/index.html" class="active" data-i18n="nav.hrms">高分辨质谱</a></li>
 <li><a href="../dataplot/index.html" data-i18n="nav.dataplot">数据与绘图</a></li>
 <li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
+<li><a href="../search/index.html" data-i18n="nav.search">搜索</a></li>
 <li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
 <li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
     <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
@@ -41,7 +42,12 @@
   <div class="wrap">
     <h2><span class="h-num">01</span><span data-i18n="sec.software">软件介绍</span></h2>
     <p class="section-sub" data-i18n="sec.software.sub">点击软件卡片可筛选该软件的相关视频</p>
-    <div class="sw-grid" id="sw-grid"></div>
+    <div class="sw-grid" id="sw-grid"><div class="sw-card" data-kw="xcalibur"><h3>Xcalibur<span class="vendor">Thermo Fisher</span></h3><p>标准质谱图导出与数据处理。</p></div>
+<div class="sw-card" data-kw="masshunter"><h3>MassHunter<span class="vendor">Agilent</span></h3><p>精确分子量与质荷比计算。</p></div>
+<div class="sw-card" data-kw="masslynx"><h3>MassLynx<span class="vendor">Waters</span></h3><p>安装与基本操作。</p></div>
+<div class="sw-card" data-kw="peakview"><h3>PeakView<span class="vendor">SCIEX</span></h3><p>二级碎片模拟、信噪比与积分面积计算。</p></div>
+<div class="sw-card" data-kw="sciex os"><h3>SCIEX OS<span class="vendor">SCIEX</span></h3><p>定量分析与未知物筛查、常用功能与使用技巧。</p></div>
+<div class="sw-card" data-kw="tic"><h3>TIC / XIC / BPC<span class="vendor">概念科普</span></h3><p>质谱分析中三种色谱峰的概念与区别。</p></div></div>
   </div>
 </section>
 <section class="section section-alt">
@@ -56,7 +62,24 @@
       </div>
       <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
-    <div class="v-grid" id="video-grid"></div>
+    <div class="v-grid" id="video-grid"><div class="v-card" data-bvid="BV1J8E569E2N" data-title="化合物mol文件下载脚本"><p class="v-title">化合物mol文件下载脚本</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-06-12</span><span>⏱ 1:30</span><span>▶ 562</span></div></div>
+<div class="v-card" data-bvid="BV1xx4y1C79Q" data-title="Xcalibur如何导出标准质谱图"><p class="v-title">Xcalibur如何导出标准质谱图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2024-02-28</span><span>⏱ 1:50</span><span>▶ 8538</span></div></div>
+<div class="v-card" data-bvid="BV1f14y1P7bW" data-title="Masshunter如何计算精确分子量和质荷比"><p class="v-title">Masshunter如何计算精确分子量和质荷比</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-12-13</span><span>⏱ 5:52</span><span>▶ 9185</span></div></div>
+<div class="v-card" data-bvid="BV1wM411z7Ue" data-title="代谢产物分析中母体信息的查找"><p class="v-title">代谢产物分析中母体信息的查找</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-12-05</span><span>⏱ 17:55</span><span>▶ 7587</span></div></div>
+<div class="v-card" data-bvid="BV1XR4y1N7x1" data-title="同位素质谱元素分析仪燃烧管的填充和安装实操"><p class="v-title">同位素质谱元素分析仪燃烧管的填充和安装实操</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-04-29</span><span>⏱ 15:28</span><span>▶ 1435</span></div></div>
+<div class="v-card" data-bvid="BV1ua411478a" data-title="如何删除pdf中指定的页面"><p class="v-title">如何删除pdf中指定的页面</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-03-29</span><span>⏱ 1:08</span><span>▶ 2912</span></div></div>
+<div class="v-card" data-bvid="BV19S4y1j7NY" data-title="批量提取分子式用于代谢产物分析"><p class="v-title">批量提取分子式用于代谢产物分析</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-01-18</span><span>⏱ 7:24</span><span>▶ 3412</span></div></div>
+<div class="v-card" data-bvid="BV1Kg4y167kT" data-title="masslynx质谱软件安装和基本操作"><p class="v-title">masslynx质谱软件安装和基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2020-05-10</span><span>⏱ 8:31</span><span>▶ 5.4万</span></div></div>
+<div class="v-card" data-bvid="BV15k4y1R7vn" data-title="如何用高分辨质谱软件peakview模拟二级碎片"><p class="v-title">如何用高分辨质谱软件peakview模拟二级碎片</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-04-22</span><span>⏱ 4:31</span><span>▶ 9459</span></div></div>
+<div class="v-card" data-bvid="BV1pZ4y1j7y7" data-title="高分辨质谱软件peakview如何计算峰的信噪比、积分面积等"><p class="v-title">高分辨质谱软件peakview如何计算峰的信噪比、积分面积等</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-04-09</span><span>⏱ 2:19</span><span>▶ 1.1万</span></div></div>
+<div class="v-card" data-bvid="BV1dJ411r7Ta" data-title="科普-高分辨质谱软件peakview的基本操作"><p class="v-title">科普-高分辨质谱软件peakview的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2019-12-16</span><span>⏱ 7:43</span><span>▶ 2.2万</span></div></div>
+<div class="v-card" data-bvid="BV1XJ411Q7X2" data-title="科普-高分辨质谱软件sciex os常用功能介绍与使用技巧"><p class="v-title">科普-高分辨质谱软件sciex os常用功能介绍与使用技巧</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2019-12-03</span><span>⏱ 9:04</span><span>▶ 1.3万</span></div></div>
+<div class="v-card" data-bvid="BV1BJ411d7Vp" data-title="科普--质谱分析中的TIC XIC BPC的概念与区别"><p class="v-title">科普--质谱分析中的TIC XIC BPC的概念与区别</p><div class="v-meta"><span class="v-tag p">原理科普</span><span class="v-src">B站</span><span>📅 2019-11-26</span><span>⏱ 5:35</span><span>▶ 1.5万</span></div></div>
+<div class="v-card" data-bvid="BV1iJ411d7Z2" data-title="如何用sicex os对高分辨数据进行定量分析和未知物筛查"><p class="v-title">如何用sicex os对高分辨数据进行定量分析和未知物筛查</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-11-25</span><span>⏱ 13:39</span><span>▶ 9100</span></div></div>
+<div class="v-card" data-bvid="BV1xJ411d7RD" data-title="如何用MetabolitePilot软件进行代谢产物分析和鉴定（下）"><p class="v-title">如何用MetabolitePilot软件进行代谢产物分析和鉴定（下）</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-11-24</span><span>⏱ 5:23</span><span>▶ 4172</span></div></div>
+<div class="v-card" data-bvid="BV1eJ411d7yM" data-title="如何用MetabolitePilot软件进行代谢产物分析和鉴定（上）"><p class="v-title">如何用MetabolitePilot软件进行代谢产物分析和鉴定（上）</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-11-23</span><span>⏱ 14:28</span><span>▶ 9584</span></div></div>
+<div class="v-card" data-bvid="BV1NJ411d7Zo" data-title="科普-如何安装高分辨质谱软件sciex os 和MetabolitePilot"><p class="v-title">科普-如何安装高分辨质谱软件sciex os 和MetabolitePilot</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2019-11-22</span><span>⏱ 12:57</span><span>▶ 9113</span></div></div>
+<div class="v-card" data-bvid="BV1D441117UV" data-title="高分辨质谱一级二级数据提取和注意事项"><p class="v-title">高分辨质谱一级二级数据提取和注意事项</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-09-03</span><span>⏱ 10:13</span><span>▶ 3.3万</span></div></div></div>
     <div class="more-row"><button id="more" class="btn ghost" data-i18n="load.more">加载更多</button></div>
   </div>
 </section>
@@ -72,7 +95,18 @@
         <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
       </div>
     </div>
-    <div class="v-grid" id="article-grid"></div>
+    <div class="v-grid" id="article-grid"><a class="v-card a-card" href="https://mp.weixin.qq.com/s/syTNHgISNaC_XYApOqTaEQ" target="_blank" rel="noopener"><p class="v-title">代谢产物分析软件HRMS Metabolite Explorer v2.9开放试用和购买 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-10-26</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/mWBWsXZmCwFg-YGjjxmnvQ" target="_blank" rel="noopener"><p class="v-title">HRMS Metabolite Explorer v3.1.0介绍与论文使用说明 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-09-21</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/cm74Zklo2jzg7R8Pi6wvSg" target="_blank" rel="noopener"><p class="v-title">代谢产物分析软件HRMS Metabolite Explorer v2.9开放试用和购买 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-09-14</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/IF3pL7azNDlLTRY6xqQuYw" target="_blank" rel="noopener"><p class="v-title">HRMS Metabolite Explorer Software User Manual  软件用户手册 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-28</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/pPQCiWIlqtwYAa-uuXUEUg" target="_blank" rel="noopener"><p class="v-title">HRMS Metabolite Explorer v2.7.1 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-17</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/lr-_yWY09d5bA-V7N0ujJg" target="_blank" rel="noopener"><p class="v-title">mol文件下载脚本 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-06-22</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/uMZc2gV9wsJgKhsZ_WyIfg" target="_blank" rel="noopener"><p class="v-title">Xcalibur如何导出标准质谱图 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2024-02-28</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/Mj2b5GGogC4WQ8CA0DJ0tA" target="_blank" rel="noopener"><p class="v-title">sciex os 如何修改数据信息 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2023-11-17</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/9ymu2ItjfZwY5vjOeQk-XA" target="_blank" rel="noopener"><p class="v-title">Xcalibur为什么找不到预期的分子式 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2023-07-27</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/UGP_IOFYvBQSB3PqoNSLIA" target="_blank" rel="noopener"><p class="v-title">质谱软件Xcalibur安装教程 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2023-07-23</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/b1AXhnMTJ0_5PgPMSMF28g" target="_blank" rel="noopener"><p class="v-title">布鲁克质谱软件DataAnalysis4.2安装教程 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2023-04-03</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/h-YXnbLZVzhvpHEv5IcR1w" target="_blank" rel="noopener"><p class="v-title">如何批量导入分子式到sciex os质谱软件进行批量分析 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2023-03-30</span></div></a></div>
     <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
     <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
@@ -89,8 +123,9 @@
 </main>
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部</div>
+    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-09</div>
     <div class="footer-links">
+      <span class="bz">👁 <span id="busuanzi_value_site_pv"></span> · 👤 <span id="busuanzi_value_site_uv"></span></span>
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
       <a href="mailto:jgfxbz@gmail.com">jgfxbz@gmail.com</a>
     </div>
@@ -104,7 +139,8 @@
     <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js?v=202611090750"></script>
-<script src="../assets/js/main.js?v=202611090750"></script>
+<script src="../assets/js/data.js?v=202611090858"></script>
+<script src="../assets/js/main.js?v=202611090858"></script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>

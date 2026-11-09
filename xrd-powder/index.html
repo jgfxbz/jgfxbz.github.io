@@ -6,7 +6,7 @@
 <title data-i18n="title.xrd-powder">粉末衍射教程 — 结构分析表征</title>
 <meta name="description" content="粉末 XRD 从数据导入、物相检索到 Rietveld 精修的全流程：Jade、HighScore、Match!、GSAS-II、Profex 等软件实操，以及 CIF 文件获取系列。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css?v=202611090750">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611090858">
 </head>
 <body data-page="xrd-powder">
 <header class="site-header">
@@ -22,6 +22,7 @@
 <li><a href="../hrms/index.html" data-i18n="nav.hrms">高分辨质谱</a></li>
 <li><a href="../dataplot/index.html" data-i18n="nav.dataplot">数据与绘图</a></li>
 <li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
+<li><a href="../search/index.html" data-i18n="nav.search">搜索</a></li>
 <li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
 <li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
     <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
@@ -41,7 +42,14 @@
   <div class="wrap">
     <h2><span class="h-num">01</span><span data-i18n="sec.software">软件介绍</span></h2>
     <p class="section-sub" data-i18n="sec.software.sub">点击软件卡片可筛选该软件的相关视频</p>
-    <div class="sw-grid" id="sw-grid"></div>
+    <div class="sw-grid" id="sw-grid"><div class="sw-card" data-kw="jade"><h3>Jade<span class="vendor">MDI</span></h3><p>物相检索、基线调平、结晶度计算、2θ 校正、靶材转换。</p></div>
+<div class="sw-card" data-kw="highscore"><h3>HighScore (Plus)<span class="vendor">Malvern Panalytical</span></h3><p>物相鉴定与全谱拟合分析。</p></div>
+<div class="sw-card" data-kw="gsas"><h3>GSAS-II<span class="vendor">开源</span></h3><p>开源 Rietveld 精修软件的基本操作。</p></div>
+<div class="sw-card" data-kw="profex"><h3>Profex<span class="vendor">开源 (BGMN)</span></h3><p>带图形界面的 Rietveld 精修软件。</p></div>
+<div class="sw-card" data-kw="match!"><h3>Match!<span class="vendor">Crystal Impact</span></h3><p>物相鉴定与相分析。</p></div>
+<div class="sw-card" data-kw="eva"><h3>DIFFRAC.EVA<span class="vendor">Bruker</span></h3><p>文本 XRD 数据的打开与分析。</p></div>
+<div class="sw-card" data-kw="endeavour"><h3>Endeavour<span class="vendor">Crystal Impact</span></h3><p>由粉末衍射数据解析晶体结构。</p></div>
+<div class="sw-card" data-kw="cif"><h3>CIF 文件获取<span class="vendor">数据库系列</span></h3><p>Materials Project / COD / CCDC / FindIt 下载晶体文件。</p></div></div>
   </div>
 </section>
 <section class="section section-alt">
@@ -56,7 +64,30 @@
       </div>
       <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
-    <div class="v-grid" id="video-grid"></div>
+    <div class="v-grid" id="video-grid"><div class="v-card" data-bvid="BV1JbjF63E77" data-title="cif下载脚本"><p class="v-title">cif下载脚本</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-06-22</span><span>⏱ 0:50</span><span>▶ 536</span></div></div>
+<div class="v-card" data-bvid="BV1YjpKzLErD" data-title="jade如何转换不同靶材的数据"><p class="v-title">jade如何转换不同靶材的数据</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2025-09-15</span><span>⏱ 3:58</span><span>▶ 1377</span></div></div>
+<div class="v-card" data-bvid="BV151421S7Uv" data-title="文本xrd数据如何用EVA分析"><p class="v-title">文本xrd数据如何用EVA分析</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2024-04-03</span><span>⏱ 1:57</span><span>▶ 1808</span></div></div>
+<div class="v-card" data-bvid="BV1jd4y1Q7Vk" data-title="cif文件的下载--5-findit软件"><p class="v-title">cif文件的下载--5-findit软件</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-07-20</span><span>⏱ 2:46</span><span>▶ 5957</span></div></div>
+<div class="v-card" data-bvid="BV1HW4y1U7GZ" data-title="cif文件的下载--4-cod官网"><p class="v-title">cif文件的下载--4-cod官网</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-07-08</span><span>⏱ 2:23</span><span>▶ 3632</span></div></div>
+<div class="v-card" data-bvid="BV1gr4y1u7mf" data-title="cif文件的下载--3-ccdc官网"><p class="v-title">cif文件的下载--3-ccdc官网</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-07-07</span><span>⏱ 4:30</span><span>▶ 4331</span></div></div>
+<div class="v-card" data-bvid="BV1eB4y1W7cM" data-title="cif文件的下载--2-ccdc软件"><p class="v-title">cif文件的下载--2-ccdc软件</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-07-05</span><span>⏱ 4:34</span><span>▶ 3308</span></div></div>
+<div class="v-card" data-bvid="BV1G34y1p7uW" data-title="gsas-II精修的基本操作"><p class="v-title">gsas-II精修的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-07-01</span><span>⏱ 9:00</span><span>▶ 5798</span></div></div>
+<div class="v-card" data-bvid="BV12T41137bi" data-title="cif文件-1- materials project网站"><p class="v-title">cif文件-1- materials project网站</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-06-30</span><span>⏱ 7:26</span><span>▶ 6651</span></div></div>
+<div class="v-card" data-bvid="BV13S4y1i7Fi" data-title="profex进行Rietveld精修的基本操作"><p class="v-title">profex进行Rietveld精修的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-06-10</span><span>⏱ 9:19</span><span>▶ 2872</span></div></div>
+<div class="v-card" data-bvid="BV1y34y1a7sU" data-title="jade如何校正2theta角"><p class="v-title">jade如何校正2theta角</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-05-03</span><span>⏱ 5:18</span><span>▶ 8932</span></div></div>
+<div class="v-card" data-bvid="BV1B5411U7oz" data-title="粉末解析晶体结构软件Endeavour基本操作"><p class="v-title">粉末解析晶体结构软件Endeavour基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-04-15</span><span>⏱ 8:26</span><span>▶ 2169</span></div></div>
+<div class="v-card" data-bvid="BV1Pa411q7s6" data-title="粉末解析晶体结构软件Endeavour的下载与安装"><p class="v-title">粉末解析晶体结构软件Endeavour的下载与安装</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-04-12</span><span>⏱ 3:14</span><span>▶ 786</span></div></div>
+<div class="v-card" data-bvid="BV1UY4y1p7v8" data-title="利用highscore截取相应的角度范围"><p class="v-title">利用highscore截取相应的角度范围</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-04-01</span><span>⏱ 2:42</span><span>▶ 7592</span></div></div>
+<div class="v-card" data-bvid="BV1BS4y1376V" data-title="highscore如何导出数据点格式的精修数据"><p class="v-title">highscore如何导出数据点格式的精修数据</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-03-18</span><span>⏱ 1:33</span><span>▶ 7925</span></div></div>
+<div class="v-card" data-bvid="BV1pF411471v" data-title="highscore实用小工具介绍"><p class="v-title">highscore实用小工具介绍</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-03-15</span><span>⏱ 4:55</span><span>▶ 6388</span></div></div>
+<div class="v-card" data-bvid="BV1tS4y1r7Uw" data-title="highscore精修后如何导出精修图"><p class="v-title">highscore精修后如何导出精修图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-02-18</span><span>⏱ 1:05</span><span>▶ 7265</span></div></div>
+<div class="v-card" data-bvid="BV1Rb4y1J7G5" data-title="highscore如何校正xrd数据"><p class="v-title">highscore如何校正xrd数据</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-01-21</span><span>⏱ 3:07</span><span>▶ 7546</span></div></div>
+<div class="v-card" data-bvid="BV1AF411v7xA" data-title="highscore如何快速寻峰检索物相"><p class="v-title">highscore如何快速寻峰检索物相</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-01-07</span><span>⏱ 2:12</span><span>▶ 1.1万</span></div></div>
+<div class="v-card" data-bvid="BV1V3411t7xy" data-title="如何用jade对比单晶数据和粉末衍射数据"><p class="v-title">如何用jade对比单晶数据和粉末衍射数据</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2021-12-17</span><span>⏱ 2:14</span><span>▶ 4112</span></div></div>
+<div class="v-card" data-bvid="BV1EK4y1D7VD" data-title="jade基本操作8-校正峰位"><p class="v-title">jade基本操作8-校正峰位</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2021-03-08</span><span>⏱ 4:54</span><span>▶ 1.5万</span></div></div>
+<div class="v-card" data-bvid="BV1GV411h7dy" data-title="jade基本操作7-删除峰"><p class="v-title">jade基本操作7-删除峰</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2020-12-11</span><span>⏱ 2:28</span><span>▶ 1.4万</span></div></div>
+<div class="v-card" data-bvid="BV1Lp4y197P6" data-title="jade如何调平XRD谱图基线"><p class="v-title">jade如何调平XRD谱图基线</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-04-30</span><span>⏱ 2:53</span><span>▶ 5.3万</span></div></div>
+<div class="v-card" data-bvid="BV12J411m7tR" data-title="用jade软件计算晶粒尺寸方法2"><p class="v-title">用jade软件计算晶粒尺寸方法2</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-11-19</span><span>⏱ 4:08</span><span>▶ 4万</span></div></div></div>
     <div class="more-row"><button id="more" class="btn ghost" data-i18n="load.more">加载更多</button></div>
   </div>
 </section>
@@ -72,7 +103,18 @@
         <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
       </div>
     </div>
-    <div class="v-grid" id="article-grid"></div>
+    <div class="v-grid" id="article-grid"><a class="v-card a-card" href="https://mp.weixin.qq.com/s/9-FRXnUbH3nDg0y6x-F9lg" target="_blank" rel="noopener"><p class="v-title">COD CIF 批量下载工具 使用说明 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-09-06</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/lC8KSLZsHfL1_HznWop5rg" target="_blank" rel="noopener"><p class="v-title">ICDD JADE XRD 批量格式转换工具 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-08-30</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/7hGB_6DMK1g_Q8y2KGLbGA" target="_blank" rel="noopener"><p class="v-title">Materials Project CIF 下载器 使用说明 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-08-16</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/yAjavKh_GNIRTuMPWJORbA" target="_blank" rel="noopener"><p class="v-title">MicroED 衍射中心分析工具 v2.2 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-05</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/Dho35rNEKU0LYjrbRn9SkQ" target="_blank" rel="noopener"><p class="v-title">四种确认衍射中心的简易脚本使用 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-06-16</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/z45fJJiJrwnNFajIrccwTg" target="_blank" rel="noopener"><p class="v-title">粉末衍射操作-样品台高度 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-05-14</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/zlWKisWc7SG2T1n3qn_TxA" target="_blank" rel="noopener"><p class="v-title">物构所南子昂&amp;厦大谢兆雄团队JCTC：常规晶体学软件即可实现超薄材料PXRD的高效模拟与解析 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-05-08</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/TEhOhkorHsnE9IdMiMlX2Q" target="_blank" rel="noopener"><p class="v-title">微晶电子衍射还原之-批量创建文件夹 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-05-08</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/H3Oi3ZoTeq4Opli2sgYAZA" target="_blank" rel="noopener"><p class="v-title">微晶电子衍射操作之-寻找正确的旋转轴 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-05-06</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/8Ede1tQXkDqW5DSKcLN1hQ" target="_blank" rel="noopener"><p class="v-title">微晶电子衍射数据的合并与选择 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-04-29</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/45mFf9j_XFPyoayUN2Hh5Q" target="_blank" rel="noopener"><p class="v-title">jade如何转换不同靶材的数据 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2025-10-01</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/2u8hbYpEAjv3CBS7d2Abtw" target="_blank" rel="noopener"><p class="v-title">微晶电子衍射解析结构-衍射花样中心的确认 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2025-06-08</span></div></a></div>
     <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
     <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
@@ -89,8 +131,9 @@
 </main>
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部</div>
+    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-09</div>
     <div class="footer-links">
+      <span class="bz">👁 <span id="busuanzi_value_site_pv"></span> · 👤 <span id="busuanzi_value_site_uv"></span></span>
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
       <a href="mailto:jgfxbz@gmail.com">jgfxbz@gmail.com</a>
     </div>
@@ -104,7 +147,8 @@
     <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js?v=202611090750"></script>
-<script src="../assets/js/main.js?v=202611090750"></script>
+<script src="../assets/js/data.js?v=202611090858"></script>
+<script src="../assets/js/main.js?v=202611090858"></script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>

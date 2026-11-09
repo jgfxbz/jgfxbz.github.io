@@ -6,7 +6,7 @@
 <title data-i18n="title.scxrd">单晶衍射教程 — 结构分析表征</title>
 <meta name="description" content="单晶结构解析与精修：Olex2 解析实例、CCDC 晶体数据库、CIF 文件下载、绝对构型判定、衍射中心确认与堆积图绘制。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css?v=202611090750">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611090858">
 </head>
 <body data-page="scxrd">
 <header class="site-header">
@@ -22,6 +22,7 @@
 <li><a href="../hrms/index.html" data-i18n="nav.hrms">高分辨质谱</a></li>
 <li><a href="../dataplot/index.html" data-i18n="nav.dataplot">数据与绘图</a></li>
 <li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
+<li><a href="../search/index.html" data-i18n="nav.search">搜索</a></li>
 <li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
 <li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
     <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
@@ -41,7 +42,10 @@
   <div class="wrap">
     <h2><span class="h-num">01</span><span data-i18n="sec.software">软件介绍</span></h2>
     <p class="section-sub" data-i18n="sec.software.sub">点击软件卡片可筛选该软件的相关视频</p>
-    <div class="sw-grid" id="sw-grid"></div>
+    <div class="sw-grid" id="sw-grid"><div class="sw-card" data-kw="olex2"><h3>Olex2<span class="vendor">OlexSys</span></h3><p>结构解析与精修图形界面：解析实例、孔洞率计算、π-π 堆积图绘制。</p></div>
+<div class="sw-card" data-kw="shelx"><h3>SHELX<span class="vendor">配合 Olex2 使用</span></h3><p>经典的晶体结构解析 / 精修引擎。</p></div>
+<div class="sw-card" data-kw="ccdc"><h3>CCDC / Mercury<span class="vendor">CCDC</span></h3><p>晶体数据库检索、客户端使用与更新包安装。</p></div>
+<div class="sw-card" data-kw="cif"><h3>CIF 与实用脚本<span class="vendor">实用系列</span></h3><p>文献 CIF 下载、衍射中心确认脚本、绝对构型判定。</p></div></div>
   </div>
 </section>
 <section class="section section-alt">
@@ -56,7 +60,30 @@
       </div>
       <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
-    <div class="v-grid" id="video-grid"></div>
+    <div class="v-grid" id="video-grid"><div class="v-card" data-bvid="BV1HKJg6mEDk" data-title="四种确认衍射中心的简易脚本使用"><p class="v-title">四种确认衍射中心的简易脚本使用</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-06-15</span><span>⏱ 2:42</span><span>▶ 446</span></div></div>
+<div class="v-card" data-bvid="BV1QhDpYmEc7" data-title="olex2中shift为什么是黑色的"><p class="v-title">olex2中shift为什么是黑色的</p><div class="v-meta"><span class="v-tag p">原理科普</span><span class="v-src">B站</span><span>📅 2024-11-04</span><span>⏱ 1:40</span><span>▶ 1316</span></div></div>
+<div class="v-card" data-bvid="BV1XW4y167Kt" data-title="CCDC2022年6月更新包下载与安装"><p class="v-title">CCDC2022年6月更新包下载与安装</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-06-20</span><span>⏱ 3:47</span><span>▶ 6575</span></div></div>
+<div class="v-card" data-bvid="BV1DT4y1v7hZ" data-title="ccdc2022-3月份更新包安装与下载"><p class="v-title">ccdc2022-3月份更新包安装与下载</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2022-03-22</span><span>⏱ 2:53</span><span>▶ 5408</span></div></div>
+<div class="v-card" data-bvid="BV1oR4y1K7cJ" data-title="如何通过ccdc客户端下载和查询晶体数据库"><p class="v-title">如何通过ccdc客户端下载和查询晶体数据库</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2022-01-24</span><span>⏱ 6:18</span><span>▶ 1.3万</span></div></div>
+<div class="v-card" data-bvid="BV1Nu411S7RT" data-title="如何下载文献中的cif文件-2"><p class="v-title">如何下载文献中的cif文件-2</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2021-12-24</span><span>⏱ 2:15</span><span>▶ 5380</span></div></div>
+<div class="v-card" data-bvid="BV1na411k74W" data-title="如何下载文献中的cif-1"><p class="v-title">如何下载文献中的cif-1</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2021-12-21</span><span>⏱ 4:15</span><span>▶ 4940</span></div></div>
+<div class="v-card" data-bvid="BV11v411H7e4" data-title="一个有机化合物的单晶解析"><p class="v-title">一个有机化合物的单晶解析</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2021-07-06</span><span>⏱ 9:00</span><span>▶ 8904</span></div></div>
+<div class="v-card" data-bvid="BV1Ag4y1q7bm" data-title="olex2如何计算孔洞率"><p class="v-title">olex2如何计算孔洞率</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-06-08</span><span>⏱ 3:07</span><span>▶ 3797</span></div></div>
+<div class="v-card" data-bvid="BV1yT4y1u7oA" data-title="olex2如何绘制pei-pei堆积图"><p class="v-title">olex2如何绘制pei-pei堆积图</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-05-31</span><span>⏱ 7:31</span><span>▶ 3480</span></div></div>
+<div class="v-card" data-bvid="BV1DA411877o" data-title="科普-单晶绝对构型的判定"><p class="v-title">科普-单晶绝对构型的判定</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-04-13</span><span>⏱ 4:16</span><span>▶ 6547</span></div></div>
+<div class="v-card" data-bvid="BV1cE411p7Dj" data-title="olex2解析晶体举例7（有机物）"><p class="v-title">olex2解析晶体举例7（有机物）</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-13</span><span>⏱ 6:56</span><span>▶ 6903</span></div></div>
+<div class="v-card" data-bvid="BV1cE411p7BW" data-title="olex2解析晶体举例6"><p class="v-title">olex2解析晶体举例6</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-09</span><span>⏱ 3:53</span><span>▶ 5241</span></div></div>
+<div class="v-card" data-bvid="BV1cE411p7rx" data-title="olex2解析晶体举例5"><p class="v-title">olex2解析晶体举例5</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-08</span><span>⏱ 8:40</span><span>▶ 6151</span></div></div>
+<div class="v-card" data-bvid="BV1a7411N7kh" data-title="olex2解析单晶示例4（上）"><p class="v-title">olex2解析单晶示例4（上）</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-03-02</span><span>⏱ 7:17</span><span>▶ 6916</span></div></div>
+<div class="v-card" data-bvid="BV11J41177hF" data-title="olex2水分子加氢的问题"><p class="v-title">olex2水分子加氢的问题</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-31</span><span>⏱ 6:12</span><span>▶ 5963</span></div></div>
+<div class="v-card" data-bvid="BV1NJ411n7d7" data-title="olex2解析配合物举例3"><p class="v-title">olex2解析配合物举例3</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-30</span><span>⏱ 3:58</span><span>▶ 5644</span></div></div>
+<div class="v-card" data-bvid="BV1MJ411n7QW" data-title="olex2无序处理步骤"><p class="v-title">olex2无序处理步骤</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-25</span><span>⏱ 10:02</span><span>▶ 1.4万</span></div></div>
+<div class="v-card" data-bvid="BV1CJ411G7da" data-title="olex2消除AB警告举例"><p class="v-title">olex2消除AB警告举例</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-20</span><span>⏱ 13:06</span><span>▶ 7756</span></div></div>
+<div class="v-card" data-bvid="BV1AJ411H7TZ" data-title="olex2加氢的技巧"><p class="v-title">olex2加氢的技巧</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2020-01-14</span><span>⏱ 12:50</span><span>▶ 9700</span></div></div>
+<div class="v-card" data-bvid="BV1WJ41157tQ" data-title="科普-olex2解析单晶数据的基本操作"><p class="v-title">科普-olex2解析单晶数据的基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2020-01-11</span><span>⏱ 12:08</span><span>▶ 6.5万</span></div></div>
+<div class="v-card" data-bvid="BV1KE411y7Zu" data-title="科普-如何查询ccdc数据库"><p class="v-title">科普-如何查询ccdc数据库</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-10-18</span><span>⏱ 3:05</span><span>▶ 1.5万</span></div></div>
+<div class="v-card" data-bvid="BV1YJ411P7Yf" data-title="科普-如何上传单晶数据到CCDC数据库"><p class="v-title">科普-如何上传单晶数据到CCDC数据库</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-09-12</span><span>⏱ 7:12</span><span>▶ 1.3万</span></div></div>
+<div class="v-card" data-bvid="BV1CJ411K7i6" data-title="olex2解单晶AB警告消除2"><p class="v-title">olex2解单晶AB警告消除2</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2019-09-11</span><span>⏱ 13:00</span><span>▶ 8564</span></div></div></div>
     <div class="more-row"><button id="more" class="btn ghost" data-i18n="load.more">加载更多</button></div>
   </div>
 </section>
@@ -72,7 +99,18 @@
         <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
       </div>
     </div>
-    <div class="v-grid" id="article-grid"></div>
+    <div class="v-grid" id="article-grid"><a class="v-card a-card" href="https://mp.weixin.qq.com/s/mUKnrcpD5ltV0TOnyrMoYA" target="_blank" rel="noopener"><p class="v-title">精修后绝对构型信息消失 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2025-03-30</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/euzWi7u5_12fbV45TMlQLg" target="_blank" rel="noopener"><p class="v-title">olex2中shift为什么是黑色的 ↗</p><div class="v-meta"><span class="v-tag p">原理科普</span><span class="v-src">结构分析表征</span><span>📅 2024-11-05</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/2cr8SERVP9ERnkSnuPjHkQ" target="_blank" rel="noopener"><p class="v-title">结构分析表征///光电子能谱分部///单晶多晶衍射分部 给大家拜年啦，祝大家兔年文章多多 基金多多，毕业顺利。 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2023-01-22</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/rrB-jHXNJjDc9gZQZYEpbA" target="_blank" rel="noopener"><p class="v-title">CCDC2022.3安装教程（过期的小伙伴看） ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2023-01-03</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/fn9d3kokYZBqdMYHnC-IBA" target="_blank" rel="noopener"><p class="v-title">ccdc2022版11月数据库更新包安装教程 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-12-16</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/UUkXZb7y0AhUDHF0zeLrcg" target="_blank" rel="noopener"><p class="v-title">ccdc2022.2 9月份数据库升级包安装与下载 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-09-27</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/iExlerc2U3wtAzM9vUX_OA" target="_blank" rel="noopener"><p class="v-title">cif文件的下载--3-ccdc官网 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-06-27</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/PRaBHopLOynCutgI2501bw" target="_blank" rel="noopener"><p class="v-title">今晚更新gsas-II精修教程，就在单晶多晶衍射分部 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2022-06-21</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/NHmhf9K7mexM7RUtAXHUig" target="_blank" rel="noopener"><p class="v-title">CCDC2022年6月更新包下载与安装 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-06-20</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/NI1mF_J-bmRtuU0K-EZ80g" target="_blank" rel="noopener"><p class="v-title">最全COF晶体学信息文件cif下载(图文+视频) ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-04-25</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/74q8aEBiBVKVev2qjNgQzQ" target="_blank" rel="noopener"><p class="v-title">粉末衍射指标化、晶体结构解析软件EXPO2014的下载和安装教程 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-04-15</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/r0jRxmEgSqv867Tg_U-YzQ" target="_blank" rel="noopener"><p class="v-title">粉末解析晶体结构软件Endeavour的基本操作 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2022-04-11</span></div></a></div>
     <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
     <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
@@ -89,8 +127,9 @@
 </main>
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部</div>
+    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-09</div>
     <div class="footer-links">
+      <span class="bz">👁 <span id="busuanzi_value_site_pv"></span> · 👤 <span id="busuanzi_value_site_uv"></span></span>
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
       <a href="mailto:jgfxbz@gmail.com">jgfxbz@gmail.com</a>
     </div>
@@ -104,7 +143,8 @@
     <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js?v=202611090750"></script>
-<script src="../assets/js/main.js?v=202611090750"></script>
+<script src="../assets/js/data.js?v=202611090858"></script>
+<script src="../assets/js/main.js?v=202611090858"></script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
