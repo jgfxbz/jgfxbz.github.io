@@ -48,11 +48,12 @@
   function aCard(a) {
     var dig = a.g ? '<p class="v-digest">' + esc(String(a.g).slice(0, 70)) + "</p>" : "";
     var pic = a.p ? '<img class="v-thumb" loading="lazy" src="' + esc(a.p) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
+    var srcCls = a.s === "光电子能谱分部" ? " src-xps" : a.s === "单晶多晶衍射分部" ? " src-xrd" : " src-main";
     return '<a class="v-card a-card" href="' + esc(a.l) + '" target="_blank" rel="noopener">' + pic +
       '<p class="v-title">' + esc(a.t) + " ↗</p>" + dig +
       '<div class="v-meta">' +
       '<span class="v-tag ' + a.y + '">' + esc(t("type." + a.y)) + "</span>" +
-      '<span class="v-src">' + esc(a.s) + "</span>" +
+      '<span class="v-src' + srcCls + '">' + esc(a.s) + "</span>" +
       "<span>📅 " + esc(a.d) + "</span>" +
       "</div></a>";
   }
@@ -247,10 +248,36 @@
     var catArticles = D.articles.filter(function (a) {
       return isLitPage ? (a.y === "lit" || a.c === "general") : a.c === page;
     });
-    var aType = "all", aShown = 12;
+    var aType = "all", aShown = 18, aSrc = "all";
+    /* 来源筛选 chips：按当前板块实际出现的公众号动态生成 */
+    var srcChipsEl = document.getElementById("asrc-chips");
+    if (srcChipsEl) {
+      var srcs = [];
+      catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
+      if (srcs.length > 1) {
+        var srcShort = { "结构分析表征": "主号", "光电子能谱分部": "XPS分部", "单晶多晶衍射分部": "衍射分部" };
+        var chipsHtml = '<button class="chip active" data-asrc="all">全部账号</button>';
+        srcs.forEach(function (sname) {
+          chipsHtml += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcShort[sname] || sname) + "</button>";
+        });
+        srcChipsEl.innerHTML = chipsHtml;
+        srcChipsEl.style.display = "";
+        srcChipsEl.addEventListener("click", function (e) {
+          var chip = e.target.closest(".chip");
+          if (!chip) return;
+          srcChipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+          chip.classList.add("active");
+          aSrc = chip.getAttribute("data-asrc") || "all";
+          aShown = 18;
+          renderArticles();
+        });
+      } else {
+        srcChipsEl.style.display = "none";
+      }
+    }
     function renderArticles() {
       var list = catArticles.filter(function (a) {
-        return aType === "all" || a.y === aType;
+        return (aType === "all" || a.y === aType) && (aSrc === "all" || a.s === aSrc);
       });
       document.getElementById("a-count").textContent = t("articles.count").replace("{n}", list.length);
       aGrid.innerHTML = list.slice(0, aShown).map(aCard).join("") ||
@@ -266,14 +293,14 @@
         chipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
         chip.classList.add("active");
         aType = chip.getAttribute("data-atype");
-        aShown = 12;
+        aShown = 18;
         renderArticles();
       });
     }
     var moreBtn2 = document.getElementById("amore");
     if (moreBtn2) {
       moreBtn2.addEventListener("click", function () {
-        aShown += 12;
+        aShown += 18;
         renderArticles();
       });
     }

@@ -159,7 +159,10 @@ nav a.active { background: var(--primary); color: #fff; }
 #more[hidden], #amore[hidden] { display: none; }
 a.v-card { color: var(--ink); }
 a.v-card:hover { text-decoration: none; }
-.v-src { color: var(--primary); font-weight: 600; }
+.v-src { color: var(--primary); font-weight: 600; border-radius: 4px; padding: 1px 7px; font-size: 11px; }
+.v-src.src-main { background: var(--bg-alt); color: #5a6b7f; }
+.v-src.src-xps { background: #e3f0fd; color: #1f6fb5; }
+.v-src.src-xrd { background: #e5f6ec; color: #1e8e4f; }
 .script-card .btn-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
 .script-card h3 .tag { margin-left: 8px; }
 
