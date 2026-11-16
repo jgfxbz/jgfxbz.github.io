@@ -237,6 +237,14 @@
       clearTimeout(sTimer);
       sTimer = setTimeout(renderSearch, 200);
     });
+    /* URL ?q= 参数：从搜索按钮/其他页面带关键词进入时自动搜索 */
+    try {
+      var q0 = new URLSearchParams(location.search).get("q");
+      if (q0) {
+        siteQ.value = q0;
+        setTimeout(renderSearch, 0);
+      }
+    } catch (e) {}
     rerenderSearch = renderSearch;
   }
 

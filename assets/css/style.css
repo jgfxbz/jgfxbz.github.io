@@ -249,3 +249,15 @@ a.v-card:hover { text-decoration: none; }
 .matrix-stats strong { font-size: 24px; color: var(--primary, #0b6e99); }
 .matrix-stats span { color: var(--muted, #888); font-size: 12px; margin-left: 6px; }
 .matrix-card .btn { margin-top: auto; }
+
+/* ---------- 搜索按钮 ---------- */
+.search-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--border, #d7dee6);
+  color: var(--primary, #0b6e99);
+  margin-right: 8px; text-decoration: none; flex-shrink: 0;
+  transition: background .15s, color .15s;
+}
+.search-btn:hover { background: var(--primary, #0b6e99); color: #fff; }
+.search-btn svg { width: 16px; height: 16px; display: block; }
