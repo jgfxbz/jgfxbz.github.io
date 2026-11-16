@@ -274,6 +274,16 @@
       } else {
         srcChipsEl.style.display = "none";
       }
+      /* URL ?src= 参数：从矩阵页等入口进入时自动选中对应来源 */
+      try {
+        var qsrc = new URLSearchParams(location.search).get("src");
+        if (qsrc && srcs.indexOf(qsrc) >= 0) {
+          aSrc = qsrc;
+          srcChipsEl.querySelectorAll(".chip").forEach(function (c) {
+            c.classList.toggle("active", c.getAttribute("data-asrc") === qsrc);
+          });
+        }
+      } catch (e) {}
     }
     function renderArticles() {
       var list = catArticles.filter(function (a) {
