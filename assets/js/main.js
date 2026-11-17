@@ -57,6 +57,12 @@
   }
   initHamburger();
 
+  /* 明暗色切换按钮 */
+  var themeBtn = document.getElementById("theme-btn");
+  if (themeBtn) {
+    themeBtn.addEventListener("click", function () { toggleTheme(); });
+  }
+
   /* ---------- 相关视频映射（图文+视频互链）：标题归一后按共同关键词匹配 ---------- */
   var vidTitleIndex = videos.map(function (v) { return { b: v.b, t: v.t, low: (v.t || "").toLowerCase() }; });
   function relatedVideos(a) {

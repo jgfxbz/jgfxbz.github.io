@@ -373,3 +373,45 @@ a.v-card:hover { text-decoration: none; }
   .logo-text small { display: none; }
   nav a { padding: 7px 6px; font-size: 13px; }
 }
+
+/* ---------- header 紧凑化（单行容纳中文导航+按钮组） ---------- */
+@media (max-width: 1366px) {
+  .logo-badge { width: 34px; height: 34px; font-size: 17px; border-radius: 8px; }
+  .logo { gap: 7px; }
+  .logo-text strong { font-size: 15px; }
+  .logo-text small { display: none; }
+  nav a { padding: 6px 7px; font-size: 12.5px; white-space: nowrap; }
+  .header-inner { gap: 8px; padding: 8px 14px; flex-wrap: nowrap; }
+  .header-actions { margin-right: 0; }
+  .search-btn, .theme-btn { width: 30px; height: 30px; }
+  .lang-toggle { padding: 5px 10px; font-size: 12px; }
+  .hamburger-btn { width: 30px; height: 30px; }
+}
+@media (max-width: 1100px) {
+  nav a { padding: 6px 5px; font-size: 12px; }
+}
+
+
+[data-theme="dark"] .hero { background: var(--bg); }
+[data-theme="dark"] .page-head,
+[data-theme="dark"] section.section-alt,
+[data-theme="dark"] .coop-band { background: #141e28; }
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3 { color: #d9e4ee; }
+[data-theme="dark"] .v-digest { color: #8fa3b5; }
+[data-theme="dark"] .sw-card h3, [data-theme="dark"] .acc-card h3 { color: #d9e4ee; }
+[data-theme="dark"] .sw-card p, [data-theme="dark"] .acc-card p { color: #9fb3c8; }
+[data-theme="dark"] .page-desc, [data-theme="dark"] .crumb { color: #8fa3b5; }
+[data-theme="dark"] .crumb a { color: #7ec2e2; }
+[data-theme="dark"] table, [data-theme="dark"] td, [data-theme="dark"] th { border-color: #2c3947; }
+[data-theme="dark"] td, [data-theme="dark"] th { color: #d9e4ee; }
+[data-theme="dark"] tr td:first-child { color: #d9e4ee; }
+[data-theme="dark"] .site-footer { background: #101820; border-color: #2c3947; }
+[data-theme="dark"] .site-footer a { color: #7ec2e2; }
+[data-theme="dark"] input, [data-theme="dark"] select, [data-theme="dark"] textarea {
+  background: #1a2430; color: #d9e4ee; border-color: #2c3947;
+}
+[data-theme="dark"] .modal { background: rgba(0,0,0,.75); }
+[data-theme="dark"] .modal-frame { background: #16202b; }
+[data-theme="dark"] .btn.primary { background: var(--primary); }
+[data-theme="dark"] .btn.ghost { color: #7ec2e2; border-color: #2c3947; }
+
