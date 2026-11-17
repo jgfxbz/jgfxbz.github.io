@@ -415,3 +415,18 @@ a.v-card:hover { text-decoration: none; }
 [data-theme="dark"] .btn.primary { background: var(--primary); }
 [data-theme="dark"] .btn.ghost { color: #7ec2e2; border-color: #2c3947; }
 
+/* ---------- header 单行紧凑（修订） ---------- */
+.header-inner { flex-wrap: nowrap; }
+.logo-badge { width: 34px; height: 34px; font-size: 17px; border-radius: 8px; }
+.logo { gap: 7px; }
+.logo-text strong { font-size: 15px; }
+.logo-text small { font-size: 10px; }
+nav a { padding: 6px 7px; font-size: 12.5px; white-space: nowrap; }
+.header-actions { gap: 5px; }
+.search-btn, .theme-btn { width: 30px; height: 30px; }
+.lang-toggle { padding: 5px 10px; font-size: 12px; }
+@media (max-width: 1180px) {
+  .logo-text small { display: none; }
+  nav a { padding: 6px 5px; font-size: 12px; }
+}
+
