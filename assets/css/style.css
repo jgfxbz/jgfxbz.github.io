@@ -261,3 +261,115 @@ a.v-card:hover { text-decoration: none; }
 }
 .search-btn:hover { background: var(--primary, #0b6e99); color: #fff; }
 .search-btn svg { width: 16px; height: 16px; display: block; }
+
+/* ---------- 暗色模式 ---------- */
+[data-theme="dark"] {
+  --primary: #58a8d0;
+  --primary-dark: #7ec2e2;
+  --ink: #d9e4ee;
+  --muted: #8fa3b5;
+  --line: #2c3947;
+  --bg: #0f1720;
+  --bg-alt: #1a2430;
+  --shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+[data-theme="dark"] .site-header { background: rgba(15, 23, 32, .92); }
+[data-theme="dark"] nav a { color: #b8c8d8; }
+[data-theme="dark"] nav a:hover { background: #1a2430; }
+[data-theme="dark"] .lang-toggle,
+[data-theme="dark"] .search-btn,
+[data-theme="dark"] .theme-btn,
+[data-theme="dark"] .hamburger-btn { background: #1a2430; color: #b8c8d8; border-color: #2c3947; }
+[data-theme="dark"] .v-card,
+[data-theme="dark"] .acc-card,
+[data-theme="dark"] .script-card,
+[data-theme="dark"] .sw-card { background: #16202b; }
+[data-theme="dark"] .v-title { color: #d9e4ee; }
+[data-theme="dark"] .v-src.src-main { background: #243240; color: #9fb3c8; }
+[data-theme="dark"] .v-src.src-xps { background: #16344d; color: #7ec2e2; }
+[data-theme="dark"] .v-src.src-xrd { background: #143827; color: #6fd39a; }
+[data-theme="dark"] .v-tag { background: #243240; color: #9fb3c8; }
+[data-theme="dark"] .v-tag.s { background: #143827; color: #6fd39a; }
+[data-theme="dark"] .v-tag.p { background: #3a2c14; color: #e8b96a; }
+[data-theme="dark"] .chip { background: #1a2430; color: #b8c8d8; border-color: #2c3947; }
+[data-theme="dark"] .chip.active { background: var(--primary); color: #fff; }
+[data-theme="dark"] code { background: #1a2430; border-color: #2c3947; }
+[data-theme="dark"] .year-sep { color: #8fa3b5; border-color: #2c3947; }
+[data-theme="dark"] .facet-head { color: #7ec2e2; }
+[data-theme="dark"] .series-head { color: #d9e4ee; border-color: #2c3947; }
+[data-theme="dark"] input.search, [data-theme="dark"] #cat-filter, [data-theme="dark"] #home-q {
+  background: #1a2430; color: #d9e4ee; border-color: #2c3947;
+}
+
+/* ---------- 主题/汉堡按钮 ---------- */
+.theme-btn, .hamburger-btn {
+  border: 1px solid var(--line); background: #fff; border-radius: 20px;
+  width: 34px; height: 34px; cursor: pointer; font-size: 15px; flex: none;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: .15s; margin-right: 6px;
+}
+.theme-btn:hover, .hamburger-btn:hover { border-color: var(--primary); }
+.hamburger-btn { display: none; }
+
+/* ---------- 首页搜索框 ---------- */
+.home-search {
+  display: flex; gap: 8px; margin-top: 18px; max-width: 640px;
+}
+.home-search input {
+  flex: 1; padding: 11px 16px; border-radius: 24px; font-size: 14px;
+  border: 1.5px solid var(--line); background: #fff; outline: none;
+}
+.home-search input:focus { border-color: var(--primary); }
+.home-search .btn { border-radius: 24px; padding: 10px 20px; }
+
+/* ---------- 栏目内过滤框 / 分面标题 / 年份分隔 / 系列块 ---------- */
+.cat-filter-wrap { margin: 0 0 14px; }
+.cat-filter-wrap input {
+  width: 100%; padding: 10px 16px; border-radius: 20px; font-size: 14px;
+  border: 1.5px solid var(--line); background: #fff; outline: none;
+}
+.cat-filter-wrap input:focus { border-color: var(--primary); }
+.facet-head {
+  grid-column: 1 / -1; font-size: 15px; font-weight: 700; color: var(--primary);
+  margin: 8px 0 2px; padding-top: 6px; border-top: 1px dashed var(--line);
+}
+.year-sep {
+  grid-column: 1 / -1; font-size: 15px; font-weight: 700; color: var(--muted);
+  margin: 10px 0 2px; padding: 4px 10px; border-left: 3px solid var(--primary);
+  background: var(--bg-alt); border-radius: 6px;
+}
+.series-mode { display: block !important; }
+.series-block { margin: 0 0 18px; }
+.series-head {
+  font-size: 15px; font-weight: 700; color: var(--ink);
+  padding: 8px 12px; background: var(--bg-alt); border-radius: 8px; margin-bottom: 8px;
+}
+.series-head .count-badge { margin-left: 6px; }
+.series-items { display: flex; flex-direction: column; gap: 8px; }
+.series-items .v-card { display: block; }
+.hot-badge {
+  background: #fff2e0; color: #d97706; border-radius: 4px; padding: 1px 7px;
+  font-size: 11px; font-weight: 700; display: inline-block; margin-bottom: 4px;
+}
+[data-theme="dark"] .hot-badge { background: #3a2c14; color: #f0b45c; }
+.v-rel { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.v-rel a { color: var(--primary); }
+.v-rel a:hover { text-decoration: underline; }
+
+/* ---------- 汉堡菜单（≤900px） ---------- */
+@media (max-width: 900px) {
+  .hamburger-btn { display: inline-flex; }
+  header nav { display: none; width: 100%; }
+  header nav.nav-open { display: block; }
+  header nav ul { flex-direction: column; gap: 0; padding: 8px 0; }
+  header nav a { padding: 10px 12px; font-size: 14px; }
+  .header-inner { align-items: flex-start; }
+}
+
+/* ---------- header按钮组 ---------- */
+.header-actions { display: flex; gap: 6px; align-items: center; flex: none; }
+.header-actions .lang-toggle { margin-right: 0; }
+@media (max-width: 1280px) {
+  .logo-text small { display: none; }
+  nav a { padding: 7px 6px; font-size: 13px; }
+}

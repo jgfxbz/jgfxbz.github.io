@@ -1,4 +1,4 @@
-/* 结构分析表征 — 页面渲染逻辑（配合 data.js 使用，支持中英文切换） */
+/* 结构分析表征 — 页面渲染逻辑（配合 data.js 使用，支持中英文切换 / 暗色模式） */
 (function () {
   "use strict";
   var D = window.SITE_DATA || {};
@@ -30,12 +30,56 @@
     return String(n);
   }
 
-  function vCard(v) {
+  /* ---------- 暗色模式 ---------- */
+  function readTheme() {
+    try { return localStorage.getItem("fxbz_theme") || "light"; } catch (e) { return "light"; }
+  }
+  function applyTheme() {
+    document.documentElement.setAttribute("data-theme", readTheme());
+    var b = document.getElementById("theme-btn");
+    if (b) b.textContent = readTheme() === "dark" ? "☀️" : "🌙";
+  }
+  function toggleTheme() {
+    var next = readTheme() === "dark" ? "light" : "dark";
+    try { localStorage.setItem("fxbz_theme", next); } catch (e) {}
+    applyTheme();
+  }
+  applyTheme();
+
+  /* ---------- 汉堡菜单 ---------- */
+  function initHamburger() {
+    var hb = document.getElementById("hamburger-btn");
+    var nav = document.querySelector("header nav");
+    if (!hb || !nav) return;
+    hb.addEventListener("click", function () {
+      nav.classList.toggle("nav-open");
+    });
+  }
+  initHamburger();
+
+  /* ---------- 相关视频映射（图文+视频互链）：标题归一后按共同关键词匹配 ---------- */
+  var vidTitleIndex = videos.map(function (v) { return { b: v.b, t: v.t, low: (v.t || "").toLowerCase() }; });
+  function relatedVideos(a) {
+    var t = (a.t || "").toLowerCase();
+    var words = t.replace(/[^a-z0-9\u4e00-\u9fa5]+/g, " ").split(" ").filter(function (w) { return w.length >= 2; });
+    if (!words.length) return [];
+    var scored = [];
+    vidTitleIndex.forEach(function (v) {
+      var hit = 0;
+      words.forEach(function (w) { if (v.low.indexOf(w) >= 0) hit++; });
+      if (hit >= Math.min(2, words.length)) scored.push({ b: v.b, t: v.t, hit: hit });
+    });
+    scored.sort(function (x, y) { return y.hit - x.hit; });
+    return scored.slice(0, 2);
+  }
+
+  function vCard(v, hot) {
     var picUrl = v.p ? (v.p.indexOf("hdslb.com") >= 0 ? v.p + "@480w_270h_1c.webp" : v.p) : "";
     var pic = picUrl ? '<img class="v-thumb" src="' + esc(picUrl) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
+    var fire = (v.v || 0) >= 1000 ? '<span class="hot-badge">🔥 热门</span>' : "";
     return '<div class="v-card" data-bvid="' + esc(v.b) + '" data-title="' + esc(v.t) + '">' +
       pic +
-      '<p class="v-title">' + esc(v.t) + "</p>" +
+      '<p class="v-title">' + esc(v.t) + "</p>" + fire +
       '<div class="v-meta">' +
       '<span class="v-tag ' + v.y + '">' + esc(t("type." + v.y)) + "</span>" +
       '<span class="v-src">B站</span>' +
@@ -45,12 +89,23 @@
       "</div></div>";
   }
 
-  function aCard(a) {
+  function aCard(a, withRelated) {
     var dig = a.g ? '<p class="v-digest">' + esc(String(a.g).slice(0, 70)) + "</p>" : "";
     var pic = a.p ? '<img class="v-thumb" loading="lazy" src="' + esc(a.p) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
     var srcCls = a.s === "光电子能谱分部" ? " src-xps" : a.s === "单晶多晶衍射分部" ? " src-xrd" : " src-main";
+    var rel = "";
+    if (withRelated) {
+      var rels = relatedVideos(a);
+      if (rels.length) {
+        rel = '<div class="v-rel">' + esc(lang === "en" ? "▶ Related videos" : "▶ 相关视频") + "：";
+        rels.forEach(function (rv) {
+          rel += '<a href="https://www.bilibili.com/video/' + esc(rv.b) + '" target="_blank" rel="noopener">' + esc(rv.t.slice(0, 28)) + "</a> ";
+        });
+        rel += "</div>";
+      }
+    }
     return '<a class="v-card a-card" href="' + esc(a.l) + '" target="_blank" rel="noopener">' + pic +
-      '<p class="v-title">' + esc(a.t) + " ↗</p>" + dig +
+      '<p class="v-title">' + esc(a.t) + " ↗</p>" + dig + rel +
       '<div class="v-meta">' +
       '<span class="v-tag ' + a.y + '">' + esc(t("type." + a.y)) + "</span>" +
       '<span class="v-src' + srcCls + '">' + esc(a.s) + "</span>" +
@@ -118,25 +173,53 @@
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
 
-  /* ---------- 首页：最新更新（视频 + 文章混合流） ---------- */
+  /* ---------- 首页：最新更新（视频 + 文章混合流 + 筛选） ---------- */
   var latest = document.getElementById("latest-grid");
   var rerenderLatest = function () {};
   if (latest) {
+    var latestMode = "all";
+    var latestChips = document.getElementById("latest-chips");
     rerenderLatest = function () {
       var items = [];
-      videos.forEach(function (v) { items.push({ d: v.d, h: vCard(v) }); });
-      (D.articles || []).forEach(function (a) { items.push({ d: a.d, h: aCard(a) }); });
+      if (latestMode !== "art") videos.forEach(function (v) { items.push({ d: v.d, h: vCard(v) }); });
+      if (latestMode !== "vid") (D.articles || []).forEach(function (a) { items.push({ d: a.d, h: aCard(a, true) }); });
       items.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
       latest.innerHTML = items.slice(0, 10).map(function (it) { return it.h; }).join("");
     };
+    if (latestChips) {
+      latestChips.addEventListener("click", function (e) {
+        var chip = e.target.closest(".chip");
+        if (!chip) return;
+        latestChips.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+        chip.classList.add("active");
+        latestMode = chip.getAttribute("data-lt") || "all";
+        rerenderLatest();
+      });
+    }
+  }
+
+  /* ---------- 首页搜索框：回车跳搜索页 ---------- */
+  var homeQ = document.getElementById("home-q");
+  if (homeQ) {
+    var goSearch = function () {
+      var kw = homeQ.value.trim();
+      if (!kw) return;
+      var prefix = document.body.getAttribute("data-page") === "home" ? "" : "../";
+      location.href = prefix + "search/index.html?q=" + encodeURIComponent(kw);
+    };
+    homeQ.addEventListener("keydown", function (e) { if (e.key === "Enter") goSearch(); });
+    var hb = document.getElementById("home-q-go");
+    if (hb) hb.addEventListener("click", goSearch);
   }
 
   var page = document.body.getAttribute("data-page");
+
+  /* ---------- 板块页：视频 + 软件卡（含热门排序） ---------- */
   var grid = document.getElementById("video-grid");
   var rerenderCat = function () {};
   if (grid && D.software && D.software[page]) {
     var catVideos = videos.filter(function (v) { return v.c === page; });
-    var state = { type: "all", q: "", shown: PER_PAGE };
+    var state = { type: "all", q: "", shown: PER_PAGE, sort: "new" };
     var swGrid = document.getElementById("sw-grid");
     var searchBox = document.getElementById("search");
 
@@ -157,17 +240,19 @@
     }
 
     function filtered() {
-      return catVideos.filter(function (v) {
+      var list = catVideos.filter(function (v) {
         if (state.type !== "all" && v.y !== state.type) return false;
         if (state.q && v.t.toLowerCase().indexOf(state.q) < 0) return false;
         return true;
       });
+      if (state.sort === "hot") list = list.slice().sort(function (x, y) { return (y.v || 0) - (x.v || 0); });
+      return list;
     }
 
     function render() {
       var list = filtered();
       document.getElementById("v-count").textContent = t("videos.count").replace("{n}", list.length);
-      grid.innerHTML = list.slice(0, state.shown).map(vCard).join("") ||
+      grid.innerHTML = list.slice(0, state.shown).map(function (v) { return vCard(v, true); }).join("") ||
         '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>";
       document.getElementById("more").hidden = list.length <= state.shown;
     }
@@ -190,6 +275,18 @@
       state.shown = PER_PAGE;
       render();
     });
+    var sortChips = document.getElementById("sort-chips");
+    if (sortChips) {
+      sortChips.addEventListener("click", function (e) {
+        var chip = e.target.closest(".chip");
+        if (!chip) return;
+        sortChips.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+        chip.classList.add("active");
+        state.sort = chip.getAttribute("data-sort") || "new";
+        state.shown = PER_PAGE;
+        render();
+      });
+    }
     var timer = null;
     searchBox.addEventListener("input", function () {
       clearTimeout(timer);
@@ -209,7 +306,7 @@
     render();
   }
 
-  /* ---------- 站内搜索页 ---------- */
+  /* ---------- 站内搜索页（结果分面：视频组 / 图文组） ---------- */
   var siteQ = document.getElementById("site-q");
   var rerenderSearch = function () {};
   if (siteQ && document.getElementById("search-grid")) {
@@ -218,26 +315,33 @@
     var sCap = 60;
     function renderSearch() {
       var kw = siteQ.value.trim().toLowerCase();
-      var res = [];
-      if (kw) {
-        videos.forEach(function (v) {
-          if (v.t.toLowerCase().indexOf(kw) >= 0) res.push({ d: v.d, h: vCard(v) });
-        });
-        (D.articles || []).forEach(function (a) {
-          if (a.t.toLowerCase().indexOf(kw) >= 0) res.push({ d: a.d, h: aCard(a) });
-        });
-        res.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+      if (!kw) {
+        sCount.textContent = "";
+        sGrid.innerHTML = "";
+        return;
       }
-      sCount.textContent = kw ? t("search.results").replace("{n}", res.length) : "";
-      sGrid.innerHTML = res.slice(0, sCap).map(function (r) { return r.h; }).join("") ||
-        (kw ? '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>" : "");
+      var vRes = videos.filter(function (v) { return v.t.toLowerCase().indexOf(kw) >= 0; });
+      var aRes = (D.articles || []).filter(function (a) { return a.t.toLowerCase().indexOf(kw) >= 0; });
+      vRes.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+      aRes.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+      sCount.textContent = t("search.results").replace("{n}", vRes.length + aRes.length);
+      var html = "";
+      if (vRes.length) {
+        html += '<p class="facet-head">▶ ' + esc(lang === "en" ? "Videos" : "视频") + "（" + vRes.length + "）</p>";
+        html += vRes.slice(0, 30).map(function (v) { return vCard(v, true); }).join("");
+      }
+      if (aRes.length) {
+        html += '<p class="facet-head">📄 ' + esc(lang === "en" ? "WeChat articles" : "公众号图文") + "（" + aRes.length + "）</p>";
+        html += aRes.slice(0, 40).map(function (a) { return aCard(a, true); }).join("");
+      }
+      sGrid.innerHTML = html ||
+        '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>";
     }
     var sTimer = null;
     siteQ.addEventListener("input", function () {
       clearTimeout(sTimer);
       sTimer = setTimeout(renderSearch, 200);
     });
-    /* URL ?q= 参数：从搜索按钮/其他页面带关键词进入时自动搜索 */
     try {
       var q0 = new URLSearchParams(location.search).get("q");
       if (q0) {
@@ -248,7 +352,7 @@
     rerenderSearch = renderSearch;
   }
 
-  /* ---------- 公众号图文栏目 ---------- */
+  /* ---------- 公众号图文栏目（过滤框 + 二级分类 + 年份分组 + 系列视图 + 来源筛选） ---------- */
   var aGrid = document.getElementById("article-grid");
   var rerenderArticles = function () {};
   if (aGrid && D.articles) {
@@ -256,33 +360,56 @@
     var catArticles = D.articles.filter(function (a) {
       return isLitPage ? (a.y === "lit" || a.c === "general") : a.c === page;
     });
-    var aType = "all", aShown = 18, aSrc = "all";
-    /* 来源筛选 chips：按当前板块实际出现的公众号动态生成（语言切换时重建） */
+
+    /* 二级分类规则（按标题关键词自动聚类） */
+    var SUB_RULES = [
+      ["PeakForge", /peakforge/i],
+      ["Avantage", /avantage|thermo/i],
+      ["CasaXPS", /casaxps/i],
+      ["Multipak", /multipak/i],
+      ["转换 / 导出", /vgd|vms|转换|导出|excel|spe\b/i],
+      ["UPS / 价带 / 功函数", /ups|价带|功函数|d带|p带|\bdos\b/i],
+      ["深度 / 刻蚀", /深度|depth|刻蚀/i],
+      ["结合能 / 校准", /结合能|校准|荷电/i],
+      ["数据查询 / 元素", /元素|周期表|查询|数据库/i],
+      ["书籍 / 出版", /入门到精通|出版|新书/i],
+      ["文献解析", /文献|论文解读/i]
+    ];
+    function subOf(a) {
+      if (page !== "xps") return "";
+      for (var i = 0; i < SUB_RULES.length; i++) {
+        if (SUB_RULES[i][1].test(a.t || "")) return SUB_RULES[i][0];
+      }
+      return lang === "en" ? "Other" : "其他";
+    }
+    function seriesKey(t) {
+      var t2 = (t || "").replace(/\s+/g, "");
+      t2 = t2.replace(/[-–—]?\d+$/, "");
+      t2 = t2.replace(/（[^）]*）$/, "");
+      t2 = t2.replace(/截至\d{4}[.\d]*/, "");
+      return t2.slice(0, 18);
+    }
+
+    var aType = "all", aShown = 18, aSrc = "all", aSub = "all", aYear = "all", aView = "list", aKw = "";
+
+    /* 来源筛选 chips */
     var srcChipsEl = document.getElementById("asrc-chips");
-    var buildSrcChips = function () {
+    var srcs = [];
+    catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
+    function srcShort(s) {
+      var m = { "结构分析表征": { zh: "主号", en: "Main" }, "光电子能谱分部": { zh: "XPS分部", en: "XPS" }, "单晶多晶衍射分部": { zh: "衍射分部", en: "XRD" } };
+      var o = m[s];
+      return o ? (lang === "en" ? o.en : o.zh) : s;
+    }
+    function buildSrcChips() {
       if (!srcChipsEl) return;
-      var srcs = [];
-      catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
       if (srcs.length > 1) {
-        var srcShort = {
-          "结构分析表征": { zh: "主号", en: "Main" },
-          "光电子能谱分部": { zh: "XPS分部", en: "XPS" },
-          "单晶多晶衍射分部": { zh: "衍射分部", en: "XRD" }
-        };
-        var srcLabel = function (s) {
-          var o = srcShort[s];
-          return o ? (lang === "en" ? o.en : o.zh) : s;
-        };
-        var chipsHtml = '<button class="chip active" data-asrc="all">' + t("chip.srcAll") + '</button>';
+        var html = '<button class="chip active" data-asrc="all">' + t("chip.srcAll") + '</button>';
         srcs.forEach(function (sname) {
-          chipsHtml += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcLabel(sname)) + "</button>";
+          html += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcShort(sname)) + "</button>";
         });
-        srcChipsEl.innerHTML = chipsHtml;
+        srcChipsEl.innerHTML = html;
         srcChipsEl.style.display = "";
-        /* 语言切换重建后，保持当前选中的来源 */
-        srcChipsEl.querySelectorAll(".chip").forEach(function (c) {
-          c.classList.toggle("active", (c.getAttribute("data-asrc") || "all") === aSrc);
-        });
         srcChipsEl.onclick = function (e) {
           var chip = e.target.closest(".chip");
           if (!chip) return;
@@ -295,28 +422,125 @@
       } else {
         srcChipsEl.style.display = "none";
       }
-    };
-    if (srcChipsEl) {
-      var srcs = [];
-      catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
-      buildSrcChips();
-      /* URL ?src= 参数：从矩阵页等入口进入时自动选中对应来源 */
-      try {
-        var qsrc = new URLSearchParams(location.search).get("src");
-        if (qsrc && srcs.indexOf(qsrc) >= 0) {
-          aSrc = qsrc;
-          srcChipsEl.querySelectorAll(".chip").forEach(function (c) {
-            c.classList.toggle("active", c.getAttribute("data-asrc") === qsrc);
-          });
-        }
-      } catch (e) {}
     }
+    buildSrcChips();
+    try {
+      var qsrc = new URLSearchParams(location.search).get("src");
+      if (qsrc && srcs.indexOf(qsrc) >= 0) {
+        aSrc = qsrc;
+        if (srcChipsEl) srcChipsEl.querySelectorAll(".chip").forEach(function (c) {
+          c.classList.toggle("active", (c.getAttribute("data-asrc") || "all") === qsrc);
+        });
+      }
+    } catch (e) {}
+
+    /* 二级分类 chips（按板块标题聚类，仅 xps 启用） */
+    var subChipsEl = document.getElementById("asub-chips");
+    var subs = [];
+    if (page === "xps") {
+      var subCnt = {};
+      catArticles.forEach(function (a) { var s = subOf(a); subCnt[s] = (subCnt[s] || 0) + 1; });
+      subs = Object.keys(subCnt).filter(function (k) { return subCnt[k] >= 8; })
+        .sort(function (x, y) { return subCnt[y] - subCnt[x]; });
+    }
+    function buildSubChips() {
+      if (!subChipsEl) return;
+      if (!subs.length) { subChipsEl.style.display = "none"; return; }
+      var html = '<button class="chip active" data-asub="all">' + t("chip.subAll") + '</button>';
+      subs.forEach(function (sname) {
+        html += '<button class="chip" data-asub="' + esc(sname) + '">' + esc(sname) + "（" + subCnt[sname] + "）</button>";
+      });
+      subChipsEl.innerHTML = html;
+      subChipsEl.style.display = "";
+    }
+    buildSubChips();
+    if (subChipsEl && subs.length) {
+      subChipsEl.addEventListener("click", function (e) {
+        var chip = e.target.closest(".chip");
+        if (!chip) return;
+        subChipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+        chip.classList.add("active");
+        aSub = chip.getAttribute("data-asub") || "all";
+        aShown = 18;
+        renderArticles();
+      });
+    }
+
+    /* 视图切换（列表 / 系列） */
+    var viewChipsEl = document.getElementById("aview-chips");
+    if (viewChipsEl) {
+      viewChipsEl.addEventListener("click", function (e) {
+        var chip = e.target.closest(".chip");
+        if (!chip) return;
+        viewChipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+        chip.classList.add("active");
+        aView = chip.getAttribute("data-aview") || "list";
+        aShown = 18;
+        renderArticles();
+      });
+    }
+
+    /* 栏目内过滤框 */
+    var catFilter = document.getElementById("cat-filter");
+    if (catFilter) {
+      var cfTimer = null;
+      catFilter.addEventListener("input", function () {
+        clearTimeout(cfTimer);
+        cfTimer = setTimeout(function () {
+          aKw = catFilter.value.trim().toLowerCase();
+          aShown = 18;
+          renderArticles();
+        }, 180);
+      });
+    }
+
+    var seriesOf = {};
+    catArticles.forEach(function (a) {
+      var k = seriesKey(a.t);
+      if (!k) return;
+      (seriesOf[k] = seriesOf[k] || []).push(a);
+    });
+    var seriesList = Object.keys(seriesOf).filter(function (k) { return seriesOf[k].length >= 4; })
+      .sort(function (x, y) { return seriesOf[y].length - seriesOf[x].length; });
+
     function renderArticles() {
       var list = catArticles.filter(function (a) {
-        return (aType === "all" || a.y === aType) && (aSrc === "all" || a.s === aSrc);
+        if (!((aType === "all" || a.y === aType) && (aSrc === "all" || a.s === aSrc))) return false;
+        if (aSub !== "all" && subOf(a) !== aSub) return false;
+        if (aKw && a.t.toLowerCase().indexOf(aKw) < 0) return false;
+        return true;
       });
       document.getElementById("a-count").textContent = t("articles.count").replace("{n}", list.length);
-      aGrid.innerHTML = list.slice(0, aShown).map(aCard).join("") ||
+      if (aView === "series" && seriesList.length) {
+        /* 系列视图 */
+        var html = '<p class="muted" style="grid-column:1/-1">' +
+          (lang === "en" ? "Series with 4+ articles, click to view:" : "同一系列的教程已聚在一起，点击系列卡查看全部：") + "</p>";
+        seriesList.forEach(function (k) {
+          var g = seriesOf[k].slice().sort(function (x, y) { return x.d < y.d ? 1 : -1; });
+          html += '<div class="series-block"><div class="series-head">' + esc(k) +
+            ' <span class="count-badge">' + g.length + '</span></div><div class="series-items">';
+          html += g.map(function (a) { return aCard(a, false); }).join("");
+          html += "</div></div>";
+        });
+        aGrid.classList.add("series-mode");
+        aGrid.innerHTML = html;
+        var moreBtn = document.getElementById("amore");
+        if (moreBtn) moreBtn.hidden = true;
+        return;
+      }
+      aGrid.classList.remove("series-mode");
+      /* 列表视图：年份分组 */
+      var html = "";
+      var lastYear = null;
+      list.slice(0, aShown).forEach(function (a) {
+        var y = (a.d || "").slice(0, 4);
+        if (y && y !== lastYear) {
+          html += '<div class="year-sep">' + y + "</div>";
+          lastYear = y;
+        }
+        html += aCard(a, true);
+      });
+      aGrid.innerHTML = html ||
         '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>";
       var moreBtn = document.getElementById("amore");
       if (moreBtn) moreBtn.hidden = list.length <= aShown;
@@ -347,6 +571,7 @@
     rerenderLatest();
     rerenderCat();
     if (typeof buildSrcChips === "function") buildSrcChips();
+    if (typeof buildSubChips === "function") buildSubChips();
     rerenderArticles();
     rerenderSearch();
   }
