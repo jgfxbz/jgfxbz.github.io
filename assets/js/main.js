@@ -264,7 +264,7 @@
       catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
       if (srcs.length > 1) {
         var srcShort = { "结构分析表征": "主号", "光电子能谱分部": "XPS分部", "单晶多晶衍射分部": "衍射分部" };
-        var chipsHtml = '<button class="chip active" data-asrc="all">全部账号</button>';
+        var chipsHtml = '<button class="chip active" data-asrc="all">' + t("chip.srcAll") + '</button>';
         srcs.forEach(function (sname) {
           chipsHtml += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcShort[sname] || sname) + "</button>";
         });
