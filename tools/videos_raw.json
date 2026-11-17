@@ -1,0 +1,5400 @@
+{
+ "mid": 386282560,
+ "fetched_at": "2026-11-09 08:46:28",
+ "total_bilibili": 408,
+ "videos": [
+  {
+   "bvid": "BV1Xpxf6QE9p",
+   "title": "peakforge碳谱拟合",
+   "pubdate": 1793839695,
+   "length": 128,
+   "view": 162,
+   "pic": "https://i1.hdslb.com/bfs/archive/886575b2550f4156e30044493be77c0b1e856dda.jpg",
+   "collections": [
+    "(恢复)",
+    "python"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1srxL6DEyn",
+   "title": "XPS_PeakForge_v2.35多组分拟合基本操作",
+   "pubdate": 1793610900,
+   "length": 75,
+   "view": 170,
+   "pic": "https://i0.hdslb.com/bfs/archive/5f14f17cad648c4a12cab400aabe23856350556e.jpg",
+   "collections": [
+    "(恢复)",
+    "python"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1r3xb6UErV",
+   "title": "xps peakforge Ce3d多组分拟合操作视频",
+   "pubdate": 1793541357,
+   "length": 131,
+   "view": 356,
+   "pic": "https://i1.hdslb.com/bfs/archive/2c4fdb78dac50dc7342cb36f6e7b7a1f02728d50.jpg",
+   "collections": [
+    "(恢复)",
+    "python"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1irnQ6ZEpi",
+   "title": "内置拟合参数的xps拟合软件实操",
+   "pubdate": 1792976374,
+   "length": 337,
+   "view": 482,
+   "pic": "https://i2.hdslb.com/bfs/archive/d3485759539e469af6f4d6d91c032088a8f21712.jpg",
+   "collections": [
+    "(恢复)",
+    "python"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1JMTa6kEoA",
+   "title": "红外数据基线校正的脚本",
+   "pubdate": 1782871800,
+   "length": 65,
+   "view": 834,
+   "pic": "https://i0.hdslb.com/bfs/archive/56fab227999bdfe5b8fe36f870bb67530ae606da.jpg",
+   "collections": [
+    "(恢复)",
+    "python"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1am7h6pE1L",
+   "title": "查询结合能脚本",
+   "pubdate": 1782704700,
+   "length": 80,
+   "view": 622,
+   "pic": "https://i2.hdslb.com/bfs/archive/0831b0c72b11e57039ce1de16a368e5cb0dd5420.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1PqjH6LEDb",
+   "title": "d带和P带计算的脚本",
+   "pubdate": 1782360600,
+   "length": 134,
+   "view": 587,
+   "pic": "https://i1.hdslb.com/bfs/archive/a8c6f190abfbd320a298fba7ed467923ebb42a34.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JbjF63E77",
+   "title": "cif下载脚本",
+   "pubdate": 1782096060,
+   "length": 50,
+   "view": 536,
+   "pic": "https://i0.hdslb.com/bfs/archive/69f819a4972f17978fceaf8fb79312b61e45840f.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1HKJg6mEDk",
+   "title": "四种确认衍射中心的简易脚本使用",
+   "pubdate": 1781484279,
+   "length": 162,
+   "view": 446,
+   "pic": "https://i0.hdslb.com/bfs/archive/6dddf957f05aeb18ab94324fe5483e559b7353bc.jpg",
+   "collections": [
+    "(恢复)",
+    "microED"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1J8E569E2N",
+   "title": "化合物mol文件下载脚本",
+   "pubdate": 1781231520,
+   "length": 90,
+   "view": 562,
+   "pic": "https://i1.hdslb.com/bfs/archive/15c6143a2486ba2a5c9cb1d3ebe7f016b126cb2b.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1dPET6tE69",
+   "title": "效率翻倍 vgd格式数据转文本加校正一键完成",
+   "pubdate": 1780890900,
+   "length": 76,
+   "view": 519,
+   "pic": "https://i1.hdslb.com/bfs/archive/7ef4fd04cf074fd760ca8bdcd9fdfa9e0f98974b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1s7VV6LE7T",
+   "title": "先测xps后测电镜更好",
+   "pubdate": 1780372500,
+   "length": 250,
+   "view": 932,
+   "pic": "https://i1.hdslb.com/bfs/archive/88cde2832202071dcd99c916b3183d804db3f890.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV12aR9BaEuY",
+   "title": "Pr3d与Cu2p重叠谱峰的拟合",
+   "pubdate": 1778467500,
+   "length": 1247,
+   "view": 793,
+   "pic": "https://i0.hdslb.com/bfs/archive/ff77b14309be0854be6d0260b0bf90fa8b29dabc.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13f9oBmEpY",
+   "title": "碳含量很少如何校正",
+   "pubdate": 1777787070,
+   "length": 240,
+   "view": 1008,
+   "pic": "https://i1.hdslb.com/bfs/archive/e8e985e8b77f7e151225581db615c60c2bf1e106.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1tAXBBJETP",
+   "title": "xps定量轨道的选择",
+   "pubdate": 1775007840,
+   "length": 588,
+   "view": 565,
+   "pic": "https://i0.hdslb.com/bfs/archive/bc4ced729575d740f8018b063e6c90a79c3b2214.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ckf2B7EC4",
+   "title": "查询xps信息-NIST网站离线版的使用",
+   "pubdate": 1771992000,
+   "length": 192,
+   "view": 750,
+   "pic": "https://i2.hdslb.com/bfs/archive/25eab04f18374c8ecd80b0b59a960212f3eda41a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1CHFHzmEqx",
+   "title": "使用自吸附盒固定块体样本避免表面污染",
+   "pubdate": 1770691860,
+   "length": 89,
+   "view": 625,
+   "pic": "https://i2.hdslb.com/bfs/archive/d8ab9967f3babc522b3445d458d73ca2fde28211.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1iL6kBCETQ",
+   "title": "双面胶是否会干扰样品的信号",
+   "pubdate": 1770004200,
+   "length": 160,
+   "view": 553,
+   "pic": "https://i0.hdslb.com/bfs/archive/a3e4f0928c2783b75134a663937addc7e38ac20f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14ekeBjECn",
+   "title": "多重分裂在元素化学态判断中的应用",
+   "pubdate": 1769140500,
+   "length": 214,
+   "view": 466,
+   "pic": "https://i1.hdslb.com/bfs/archive/df3cac88e4b33e0b9fd54f07eb64db582bd428d1.jpg",
+   "collections": [
+    "(恢复)",
+    "book"
+   ],
+   "category": "other"
+  },
+  {
+   "bvid": "BV1wqk8BZEAd",
+   "title": "Avantage为什么删不掉积分",
+   "pubdate": 1768782841,
+   "length": 111,
+   "view": 1001,
+   "pic": "https://i0.hdslb.com/bfs/archive/57904d9ab7065a4f5a4e09859d8356e17e78dbb6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vWr8BCEKz",
+   "title": "specs Prodigy为什么打不开xps数据",
+   "pubdate": 1768185188,
+   "length": 76,
+   "view": 528,
+   "pic": "https://i1.hdslb.com/bfs/archive/18ce224fe616bf29775249fa8c76486cee84c220.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1V5iwBEE6Y",
+   "title": "查询xps数据库的xps database收费后的新选择",
+   "pubdate": 1767359808,
+   "length": 111,
+   "view": 1414,
+   "pic": "https://i2.hdslb.com/bfs/archive/894514b8258dd0ae695cd7b04df09b3058b57bf2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1FyBNBGEe4",
+   "title": "MultiPak如何导出数据",
+   "pubdate": 1766459142,
+   "length": 138,
+   "view": 1116,
+   "pic": "https://i1.hdslb.com/bfs/archive/3753e458ee1b97068e9290064ad17cf0bacf4efe.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1pMm5BcEQ5",
+   "title": "不建议开通连续包月充电",
+   "pubdate": 1765504184,
+   "length": 147,
+   "view": 1921,
+   "pic": "https://i1.hdslb.com/bfs/archive/a892ebef9655675c89ba196ce62e30dd6e03a4d3.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1FvyKBfE17",
+   "title": "Pt4f干扰的判断",
+   "pubdate": 1763686129,
+   "length": 166,
+   "view": 582,
+   "pic": "https://i1.hdslb.com/bfs/archive/b69cde16807bbfa7f85ebad5fecb300d6a4917fe.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1WyCkBvEbA",
+   "title": "Pd与Au共存时的Pd3d谱图的拟合",
+   "pubdate": 1763193155,
+   "length": 705,
+   "view": 594,
+   "pic": "https://i1.hdslb.com/bfs/archive/87fd2f2db1036165e48d7a5fa7ccb4ce1f18b2bc.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rikzBnEGd",
+   "title": "多重分裂的Fe 3s峰间距查询",
+   "pubdate": 1762826386,
+   "length": 156,
+   "view": 814,
+   "pic": "https://i1.hdslb.com/bfs/archive/0634029b6fc50b38c46974f297ef31143e1b38c5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EqybBdEXu",
+   "title": "avantage手动更改峰形状后的半定量分析",
+   "pubdate": 1761793127,
+   "length": 151,
+   "view": 2795,
+   "pic": "https://i1.hdslb.com/bfs/archive/bf9d8c90fef61b8c7ac0f080dbe10a7884a18802.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Wt44zAEJN",
+   "title": "AFM测试功函数的公式",
+   "pubdate": 1760416140,
+   "length": 160,
+   "view": 1296,
+   "pic": "https://i2.hdslb.com/bfs/archive/df7c2c265b3a65d0a87e1e1e071b24e4fc808267.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mLxrzCEzA",
+   "title": "KHerveFitting如何导入ups数据",
+   "pubdate": 1759970836,
+   "length": 132,
+   "view": 611,
+   "pic": "https://i0.hdslb.com/bfs/archive/0a6c97c796d130f49cd749112050a176f31955b1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1YNnJzVETu",
+   "title": "转格式的数据如何用casaxps实现双峰拟合",
+   "pubdate": 1759396740,
+   "length": 321,
+   "view": 470,
+   "pic": "https://i2.hdslb.com/bfs/archive/1fd51fc1c27bf766cfed8caeccf63ed1fd58102c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1BNnxzqEf6",
+   "title": "KHerveFitting如何进行数据手动校正",
+   "pubdate": 1758766447,
+   "length": 187,
+   "view": 688,
+   "pic": "https://i1.hdslb.com/bfs/archive/a8a5c81239666fde83a7af44766efa0f36cdce16.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mbWGzsEy1",
+   "title": "KherveFitting 如何导入avantage格式的数据",
+   "pubdate": 1758269509,
+   "length": 384,
+   "view": 596,
+   "pic": "https://i1.hdslb.com/bfs/archive/ad913389d013d170f9aa6266e60353b84d09acc4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1kupyzeEgQ",
+   "title": "Mac也能用的开源的xps拟合软件",
+   "pubdate": 1758017705,
+   "length": 12,
+   "view": 800,
+   "pic": "https://i1.hdslb.com/bfs/archive/d471d18186407d23776e92c3a3ecc341d677faff.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1YjpKzLErD",
+   "title": "jade如何转换不同靶材的数据",
+   "pubdate": 1757897038,
+   "length": 238,
+   "view": 1377,
+   "pic": "https://i2.hdslb.com/bfs/archive/4bfd3a4b46b64f16febb7cea2d9b79529ce97e5f.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV18cHkzuEkC",
+   "title": "某宝dian铺说明",
+   "pubdate": 1757670111,
+   "length": 273,
+   "view": 538,
+   "pic": "https://i0.hdslb.com/bfs/archive/e43f93b4b3b865828f537b2f5626d5e21332ae62.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1jUbnzGExb",
+   "title": "U4f与N1s重叠",
+   "pubdate": 1756384740,
+   "length": 224,
+   "view": 758,
+   "pic": "https://i1.hdslb.com/bfs/archive/d25e4efbb698a0b59a33baba969049f0dc9b3347.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1i3tzzxEea",
+   "title": "从碳谱来判断谱峰的正常",
+   "pubdate": 1755750180,
+   "length": 172,
+   "view": 815,
+   "pic": "https://i0.hdslb.com/bfs/archive/a0631ee21f0aa9dba27db0c588244967405ffb97.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1xptgzxEA5",
+   "title": "avantage快速积分的方法",
+   "pubdate": 1755079140,
+   "length": 159,
+   "view": 773,
+   "pic": "https://i1.hdslb.com/bfs/archive/97c891ac41133c755cfd6c012fdf466924c50739.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Hgg3zrEHP",
+   "title": "有机氟化合物测试",
+   "pubdate": 1753867740,
+   "length": 214,
+   "view": 614,
+   "pic": "https://i1.hdslb.com/bfs/archive/cde9de659ee8ba9f5dad8f61426cb4341e891526.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1UZgczZE9m",
+   "title": "硫和铋重叠的拟合和注意事项",
+   "pubdate": 1753153020,
+   "length": 424,
+   "view": 417,
+   "pic": "https://i2.hdslb.com/bfs/archive/1c406a8804706301ce34599cebedb1d8fae9b397.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JSuvzuEV1",
+   "title": "转格式的ups数据如何用avantage计算功函数等参数",
+   "pubdate": 1752634140,
+   "length": 303,
+   "view": 706,
+   "pic": "https://i1.hdslb.com/bfs/archive/e4b6683b8e09efe364c94e48f905b44484b5d56e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ga37zyEvS",
+   "title": "高含量钡存在下的金拟合",
+   "pubdate": 1752119400,
+   "length": 260,
+   "view": 456,
+   "pic": "https://i0.hdslb.com/bfs/archive/eb7356dc47d69e70a739c49b5f7838deb3a148c9.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rCKxz6Efj",
+   "title": "avantage荷电校正的正负",
+   "pubdate": 1751511660,
+   "length": 102,
+   "view": 788,
+   "pic": "https://i1.hdslb.com/bfs/archive/6a157f142e447a94ac8adf81ec4353a30575e79d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rCKxz6EkG",
+   "title": "碳校正-最高峰校正和最右峰都可能不对",
+   "pubdate": 1751252100,
+   "length": 578,
+   "view": 704,
+   "pic": "https://i2.hdslb.com/bfs/archive/36164f2f4ad74c74731531f095b195b83575bd98.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1geMYzmEtm",
+   "title": "avantage格式说明2",
+   "pubdate": 1750820340,
+   "length": 320,
+   "view": 525,
+   "pic": "https://i1.hdslb.com/bfs/archive/c432ec89edf4f5bea1cc7a1fca91143182b5ca89.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1m9THz3Exi",
+   "title": "荷电中和问题对化学态判断的影响",
+   "pubdate": 1750129200,
+   "length": 753,
+   "view": 463,
+   "pic": "https://i1.hdslb.com/bfs/archive/a14a7b6acf9811df7abfc93372aa4cce4d671f18.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Pv78zXEoo",
+   "title": "样品真空度不够的问题",
+   "pubdate": 1749632040,
+   "length": 317,
+   "view": 671,
+   "pic": "https://i0.hdslb.com/bfs/archive/92fc74930ab4178011480f1ee704cf93d3df87d2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1FaEDzuEHe",
+   "title": "价电子与电化学相关电位相互转换",
+   "pubdate": 1748921749,
+   "length": 262,
+   "view": 685,
+   "pic": "https://i2.hdslb.com/bfs/archive/fae07036e56960d3527c5a5a312d5ac09bd0d451.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1PgEyzFErm",
+   "title": "xpspeak打开数据点格式数据死机的问题",
+   "pubdate": 1748516040,
+   "length": 239,
+   "view": 1342,
+   "pic": "https://i2.hdslb.com/bfs/archive/b10e4ae2aa572ed84691d4b5398b1737d538932d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mfEEz8Eky",
+   "title": "镍到底是几价的",
+   "pubdate": 1748317500,
+   "length": 622,
+   "view": 1136,
+   "pic": "https://i1.hdslb.com/bfs/archive/9ba9d7e492cade2f7e09c3c482395b8e32de0eed.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vMj9zvEyE",
+   "title": "非等间距的角分辨数据如何得到",
+   "pubdate": 1748306864,
+   "length": 429,
+   "view": 479,
+   "pic": "https://i1.hdslb.com/bfs/archive/69ced6feed52a0842a239a8685b0a549444149bd.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV12mVoz9E5Y",
+   "title": "avantage6.0以上版本看不到谱峰和导不出拟合数据的解决方案",
+   "pubdate": 1747197180,
+   "length": 846,
+   "view": 9933,
+   "pic": "https://i1.hdslb.com/bfs/archive/d8cc25625b88e86c839b1f867d56d387d8f91840.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16bENzCEGb",
+   "title": "xpsdatabase恢复使用",
+   "pubdate": 1747182321,
+   "length": 75,
+   "view": 729,
+   "pic": "https://i0.hdslb.com/bfs/archive/66dbd572d6bc1ac2be6e4db5d39696fb84f94ded.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yy5LzBE4p",
+   "title": "Escape校正前后的数据",
+   "pubdate": 1746780634,
+   "length": 92,
+   "view": 605,
+   "pic": "https://i1.hdslb.com/bfs/archive/1083c7ba885b46509719d0a5d7a3d8bc4f5b0d30.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1eZ53zVE1v",
+   "title": "Avantage数据校正后谱图失真问题以及解决方案",
+   "pubdate": 1746753127,
+   "length": 297,
+   "view": 607,
+   "pic": "https://i2.hdslb.com/bfs/archive/bbae39d2acaebced6e4ae59b282fb7c2f831c6cf.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1TPV1zsEEj",
+   "title": "harwell xps也瘫痪了",
+   "pubdate": 1746493020,
+   "length": 85,
+   "view": 691,
+   "pic": "https://i2.hdslb.com/bfs/archive/041890cf30265237c94798df3d0e4aaadd42aea2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1wboKYqE1M",
+   "title": "真空能级为0和费米能级为0的价电子信息",
+   "pubdate": 1745813460,
+   "length": 165,
+   "view": 1657,
+   "pic": "https://i2.hdslb.com/bfs/archive/15b2e2eaa7b976cbf009fe8d84bf63710e8cb21f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ohLtzfEYr",
+   "title": "xpsdatabase又不能用了",
+   "pubdate": 1745398966,
+   "length": 50,
+   "view": 845,
+   "pic": "https://i1.hdslb.com/bfs/archive/e3fa5eb12224f04c94212c05aaa436460857c0d7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1MQfNYSEnZ",
+   "title": "不同位置采集谱图不一致之荷电问题",
+   "pubdate": 1744777200,
+   "length": 530,
+   "view": 582,
+   "pic": "https://i2.hdslb.com/bfs/archive/fc4de52f9f20c19e7eba23d09189bd6e3addf923.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1pCZCY1EXf",
+   "title": "银化学态的判断和定量分析",
+   "pubdate": 1743381274,
+   "length": 477,
+   "view": 563,
+   "pic": "https://i1.hdslb.com/bfs/archive/66f1ebe8145ad52bbc9ee3fe2b18e3d080631a56.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1qoNoefEex",
+   "title": "光纤类样品的xps测试",
+   "pubdate": 1739182451,
+   "length": 132,
+   "view": 900,
+   "pic": "https://i1.hdslb.com/bfs/archive/6c3595c7346d2e9f86c4c1d26c1e7642bdaee0cc.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1hwfqYVECc",
+   "title": "area(n)由来以及avantage定量模式的选择",
+   "pubdate": 1737596876,
+   "length": 346,
+   "view": 671,
+   "pic": "https://i1.hdslb.com/bfs/archive/53683f0d16ae7bb969aae61860f1451a8f361086.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1nLCwYXEys",
+   "title": "AVANTAGE拟合时出现range selection问题解决方案",
+   "pubdate": 1735811880,
+   "length": 142,
+   "view": 1833,
+   "pic": "https://i0.hdslb.com/bfs/archive/b7d89a57025adcd2a77ea27800734eebd85fe7ac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1LyCGYCE9r",
+   "title": "xps谱图比较怪，大概率是干扰元素作祟",
+   "pubdate": 1734942581,
+   "length": 268,
+   "view": 1039,
+   "pic": "https://i0.hdslb.com/bfs/archive/e21c2ecdd9231dda3d55949bf1339626ee242ddb.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1e5kyY8EfU",
+   "title": "AVANTAGE在win10安装卡住问题",
+   "pubdate": 1734656436,
+   "length": 91,
+   "view": 837,
+   "pic": "https://i1.hdslb.com/bfs/archive/b92a7b3afd2da2e5cdc3e2187b77787fc0dd2e6d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EvBeY8EW8",
+   "title": "casaxps横坐标的调整",
+   "pubdate": 1732260856,
+   "length": 144,
+   "view": 1331,
+   "pic": "https://i1.hdslb.com/bfs/archive/7b19c9d2c40411a5b9a562ea78591c5a2016ed89.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1KbmXYDEmU",
+   "title": "如何回复审稿人关于xps偏差的问题",
+   "pubdate": 1731641968,
+   "length": 311,
+   "view": 6596,
+   "pic": "https://i0.hdslb.com/bfs/archive/7773fe8bc42ef6eb10c384bcaa52d5806ef9dba1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1p1m1YdEFF",
+   "title": "avantage残差数值的意义1",
+   "pubdate": 1731577080,
+   "length": 127,
+   "view": 1306,
+   "pic": "https://i0.hdslb.com/bfs/archive/7d28236d3f55a60c938870cc79c1e3fe0b7a8f79.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yFm1Y4EBf",
+   "title": "真空封口机使用",
+   "pubdate": 1731286804,
+   "length": 372,
+   "view": 1880,
+   "pic": "https://i0.hdslb.com/bfs/archive/53a9059939abbdb54b11917e65ea4f6d0911517e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1MiD3Y1ECi",
+   "title": "avantage为什么不显示残差",
+   "pubdate": 1730884205,
+   "length": 113,
+   "view": 2319,
+   "pic": "https://i1.hdslb.com/bfs/archive/681aa914205db44ae0fb8e6fc338d696b525f7cb.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1qtD4YTEH8",
+   "title": "Avantage双峰拟合不识别的几种情况",
+   "pubdate": 1730771551,
+   "length": 210,
+   "view": 6664,
+   "pic": "https://i0.hdslb.com/bfs/archive/a13741e6aeefeacb2cb1837d8f653d8a4f045756.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1QhDpYmEc7",
+   "title": "olex2中shift为什么是黑色的",
+   "pubdate": 1730709479,
+   "length": 100,
+   "view": 1316,
+   "pic": "https://i1.hdslb.com/bfs/archive/c45bef5fd34da2df51bd59fe74508ab19d5668a4.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1a3S7YAEuN",
+   "title": "为什么avantage中英文界面定量结果不一致",
+   "pubdate": 1730453280,
+   "length": 237,
+   "view": 1101,
+   "pic": "https://i1.hdslb.com/bfs/archive/25e33f84015ab86fe1824a12d341208226d348b7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1BNSdYDEDb",
+   "title": "转格式的数据用casaxps不能识别双峰的问题",
+   "pubdate": 1730453084,
+   "length": 177,
+   "view": 956,
+   "pic": "https://i1.hdslb.com/bfs/archive/b60dfa317bf60139dfc5c149dc56e4d930b67dac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1paSJY4ERS",
+   "title": "xpslibrary也废了",
+   "pubdate": 1730369027,
+   "length": 75,
+   "view": 989,
+   "pic": "https://i2.hdslb.com/bfs/archive/69de0a0697a50070ae6fed7d0ab985efa353dfea.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV19JSvYDEue",
+   "title": "噩耗！！！！  xpsdatabse网站停止服务",
+   "pubdate": 1730254426,
+   "length": 117,
+   "view": 1932,
+   "pic": "https://i0.hdslb.com/bfs/archive/6b1d8e060edddd329889e2428060732d005b541e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14ayoYWEtY",
+   "title": "用escape直接导出拟合数据的注意事项",
+   "pubdate": 1729675297,
+   "length": 339,
+   "view": 1344,
+   "pic": "https://i2.hdslb.com/bfs/archive/786303d6a5f7ee4297e7ef37266d7a441e2673bf.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ft2PYAEh8",
+   "title": "MultiPak校正建议",
+   "pubdate": 1728466868,
+   "length": 142,
+   "view": 2146,
+   "pic": "https://i2.hdslb.com/bfs/archive/5001973cb0379d80228e8a496470a18df695019b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1zLxaeVEC2",
+   "title": "avantage6.8导不出拟合数据？",
+   "pubdate": 1727746916,
+   "length": 305,
+   "view": 7744,
+   "pic": "https://i1.hdslb.com/bfs/archive/0dee5b6101bd06d3bca2ad67d4bd9bd4bd13e0fc.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1WQtZeaE4P",
+   "title": "casaxps如何删除数据",
+   "pubdate": 1726823907,
+   "length": 64,
+   "view": 1476,
+   "pic": "https://i2.hdslb.com/bfs/archive/8f7130712b71c66ac1350329fa5e659f87691fac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV12E4m1R7Qk",
+   "title": "avantage多层数据校正的基本操作",
+   "pubdate": 1723292452,
+   "length": 332,
+   "view": 1732,
+   "pic": "https://i2.hdslb.com/bfs/archive/912d9cad12be64d23ee3561f399dd3173544d872.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1jm42137db",
+   "title": "excel表头的固定",
+   "pubdate": 1722093149,
+   "length": 82,
+   "view": 1944,
+   "pic": "https://i0.hdslb.com/bfs/archive/abb05e9c9a5625f3c7b38f8882f835370449a016.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1TE4m1d7i1",
+   "title": "Avantage如何删除峰",
+   "pubdate": 1721537480,
+   "length": 143,
+   "view": 6168,
+   "pic": "https://i2.hdslb.com/bfs/archive/36f7f881eab0a6e8710ed5de92f7e8b2ac3546c7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV181421b77Q",
+   "title": "xps中mapping数据拆分",
+   "pubdate": 1721183328,
+   "length": 153,
+   "view": 1690,
+   "pic": "https://i2.hdslb.com/bfs/archive/8406c923cf672b32dd117e09470bb41565d45022.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1QS411A7ZZ",
+   "title": "avantage校正的bug解决",
+   "pubdate": 1720594384,
+   "length": 113,
+   "view": 2425,
+   "pic": "https://i0.hdslb.com/bfs/archive/ab26dd13b011983a484e85c564f23507cc0f638c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV144421D7km",
+   "title": "avantage处理ups的bug",
+   "pubdate": 1719997251,
+   "length": 55,
+   "view": 1906,
+   "pic": "https://i2.hdslb.com/bfs/archive/d15156b01de6eb1b20d7fd13f9e8ff0cf7e54faf.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Xi421a7Z9",
+   "title": "multipak导出数据的基本操作",
+   "pubdate": 1719448814,
+   "length": 89,
+   "view": 2632,
+   "pic": "https://i1.hdslb.com/bfs/archive/befec808b6a1b5dd7e72178d28675e0e5fb32d90.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1tZ421M7me",
+   "title": "origin不能微分的原因",
+   "pubdate": 1718700621,
+   "length": 91,
+   "view": 5408,
+   "pic": "https://i0.hdslb.com/bfs/archive/c42497ee0790acc169aaa1817ae6a69a23ef4c03.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1sr421c7wL",
+   "title": "avantage如何修改标识位置",
+   "pubdate": 1717484159,
+   "length": 81,
+   "view": 1865,
+   "pic": "https://i0.hdslb.com/bfs/archive/6d7e985d99cff98306d92c0a0ff8f7eafa30a667.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16y411a7vP",
+   "title": "origin高版本格式转低版本",
+   "pubdate": 1716184040,
+   "length": 64,
+   "view": 8656,
+   "pic": "https://i0.hdslb.com/bfs/archive/04fe7edb582b77aabc9f685f694383af62ed0ea5.png",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1YT421m78S",
+   "title": "avantage分析非铝靶数据-eSP",
+   "pubdate": 1713229260,
+   "length": 326,
+   "view": 1662,
+   "pic": "https://i2.hdslb.com/bfs/archive/8858a8a8d0e645877e024a5434ecea55fcae0e12.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1x1421o7m7",
+   "title": "escape修改基线的三种办法",
+   "pubdate": 1713158693,
+   "length": 130,
+   "view": 1533,
+   "pic": "https://i1.hdslb.com/bfs/archive/58ffbe07dd3ecb39d507c64b91c94f0d2ba4dacd.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EM4m1D7jG",
+   "title": "avantage如何修改有效数字",
+   "pubdate": 1712880968,
+   "length": 182,
+   "view": 1637,
+   "pic": "https://i2.hdslb.com/bfs/archive/35ed6b32e55b54bfbf4a958614bb08c29d69a69d.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EA4m1F7u2",
+   "title": "avantage如何对拟合好的曲线进行颜色填充",
+   "pubdate": 1712664179,
+   "length": 114,
+   "view": 2705,
+   "pic": "https://i1.hdslb.com/bfs/archive/98addd62a3fc1d4b00e334f7cfcfdeb85ecdde28.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1TC41157an",
+   "title": "avantage如何调整有效数字",
+   "pubdate": 1712398888,
+   "length": 232,
+   "view": 1794,
+   "pic": "https://i1.hdslb.com/bfs/archive/06f113ae261afca9d4011535b040242c688bf652.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV151421S7Uv",
+   "title": "文本xrd数据如何用EVA分析",
+   "pubdate": 1712108296,
+   "length": 117,
+   "view": 1808,
+   "pic": "https://i2.hdslb.com/bfs/archive/89b7e6a7c647680569e7299e04a506308b1aae34.png",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1Nf421f74d",
+   "title": "以图搜图找不到就输关键词",
+   "pubdate": 1711698768,
+   "length": 130,
+   "view": 1808,
+   "pic": "https://i2.hdslb.com/bfs/archive/df05921f1640b6fa12c9cf5da905e6a88ab4e6d1.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Am411d7uY",
+   "title": "Knowledge View下载安装和使用",
+   "pubdate": 1711325401,
+   "length": 112,
+   "view": 2350,
+   "pic": "https://i2.hdslb.com/bfs/archive/0b2f484f97457a04087cc9e8411c9e8e8773920e.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ux421k7h3",
+   "title": "avantage最新下载地址",
+   "pubdate": 1711117338,
+   "length": 74,
+   "view": 3700,
+   "pic": "https://i2.hdslb.com/bfs/archive/4d56ef898c6169995677cde7dd7ae127c717fd4c.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1SJ4m187Kt",
+   "title": "铁的分峰拟合-固定放开再固定",
+   "pubdate": 1710463150,
+   "length": 608,
+   "view": 7118,
+   "pic": "https://i2.hdslb.com/bfs/archive/477dc247e6ab2ac2aa7eb339f5ebbbc575de68b5.png",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Au4m1g7eD",
+   "title": "nist查询峰间距用于化学态判断",
+   "pubdate": 1710228003,
+   "length": 172,
+   "view": 1997,
+   "pic": "https://i2.hdslb.com/bfs/archive/d9755bce93718efb48fc980cbd072c5d806c4931.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Xm411Z7nA",
+   "title": "avantage如何对比谱图",
+   "pubdate": 1710121330,
+   "length": 97,
+   "view": 2487,
+   "pic": "https://i2.hdslb.com/bfs/archive/bff689ddf3bf764b3e82f77e7589e314c8a86cd1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1zK42147sY",
+   "title": "avantage拉平基线基本操作（不建议）",
+   "pubdate": 1709631007,
+   "length": 222,
+   "view": 5025,
+   "pic": "https://i1.hdslb.com/bfs/archive/5f8958cf4b967f7de5ba73f78a484944306c3189.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1xx4y1C79Q",
+   "title": "Xcalibur如何导出标准质谱图",
+   "pubdate": 1709090522,
+   "length": 110,
+   "view": 8538,
+   "pic": "https://i2.hdslb.com/bfs/archive/c1a8d9f4d509716c320d2e888454c054b93c77a7.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1fv421k7Tj",
+   "title": "casaxps如何调出残差",
+   "pubdate": 1708392854,
+   "length": 133,
+   "view": 2048,
+   "pic": "https://i1.hdslb.com/bfs/archive/3233fdeabf86559e3bc13602f06850f4235b8aa0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1zS421K7BM",
+   "title": "casaxps分段拟合",
+   "pubdate": 1708054645,
+   "length": 236,
+   "view": 2377,
+   "pic": "https://i2.hdslb.com/bfs/archive/4cb8eff82bd51cdebf9fc6a75a616b03c281e54a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Fy421Y78F",
+   "title": "xps样品的送样建议操作",
+   "pubdate": 1706846100,
+   "length": 242,
+   "view": 4582,
+   "pic": "https://i0.hdslb.com/bfs/archive/29da1205852ecce0c0e90036f14ab4b348902a8d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1xV411R7Ld",
+   "title": "重叠元素测宽一点有利无害",
+   "pubdate": 1705286340,
+   "length": 348,
+   "view": 1914,
+   "pic": "https://i0.hdslb.com/bfs/archive/f7f65ac6c04c71e4b7dcf2e7a766eaeb806a8022.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1WC4y1v7Kj",
+   "title": "一个测试有问题的xps数据的可能原因",
+   "pubdate": 1704688200,
+   "length": 420,
+   "view": 3554,
+   "pic": "https://i2.hdslb.com/bfs/archive/e2137e1ddbbb777f9bffb333abf7f33e8ad07494.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1MG411z7im",
+   "title": "avantage刻蚀数据导出的正确操作",
+   "pubdate": 1703995800,
+   "length": 317,
+   "view": 5495,
+   "pic": "https://i1.hdslb.com/bfs/archive/a0aa6d50fe557c5fa9c553dd0edf45fb684f7658.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV18b4y1u76g",
+   "title": "荷电问题引起的谱图异常",
+   "pubdate": 1700455353,
+   "length": 291,
+   "view": 2782,
+   "pic": "https://i1.hdslb.com/bfs/archive/1648ecc9746dea75cb661ff397cb6c588f7a857c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1pw411T7ge",
+   "title": "全新的nist使用（查询结合能网站）慢到无法想象",
+   "pubdate": 1699765981,
+   "length": 350,
+   "view": 10103,
+   "pic": "https://i1.hdslb.com/bfs/archive/2f9bf658ea5b78c8a2f1a9dec381a588ba950172.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1dN4y1D7JL",
+   "title": "相见恨晚的xps结合能查询网站",
+   "pubdate": 1699623230,
+   "length": 292,
+   "view": 35204,
+   "pic": "https://i0.hdslb.com/bfs/archive/455e26e443810e14872331fec6e96b0470936608.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1a841197no",
+   "title": "刻蚀数据导出的简便办法",
+   "pubdate": 1693457820,
+   "length": 229,
+   "view": 2445,
+   "pic": "https://i1.hdslb.com/bfs/archive/6c5d1d177d8f34c8f23fff09768c2e7220bdb4e5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1qm4y1H74j",
+   "title": "刻蚀数据导出的注意事项",
+   "pubdate": 1692856560,
+   "length": 237,
+   "view": 2116,
+   "pic": "https://i0.hdslb.com/bfs/archive/f72ba408c4dbadbdf183c2144c47b2b086be86a5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Uh4y1D7JQ",
+   "title": "W钨的分峰拟合avantage",
+   "pubdate": 1692275760,
+   "length": 211,
+   "view": 5713,
+   "pic": "https://i2.hdslb.com/bfs/archive/a034a574c6c6fa953de07449dcc733f519c10c52.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1BV41157Yb",
+   "title": "氯Cl2p分峰拟合",
+   "pubdate": 1692080386,
+   "length": 265,
+   "view": 4081,
+   "pic": "https://i0.hdslb.com/bfs/archive/04e1dcd6300a70af655a6d650e260963d3d9d1db.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1s44y1c7tL",
+   "title": "Ga的xps测试轨道选择",
+   "pubdate": 1691894296,
+   "length": 168,
+   "view": 3616,
+   "pic": "https://i0.hdslb.com/bfs/archive/5d29a68305224976394f83c841a654924c558141.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1294y1C78B",
+   "title": "样品在xray照射下变质",
+   "pubdate": 1691324302,
+   "length": 36,
+   "view": 2304,
+   "pic": "https://i2.hdslb.com/bfs/archive/7638ea2d52704286be2436e710b6377e4532c295.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1iu4y1273B",
+   "title": "xps在样品纯度腐蚀变质确证中的应用",
+   "pubdate": 1691039160,
+   "length": 188,
+   "view": 1701,
+   "pic": "https://i0.hdslb.com/bfs/archive/55822a919385e204d89ab8e6e6001704e8d1d33b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1bu411V76m",
+   "title": "从一个数据来讲讲怎么能更好的进行数据分析",
+   "pubdate": 1690435860,
+   "length": 133,
+   "view": 1919,
+   "pic": "https://i2.hdslb.com/bfs/archive/4e72dcb172ceeb853dfe114fcee54f3edc2fe4b1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11P411k75g",
+   "title": "高含量Se存在下S2p拟合",
+   "pubdate": 1689735999,
+   "length": 298,
+   "view": 1865,
+   "pic": "https://i1.hdslb.com/bfs/archive/2c74e6a730281c727ffa415da5efa92a5756ff2c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ko4y1E7Yv",
+   "title": "#欢迎报考中山大学#动能结合能的手动转换",
+   "pubdate": 1687225563,
+   "length": 299,
+   "view": 2248,
+   "pic": "https://i0.hdslb.com/bfs/archive/ce77c94516596a38faad1e1d97cc6af12a57693f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1oo4y1A7Nv",
+   "title": "复杂xps谱图分析-2",
+   "pubdate": 1687135662,
+   "length": 249,
+   "view": 2648,
+   "pic": "https://i0.hdslb.com/bfs/archive/6488fd12183224ea33e62b43e105f7c9a32b0d76.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14X4y1b7kP",
+   "title": "高含量钴影响下的铁的分峰拟合",
+   "pubdate": 1686823158,
+   "length": 196,
+   "view": 2624,
+   "pic": "https://i1.hdslb.com/bfs/archive/099b6efd9a471f9d8d123fec48accd48ec0646b7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1nk4y1H77D",
+   "title": "MoS2分峰拟合",
+   "pubdate": 1686713220,
+   "length": 258,
+   "view": 2659,
+   "pic": "https://i0.hdslb.com/bfs/archive/c93479b759adf6f851bd052a15bb99b0922c5972.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yW4y1X7X4",
+   "title": "avantage中import的使用",
+   "pubdate": 1686302820,
+   "length": 150,
+   "view": 1718,
+   "pic": "https://i0.hdslb.com/bfs/archive/f4b495f2839a3687eaf715cd34de5432b7c37f50.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1cz4y1i7Ny",
+   "title": "化学态评估功能关闭",
+   "pubdate": 1686209264,
+   "length": 80,
+   "view": 1892,
+   "pic": "https://i0.hdslb.com/bfs/archive/69236c30ed6ff6f9b2d8b6d1e0fc4a3f64e8c16d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1wh4y1x7Rk",
+   "title": "avantage如何显示残差",
+   "pubdate": 1686023831,
+   "length": 74,
+   "view": 2794,
+   "pic": "https://i0.hdslb.com/bfs/archive/d8107a7e5ed1b8ed4b59aee2989c638097244384.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1B24y1A7eM",
+   "title": "通能的选择2-不同的通能不能定量",
+   "pubdate": 1685702820,
+   "length": 205,
+   "view": 1786,
+   "pic": "https://i2.hdslb.com/bfs/archive/a4a2e108ddd9c53f9b10e70b2f7760882bb89763.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1pc411G7FW",
+   "title": "通能的选择-1-高还是低",
+   "pubdate": 1685444100,
+   "length": 168,
+   "view": 1813,
+   "pic": "https://i1.hdslb.com/bfs/archive/be46067901acd30f59d491e1196d18abcbefc7b8.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV19o4y1T7Ap",
+   "title": "钙和镁的重叠处理的两种办法",
+   "pubdate": 1685332255,
+   "length": 333,
+   "view": 2943,
+   "pic": "https://i2.hdslb.com/bfs/archive/944f4b5cb154786d780bce54857186ab0c0f848a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vP41197ya",
+   "title": "岛津仪器测试的xps数据如何查询仪器功函数-3escape",
+   "pubdate": 1684829271,
+   "length": 160,
+   "view": 2216,
+   "pic": "https://i2.hdslb.com/bfs/archive/9c3b8e349a6859759fce344afc3642553c98887f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vT411t7c6",
+   "title": "Se和Fe的重叠处理",
+   "pubdate": 1684635900,
+   "length": 126,
+   "view": 2434,
+   "pic": "https://i1.hdslb.com/bfs/archive/6e7e470adecb5533535fbaf8dfe8ef128a542098.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11m4y1b7X6",
+   "title": "转格式的ups的数据用avantage分析的注意事项",
+   "pubdate": 1684461840,
+   "length": 272,
+   "view": 2921,
+   "pic": "https://i2.hdslb.com/bfs/archive/7000385fcfb7a39ba69a2f60543c152f50f47fa3.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1bh4y187gW",
+   "title": "specs公司xps数据如何查询仪器功函数-6-xy格式",
+   "pubdate": 1684288980,
+   "length": 100,
+   "view": 1722,
+   "pic": "https://i2.hdslb.com/bfs/archive/d23c681f164637121ab8283c7ea2014eaf882da3.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EX4y117qU",
+   "title": "specs公司xps数据如何查询仪器功函数-5-spe",
+   "pubdate": 1684109051,
+   "length": 56,
+   "view": 2093,
+   "pic": "https://i2.hdslb.com/bfs/archive/c27d351632f122f6868adfe7f49787d7b21317a9.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Du41147js",
+   "title": "越简单的谱图越容易错",
+   "pubdate": 1683882283,
+   "length": 322,
+   "view": 2629,
+   "pic": "https://i0.hdslb.com/bfs/archive/9c2c4aa234fe104af312f922008e83aae5225e6d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV15s4y197KA",
+   "title": "specs公司xps数据如何查询仪器功函数-2-avantage",
+   "pubdate": 1683689280,
+   "length": 51,
+   "view": 1848,
+   "pic": "https://i0.hdslb.com/bfs/archive/5992c62cb5413769b37e0cc5e7b4777873069eac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1cs4y1G7UR",
+   "title": "specs公司xps数据如何查询仪器功函数-3-itx",
+   "pubdate": 1683509439,
+   "length": 41,
+   "view": 1389,
+   "pic": "https://i0.hdslb.com/bfs/archive/f0f37ca64e1afb21abda74e8e3ee7be8d1275fe5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Wh41157Ho",
+   "title": "specs公司xps数据如何查询仪器功函数-1-sle",
+   "pubdate": 1683509303,
+   "length": 86,
+   "view": 1389,
+   "pic": "https://i2.hdslb.com/bfs/archive/b372855578538737527441a021f59d456b1c98ae.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV17s4y137Ue",
+   "title": "转格式的数据不能保存为vgdvgp的情况解决方案2",
+   "pubdate": 1683433920,
+   "length": 266,
+   "view": 2140,
+   "pic": "https://i2.hdslb.com/bfs/archive/aedee15d6686bf63e370ae923bb6dd41c9fb0bdc.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yz4y1h7Pt",
+   "title": "xy格式的xps数据如何用 各种xps软件分析",
+   "pubdate": 1683336711,
+   "length": 213,
+   "view": 2115,
+   "pic": "https://i2.hdslb.com/bfs/archive/7c43d6da7f688ed9d76ce4c8732b923cf509d15c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1s24y1T7j2",
+   "title": "热电公司xps数据查询仪器功函数的方法3-avg-竖屏",
+   "pubdate": 1683248719,
+   "length": 101,
+   "view": 1968,
+   "pic": "https://i2.hdslb.com/bfs/archive/531f3e25c6820c5fdc5ca14c1155a8418e4a91c4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Pc411M77T",
+   "title": "thermo公司的xps数据如何查询仪器功函数2",
+   "pubdate": 1683247930,
+   "length": 150,
+   "view": 2346,
+   "pic": "https://i2.hdslb.com/bfs/archive/117699698fb37842bf152d2ae1f697cbaaaac1a6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14c411N7kg",
+   "title": "PHI公司的xps数据如何查询仪器功函数",
+   "pubdate": 1683246985,
+   "length": 154,
+   "view": 1634,
+   "pic": "https://i2.hdslb.com/bfs/archive/97c693690e1c29a8ecff5eb0723802e47490a23e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1uM4y1h7RD",
+   "title": "escape全谱分析和导出数据的操作",
+   "pubdate": 1683161278,
+   "length": 378,
+   "view": 4155,
+   "pic": "https://i2.hdslb.com/bfs/archive/614f31ad277e3a9ef18607016b05c51bfab2d290.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Vk4y1n7iD",
+   "title": "escape全谱分析中如何添加和删除峰",
+   "pubdate": 1682838807,
+   "length": 207,
+   "view": 2332,
+   "pic": "https://i0.hdslb.com/bfs/archive/55242322624fa4dd8ea7f2a0710d205b3ceeef4c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14o4y1w7Za",
+   "title": "escape全谱重新指认元素信息的操作",
+   "pubdate": 1682655555,
+   "length": 150,
+   "view": 2443,
+   "pic": "https://i0.hdslb.com/bfs/archive/54b9ead429a427f9894719ba7bb9a855c6aa90b3.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1em4y1y7FY",
+   "title": "转格式的数据不能用avantage保存为vgdvgp的情况解决方案2",
+   "pubdate": 1682560033,
+   "length": 266,
+   "view": 4095,
+   "pic": "https://i0.hdslb.com/bfs/archive/f555ff212c1ec53cfe62b694a9b68930d13a6297.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1NT411H7wr",
+   "title": "PHI公司的xps数据如何查询仪器功函数",
+   "pubdate": 1682480700,
+   "length": 154,
+   "view": 2404,
+   "pic": "https://i0.hdslb.com/bfs/archive/8ed52858357251d435fefa2bb2dc3bd789d765da.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13o4y1b7ZE",
+   "title": "MoS2的avantage分峰拟合",
+   "pubdate": 1682300290,
+   "length": 530,
+   "view": 4980,
+   "pic": "https://i2.hdslb.com/bfs/archive/9134901c36f307f6bd9872d53fe2b6bb5943dae6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Hk4y1Y78Z",
+   "title": "excel加载项导致的escape导出数据插件失灵问题",
+   "pubdate": 1682225250,
+   "length": 115,
+   "view": 2776,
+   "pic": "https://i2.hdslb.com/bfs/archive/86d7a752ecd84160fa9577192463f7de175ef728.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1FX4y1671W",
+   "title": "硅片刀和玻璃刀切割玻璃效果",
+   "pubdate": 1682062440,
+   "length": 97,
+   "view": 6028,
+   "pic": "https://i1.hdslb.com/bfs/archive/282dc0e755b99b794d0a064918bcf94b2b1c07e6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1zg4y1T7YB",
+   "title": "跟着杨姐学通过莫特-肖特基曲线计算平带电位",
+   "pubdate": 1681702320,
+   "length": 580,
+   "view": 29540,
+   "pic": "https://i1.hdslb.com/bfs/archive/d68ea13e79440dd2af224a231079eeb5527029b4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13c411p7g7",
+   "title": "功函数校正xps数据",
+   "pubdate": 1681443600,
+   "length": 315,
+   "view": 3122,
+   "pic": "https://i2.hdslb.com/bfs/archive/f130bc9bdbdfe77c0dd6323a0790c65e3a4fe241.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1PM411K7s4",
+   "title": "转格式后的数据用avantage分析完为什么不能保存",
+   "pubdate": 1681101752,
+   "length": 284,
+   "view": 12682,
+   "pic": "https://i1.hdslb.com/bfs/archive/eea7d8e90aac8693a043e9f19818ebf064720d0f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1c84y1T7HF",
+   "title": "如何以图搜文献，影响因子70的化学顶刊惊现电脑管家加速球，真相如何",
+   "pubdate": 1680671088,
+   "length": 167,
+   "view": 614654,
+   "pic": "https://i2.hdslb.com/bfs/archive/8a00c22f57d81a66137db4fa269e21a6215f81c3.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1dh41137r6",
+   "title": "费米能级校正xps谱图",
+   "pubdate": 1680485446,
+   "length": 509,
+   "view": 3824,
+   "pic": "https://i1.hdslb.com/bfs/archive/ed9435446de88fbdbcbd04ace407d821adfa90f4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ZY4y1S7tV",
+   "title": "Ce铈分8个峰还是10个峰",
+   "pubdate": 1680143786,
+   "length": 107,
+   "view": 5036,
+   "pic": "https://i0.hdslb.com/bfs/archive/ddf6992aa2638d10308b17b7aca6fdcb12176b76.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ts4y1J74d",
+   "title": "xps mapping介绍",
+   "pubdate": 1679878794,
+   "length": 268,
+   "view": 2909,
+   "pic": "https://i0.hdslb.com/bfs/archive/c8bd89dc8a612654bb4e8fac97686087691906fa.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1og4y1x766",
+   "title": "vgd转spe最简单的操作",
+   "pubdate": 1679539343,
+   "length": 250,
+   "view": 3166,
+   "pic": "https://i1.hdslb.com/bfs/archive/30d50b19de7ad0ed9fb6ba018ffbe550a1b11194.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11b411d7JV",
+   "title": "如何将多个spe合并为一个spe",
+   "pubdate": 1679280177,
+   "length": 258,
+   "view": 2582,
+   "pic": "https://i1.hdslb.com/bfs/archive/272a929ce93818f4b4f352435193e7f9657f3ee4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ec411E7sh",
+   "title": "xps数据转换的原则",
+   "pubdate": 1678927141,
+   "length": 158,
+   "view": 3547,
+   "pic": "https://i0.hdslb.com/bfs/archive/2e4a84e20c8537f6f242fc8dabc38d930e2a1b94.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1b54y1K7xz",
+   "title": "另存后的vgd如何转格式",
+   "pubdate": 1678788508,
+   "length": 466,
+   "view": 4510,
+   "pic": "https://i1.hdslb.com/bfs/archive/ac5ad3454bfbec85e2dd7cf0ee4508fe85844d48.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1DM411s7Gq",
+   "title": "avantage残差线的调出",
+   "pubdate": 1678420800,
+   "length": 113,
+   "view": 4328,
+   "pic": "https://i1.hdslb.com/bfs/archive/ef48eee05a63476507534be03740687c9eece0a7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1qy4y1Z72i",
+   "title": "avantage死机重启",
+   "pubdate": 1676858189,
+   "length": 121,
+   "view": 3974,
+   "pic": "https://i2.hdslb.com/bfs/archive/585557a5e30cd0a350cd36446c7ff24febb8f6ae.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1H8411M73k",
+   "title": "avantage导出数据的几种办法",
+   "pubdate": 1676593379,
+   "length": 281,
+   "view": 35984,
+   "pic": "https://i1.hdslb.com/bfs/archive/f057a53bbf026737e4a144501862fd5669ccfe31.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yA411m7Dw",
+   "title": "casaxps导出文本数据的方法",
+   "pubdate": 1676272025,
+   "length": 105,
+   "view": 4348,
+   "pic": "https://i0.hdslb.com/bfs/archive/93fb8e89e04fc0353c5106bc14ed18c775286fc6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Kv4y1t7ad",
+   "title": "重磅 avantage开始支持各版本win11  公众号后台回复avantage下载安装包",
+   "pubdate": 1676131865,
+   "length": 10,
+   "view": 7384,
+   "pic": "https://i1.hdslb.com/bfs/archive/1c80dc2373c365a60af86e1aca45da041b951c7e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13M411Y7TV",
+   "title": "为什么avantage限制参数后不识别",
+   "pubdate": 1676088000,
+   "length": 167,
+   "view": 2905,
+   "pic": "https://i0.hdslb.com/bfs/archive/b8313fa61fe9c92792b85adcd8374323e86da7d4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13Y411D7oP",
+   "title": "一篇angew中铜化学态问题的分析2--俄歇参数",
+   "pubdate": 1675569600,
+   "length": 423,
+   "view": 3382,
+   "pic": "https://i1.hdslb.com/bfs/archive/30e3eedc60273dcb9daef43e38235e1cd68060c0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14G4y1M7Hu",
+   "title": "用一篇angew中xps数据来解释如何进行数据的校正",
+   "pubdate": 1675396800,
+   "length": 442,
+   "view": 3284,
+   "pic": "https://i2.hdslb.com/bfs/archive/4bfbffdf32776f98eb1b9cdeefb894df86d8f5a2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1f14y1P7bW",
+   "title": "Masshunter如何计算精确分子量和质荷比",
+   "pubdate": 1670904000,
+   "length": 352,
+   "view": 9185,
+   "pic": "https://i0.hdslb.com/bfs/archive/c97b1f8824b9660b1c92bbe6aa53bc88308914a2.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1Zv4y197oD",
+   "title": "为什么xps全谱是从结合能-5开始的",
+   "pubdate": 1670385300,
+   "length": 171,
+   "view": 1938,
+   "pic": "https://i2.hdslb.com/bfs/archive/04d78602b8e61afeaefb9339adcef1eae13c967b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1wM411z7Ue",
+   "title": "代谢产物分析中母体信息的查找",
+   "pubdate": 1670207700,
+   "length": 1075,
+   "view": 7587,
+   "pic": "https://i0.hdslb.com/bfs/archive/95f9425e8ae394e4db55f074f6e7b7000b806c70.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1xe4y1t7Z7",
+   "title": "Escape荷电校正两种办法",
+   "pubdate": 1667534400,
+   "length": 137,
+   "view": 2012,
+   "pic": "https://i1.hdslb.com/bfs/archive/6558d5b70a77ec3786fea284e57f2107f229e7fb.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ug411B7ne",
+   "title": "Escape如何导出文本格式的数据",
+   "pubdate": 1667211668,
+   "length": 317,
+   "view": 1932,
+   "pic": "https://i1.hdslb.com/bfs/archive/a6ca4f0aa6cbccf2a087932b8f044a5ccecd1c07.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1QW4y1E7gq",
+   "title": "escape如何更改谱峰的轨道信息",
+   "pubdate": 1666929600,
+   "length": 385,
+   "view": 1414,
+   "pic": "https://i0.hdslb.com/bfs/archive/9c3ec6781f6fffb245b681d2f442cfa4036fb54b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JR4y1Q71S",
+   "title": "escape双峰拟合基本操作",
+   "pubdate": 1666584000,
+   "length": 412,
+   "view": 2463,
+   "pic": "https://i1.hdslb.com/bfs/archive/2568cc28ebcfa3cfad9eadc84eaec255c21c0f8a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rG41177tc",
+   "title": "escape单峰拟合的基本操作",
+   "pubdate": 1666324800,
+   "length": 251,
+   "view": 2044,
+   "pic": "https://i1.hdslb.com/bfs/archive/b1ac55faed784269ad196faba6c10c9a913843ac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ut4y1M7RN",
+   "title": "Escape如何查询干扰元素",
+   "pubdate": 1666065600,
+   "length": 292,
+   "view": 1400,
+   "pic": "https://i2.hdslb.com/bfs/archive/b037f7758a10ccdd74378b9bc19627ad811c196a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV15G4y1p7QT",
+   "title": "avantage化学态评估功能",
+   "pubdate": 1665460800,
+   "length": 294,
+   "view": 5537,
+   "pic": "https://i2.hdslb.com/bfs/archive/5925ffba8188f60223025e86f3adbc941a025eba.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1RW4y1v7nW",
+   "title": "avantage谱峰查找功能",
+   "pubdate": 1664337600,
+   "length": 97,
+   "view": 3530,
+   "pic": "https://i2.hdslb.com/bfs/archive/5925ffba8188f60223025e86f3adbc941a025eba.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1G841147RE",
+   "title": "新版avantage挑bug-1-数据的打开",
+   "pubdate": 1664164800,
+   "length": 329,
+   "view": 2522,
+   "pic": "https://i2.hdslb.com/bfs/archive/e9723b6f78355ae8343d4ff2949baefc67b8a223.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ae411M7zK",
+   "title": "硒Se的avantage分峰拟合",
+   "pubdate": 1663905600,
+   "length": 403,
+   "view": 3924,
+   "pic": "https://i1.hdslb.com/bfs/archive/3df5d2128c082210c1c157b4328e3e30c13618d1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1UB4y1E7zF",
+   "title": "复杂钛谱图的拟合",
+   "pubdate": 1663732800,
+   "length": 368,
+   "view": 2641,
+   "pic": "https://i1.hdslb.com/bfs/archive/87b3c06a76295cf43d4a36fdde390566f97436d0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1W24y1d74V",
+   "title": "高浓度Ga镓对氮谱的影响",
+   "pubdate": 1663560000,
+   "length": 393,
+   "view": 1811,
+   "pic": "https://i0.hdslb.com/bfs/archive/c7c90b8d26a1f7019640828e4b65766ef1922cf9.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1oe4y1b72K",
+   "title": "刻蚀数据剥离的第二种简单办法",
+   "pubdate": 1663300800,
+   "length": 337,
+   "view": 2849,
+   "pic": "https://i1.hdslb.com/bfs/archive/4ce60891ec824bc67267c9dedb37833904784bf0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14P411G7PT",
+   "title": "参数传递功能在刻蚀数据化学态分析中的应用",
+   "pubdate": 1663128000,
+   "length": 272,
+   "view": 1687,
+   "pic": "https://i0.hdslb.com/bfs/archive/629fbbae52557f987a5e97a3f88f9c83e6f8fbf1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Wg411m7mm",
+   "title": "avantage如何传递峰位和参数限制",
+   "pubdate": 1663041600,
+   "length": 70,
+   "view": 5831,
+   "pic": "https://i0.hdslb.com/bfs/archive/475d125d19dd9cad2cd70e61603a2dbacd04a1cb.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1bK411f71z",
+   "title": "avantage坐标轴方向的调整",
+   "pubdate": 1662782400,
+   "length": 146,
+   "view": 5085,
+   "pic": "https://i2.hdslb.com/bfs/archive/1db9948ab55ed063197e379f3db1133a0b4ef201.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1jg411S7tm",
+   "title": "磷P分峰拟合",
+   "pubdate": 1662350400,
+   "length": 127,
+   "view": 3283,
+   "pic": "https://i2.hdslb.com/bfs/archive/0d0b419caa084f755d8f10690801d8b3166380a4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1ae4y1d7ei",
+   "title": "为什么建议选择smart模式创建基线",
+   "pubdate": 1662350400,
+   "length": 316,
+   "view": 3051,
+   "pic": "https://i2.hdslb.com/bfs/archive/bf92c57351bdad640123df9290bcc2f7942469b4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16W4y1t7G5",
+   "title": "氯的分峰拟合",
+   "pubdate": 1662091200,
+   "length": 100,
+   "view": 2405,
+   "pic": "https://i2.hdslb.com/bfs/archive/2c846c2ddbcbb1118c1b642cb1d4f277355c7b67.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1K14y1s7EF",
+   "title": "Ga镓的avantage分峰拟合",
+   "pubdate": 1661918400,
+   "length": 429,
+   "view": 2835,
+   "pic": "https://i0.hdslb.com/bfs/archive/dfd7a8d36afa8134a52c70e0c1be0891fdcd3af5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1St4y1E7K1",
+   "title": "半峰宽不能太大不能太小",
+   "pubdate": 1661745600,
+   "length": 422,
+   "view": 4704,
+   "pic": "https://i1.hdslb.com/bfs/archive/c74a1710b7c83e74ddc1cf89205c4bb241c527f9.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1aB4y1x7vd",
+   "title": "如何在avantage标注每个峰的化学态",
+   "pubdate": 1661486400,
+   "length": 161,
+   "view": 4343,
+   "pic": "https://i1.hdslb.com/bfs/archive/16ec4cb65f7772d8ce96e8f69b20d75b05446fcf.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16g411k7KZ",
+   "title": "Te碲元素分峰拟合-avantage",
+   "pubdate": 1660449600,
+   "length": 257,
+   "view": 2216,
+   "pic": "https://i1.hdslb.com/bfs/archive/20f7c0aca40381415b87d3baf5cb423e73533de1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1NV4y147WZ",
+   "title": "钡钴重叠案例分析-上",
+   "pubdate": 1660104000,
+   "length": 191,
+   "view": 1618,
+   "pic": "https://i1.hdslb.com/bfs/archive/4a1feda85d16207896a6549833e34df078f1792e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1CY4y1P7ZL",
+   "title": "avantage导出数据乱码问题的解决",
+   "pubdate": 1659585600,
+   "length": 385,
+   "view": 5907,
+   "pic": "https://i2.hdslb.com/bfs/archive/0c908b902a09990b0aac5487af928d3ba98c0d60.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV17T411j7do",
+   "title": "Rh铑分峰拟合（avantage）",
+   "pubdate": 1659067200,
+   "length": 220,
+   "view": 2295,
+   "pic": "https://i2.hdslb.com/bfs/archive/9cf91ec921d2cfd1395e3cd71d071756a2a40224.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1wd4y1D7Hp",
+   "title": "通过铜俄歇定量不同化学态的铜",
+   "pubdate": 1658894400,
+   "length": 217,
+   "view": 13411,
+   "pic": "https://i2.hdslb.com/bfs/archive/8053af4279dac6d82be9fd0659a68dcfbeadd30b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1DY4y1A7tH",
+   "title": "Cs铯被锰干扰时如何拟合（avantage）",
+   "pubdate": 1658721600,
+   "length": 237,
+   "view": 2480,
+   "pic": "https://i2.hdslb.com/bfs/archive/e245f3a4e61a6defed5af56192f8863f39d221c8.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1C34y1J7DY",
+   "title": "一个表征氧空位的例子",
+   "pubdate": 1658462400,
+   "length": 181,
+   "view": 29218,
+   "pic": "https://i1.hdslb.com/bfs/archive/928c9f06e921358597c190ff90f2ac545f471cea.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1jd4y1Q7Vk",
+   "title": "cif文件的下载--5-findit软件",
+   "pubdate": 1658289600,
+   "length": 166,
+   "view": 5957,
+   "pic": "https://i2.hdslb.com/bfs/archive/75ba68e46d9bcdb751db7c2f65677bc95366e953.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1sV4y1J74H",
+   "title": "xpspeak快速双峰拟合",
+   "pubdate": 1658116800,
+   "length": 209,
+   "view": 7900,
+   "pic": "https://i0.hdslb.com/bfs/archive/addc2c095b2799f54c2bcf195bc96306d4b6451f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EB4y1p7GL",
+   "title": "Hf的avantage分峰",
+   "pubdate": 1657857600,
+   "length": 342,
+   "view": 3701,
+   "pic": "https://i1.hdslb.com/bfs/archive/2f0356199545b3d600a896cac836262bd2a7439e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rt4y1b7m3",
+   "title": "xps表征氧空位的陷阱",
+   "pubdate": 1657771200,
+   "length": 202,
+   "view": 16511,
+   "pic": "https://i2.hdslb.com/bfs/archive/e098c092c8c5b9c7447cd07388cb48475c75b0db.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1CU4y1D7jG",
+   "title": "Cd镉avantage分峰的两种处理",
+   "pubdate": 1657598400,
+   "length": 255,
+   "view": 4346,
+   "pic": "https://i2.hdslb.com/bfs/archive/e41882d29525800ed8c9bcf5dac0e52fa5b26545.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1HW4y1U7GZ",
+   "title": "cif文件的下载--4-cod官网",
+   "pubdate": 1657252800,
+   "length": 143,
+   "view": 3632,
+   "pic": "https://i2.hdslb.com/bfs/archive/53ff89668c0d444344f574c01337c806bb4e1532.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1gr4y1u7mf",
+   "title": "cif文件的下载--3-ccdc官网",
+   "pubdate": 1657166400,
+   "length": 270,
+   "view": 4331,
+   "pic": "https://i0.hdslb.com/bfs/archive/1c5311169aa1b8881d21b65da62a12ffa91aa2b2.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1eB4y1W7cM",
+   "title": "cif文件的下载--2-ccdc软件",
+   "pubdate": 1656993600,
+   "length": 274,
+   "view": 3308,
+   "pic": "https://i0.hdslb.com/bfs/archive/1cc146efc70e978863ec35311fe4f7d5585da544.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1G34y1p7uW",
+   "title": "gsas-II精修的基本操作",
+   "pubdate": 1656648000,
+   "length": 540,
+   "view": 5798,
+   "pic": "https://i1.hdslb.com/bfs/archive/cc39eaf9d2781dd99542c34e2f35a61629342f0d.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV12T41137bi",
+   "title": "cif文件-1- materials project网站",
+   "pubdate": 1656561600,
+   "length": 446,
+   "view": 6651,
+   "pic": "https://i2.hdslb.com/bfs/archive/d12d5835e4bfd6334c643a9380ca61bf24b13eb8.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV16B4y1s7ug",
+   "title": "NlS非线性最小二乘法如何处理钯和锆元素的重叠",
+   "pubdate": 1656043200,
+   "length": 531,
+   "view": 1709,
+   "pic": "https://i0.hdslb.com/bfs/archive/4eb3bff66e5a3c62a7cbbd9dc8a28ae746ad0fac.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1XW4y167Kt",
+   "title": "CCDC2022年6月更新包下载与安装",
+   "pubdate": 1655697639,
+   "length": 227,
+   "view": 6575,
+   "pic": "https://i2.hdslb.com/bfs/archive/b974da65a6fb20fd6e373eb811b29d609fa05338.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV13S4y1i7Fi",
+   "title": "profex进行Rietveld精修的基本操作",
+   "pubdate": 1654833601,
+   "length": 559,
+   "view": 2872,
+   "pic": "https://i0.hdslb.com/bfs/archive/5d5f9f7717022de244df4565723c0eb55650af94.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1CA4y1o7mU",
+   "title": "avantage数据打开找不到系统路径怎么回事",
+   "pubdate": 1654660800,
+   "length": 241,
+   "view": 6307,
+   "pic": "https://i1.hdslb.com/bfs/archive/77aab6ef6d837ee08844201284b4e3d04b6318a0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV17S4y1z7Y4",
+   "title": "avantage如何生成元素随刻蚀深度变化的曲线",
+   "pubdate": 1653624000,
+   "length": 212,
+   "view": 2427,
+   "pic": "https://i2.hdslb.com/bfs/archive/0bc2b49c99c244333689122efbcecf170b5dc7bf.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1TT4y1q72N",
+   "title": "文本格式数据如何转换为spe格式",
+   "pubdate": 1653278437,
+   "length": 257,
+   "view": 1897,
+   "pic": "https://i0.hdslb.com/bfs/archive/5f2a937da9207069425a0c9338746fd3b4236539.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1cR4y1P7Z8",
+   "title": "一篇science的解读-2",
+   "pubdate": 1653019201,
+   "length": 176,
+   "view": 1808,
+   "pic": "https://i0.hdslb.com/bfs/archive/7632bd9a382460a45f4bdf408e9b5c0e0c726424.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1uS4y187YA",
+   "title": "一篇science的解读-1",
+   "pubdate": 1652760000,
+   "length": 293,
+   "view": 2090,
+   "pic": "https://i0.hdslb.com/bfs/archive/12d31bec84580caea55ae7d9275fa880bc29d358.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1cZ4y1a76m",
+   "title": "xps光电子发射过程介绍",
+   "pubdate": 1652414400,
+   "length": 126,
+   "view": 1009,
+   "pic": "https://i2.hdslb.com/bfs/archive/1a2b312dba8c33c58d52b75630250c3767367618.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1n34y1a7L1",
+   "title": "casaxps如何同时打开多个转格式的谱图",
+   "pubdate": 1651809600,
+   "length": 415,
+   "view": 3421,
+   "pic": "https://i0.hdslb.com/bfs/archive/857ca6e693d7955877eed55e62dfce0f11b5bdd0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1y34y1a7sU",
+   "title": "jade如何校正2theta角",
+   "pubdate": 1651550400,
+   "length": 318,
+   "view": 8932,
+   "pic": "https://i2.hdslb.com/bfs/archive/d677f422048985cff600368e23ce52344a8f4ed6.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1XR4y1N7x1",
+   "title": "同位素质谱元素分析仪燃烧管的填充和安装实操",
+   "pubdate": 1651204800,
+   "length": 928,
+   "view": 1435,
+   "pic": "https://i1.hdslb.com/bfs/archive/40f93529283911f546292a6ee122c34851919e3e.jpg",
+   "collections": [
+    "(恢复)",
+    "IRMS"
+   ],
+   "category": "other"
+  },
+  {
+   "bvid": "BV1B5411U7oz",
+   "title": "粉末解析晶体结构软件Endeavour基本操作",
+   "pubdate": 1649995200,
+   "length": 506,
+   "view": 2169,
+   "pic": "https://i2.hdslb.com/bfs/archive/0557e88d38dbf1fa80c68f959d13a2a63a58d8be.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1Pa411q7s6",
+   "title": "粉末解析晶体结构软件Endeavour的下载与安装",
+   "pubdate": 1649735700,
+   "length": 194,
+   "view": 786,
+   "pic": "https://i2.hdslb.com/bfs/archive/87db7b3f97f244813c948503f2967f68805054ac.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1UY4y1p7v8",
+   "title": "利用highscore截取相应的角度范围",
+   "pubdate": 1648785600,
+   "length": 162,
+   "view": 7592,
+   "pic": "https://i0.hdslb.com/bfs/archive/5715d1ffa0c026edada3ed71473978f4e2806966.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1ua411478a",
+   "title": "如何删除pdf中指定的页面",
+   "pubdate": 1648526400,
+   "length": 68,
+   "view": 2912,
+   "pic": "https://i0.hdslb.com/bfs/archive/75be269763c1d5c33400f3b503ecb87faca446af.jpg",
+   "collections": [
+    "(恢复)",
+    "IRMS"
+   ],
+   "category": "other"
+  },
+  {
+   "bvid": "BV1DT4y1v7hZ",
+   "title": "ccdc2022-3月份更新包安装与下载",
+   "pubdate": 1647921610,
+   "length": 173,
+   "view": 5408,
+   "pic": "https://i2.hdslb.com/bfs/archive/7bee74a1306b8e64f9ccb483a6a80fcd694e7561.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1BS4y1376V",
+   "title": "highscore如何导出数据点格式的精修数据",
+   "pubdate": 1647576002,
+   "length": 93,
+   "view": 7925,
+   "pic": "https://i0.hdslb.com/bfs/archive/4597704bc6f112cac76db04e4e8032ef18b33b1c.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1pF411471v",
+   "title": "highscore实用小工具介绍",
+   "pubdate": 1647316818,
+   "length": 295,
+   "view": 6388,
+   "pic": "https://i0.hdslb.com/bfs/archive/d067adedf876c9337b9d0da394b86af7341e20bd.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1oS4y1g7SD",
+   "title": "如何利用origin断点功能隐藏不需要的区域",
+   "pubdate": 1646971217,
+   "length": 294,
+   "view": 24547,
+   "pic": "https://i2.hdslb.com/bfs/archive/3915ae60da18b2d9501cee78d76b421527171a8d.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1r44y1M7vU",
+   "title": "断舍离 钡与钴谱峰的重叠",
+   "pubdate": 1646625607,
+   "length": 300,
+   "view": 1009,
+   "pic": "https://i1.hdslb.com/bfs/archive/535e8bb7f7f3fb07dc787eb8d8d8611b2e6c307b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JU4y1f76p",
+   "title": "为什么一价银比单质银稳定且结合能低",
+   "pubdate": 1646366410,
+   "length": 119,
+   "view": 1370,
+   "pic": "https://i1.hdslb.com/bfs/archive/22d49c3cccf520d6f2ee018df1c322fd5707996e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1p34115769",
+   "title": "化学态分析不能脱离全谱和其他信息有声版",
+   "pubdate": 1646023514,
+   "length": 392,
+   "view": 1788,
+   "pic": "https://i1.hdslb.com/bfs/archive/26a5b09f0d1ede458acc034e0e8c73d1ae97f517.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1T34y1y7UK",
+   "title": "拟合时半峰宽如何确定有声版",
+   "pubdate": 1645502402,
+   "length": 382,
+   "view": 4042,
+   "pic": "https://i2.hdslb.com/bfs/archive/444fd8bc4e73c2fce59434728fd1c26e2de6028a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1tS4y1r7Uw",
+   "title": "highscore精修后如何导出精修图",
+   "pubdate": 1645156804,
+   "length": 65,
+   "view": 7265,
+   "pic": "https://i0.hdslb.com/bfs/archive/bc2f6fa624098b14128d318a2d7b89a635542f56.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1tq4y1b7ft",
+   "title": "thermo镁靶的xps数据如何进行全谱分析2",
+   "pubdate": 1644551701,
+   "length": 163,
+   "view": 3150,
+   "pic": "https://i2.hdslb.com/bfs/archive/665ec640254b0986d42ea56a319b8552b6f4d890.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14R4y1j7fe",
+   "title": "thermo的镁靶xps数据如何进行全谱分析-1",
+   "pubdate": 1644292516,
+   "length": 187,
+   "view": 2684,
+   "pic": "https://i2.hdslb.com/bfs/archive/71610a997bbc34fa6791f8772400ad2baa88cfe0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Zr4y1a7xb",
+   "title": "xps各种谱线基本知识-xps谱图岁结合能升高台阶状的解释",
+   "pubdate": 1643774104,
+   "length": 183,
+   "view": 2541,
+   "pic": "https://i2.hdslb.com/bfs/archive/6e2bab4865c83cbdc9f6e3238dd89d22043a51a7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1oR4y1K7cJ",
+   "title": "如何通过ccdc客户端下载和查询晶体数据库",
+   "pubdate": 1642996519,
+   "length": 378,
+   "view": 12759,
+   "pic": "https://i0.hdslb.com/bfs/archive/ca56d9f429000ef799256739d2b6e780e54f3664.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1Rb4y1J7G5",
+   "title": "highscore如何校正xrd数据",
+   "pubdate": 1642737310,
+   "length": 187,
+   "view": 7546,
+   "pic": "https://i2.hdslb.com/bfs/archive/c5238a689daa75859a2f18236d427a49d744a37c.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV19S4y1j7NY",
+   "title": "批量提取分子式用于代谢产物分析",
+   "pubdate": 1642478108,
+   "length": 444,
+   "view": 3412,
+   "pic": "https://i0.hdslb.com/bfs/archive/f343ca691be2fdf5f41472fe1b6a685c99c1535d.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1AF411v7xA",
+   "title": "highscore如何快速寻峰检索物相",
+   "pubdate": 1641528009,
+   "length": 132,
+   "view": 10882,
+   "pic": "https://i1.hdslb.com/bfs/archive/e4476784d9f3986ae44fd1fc88ce85d4d4d528df.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1d34y1B7a2",
+   "title": "avantage一套数据的分析",
+   "pubdate": 1640664002,
+   "length": 433,
+   "view": 26082,
+   "pic": "https://i2.hdslb.com/bfs/archive/b40a794fe3fc44fa6e1025287ac48a87c2d7a3d5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Nu411S7RT",
+   "title": "如何下载文献中的cif文件-2",
+   "pubdate": 1640318411,
+   "length": 135,
+   "view": 5380,
+   "pic": "https://i2.hdslb.com/bfs/archive/0ae8c1655842411c7f1a9c7c33470bc6d89ec2cb.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1na411k74W",
+   "title": "如何下载文献中的cif-1",
+   "pubdate": 1640059201,
+   "length": 255,
+   "view": 4940,
+   "pic": "https://i1.hdslb.com/bfs/archive/c7e4be02e8907b607f7babbc90aa64b083516c76.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1V3411t7xy",
+   "title": "如何用jade对比单晶数据和粉末衍射数据",
+   "pubdate": 1639713607,
+   "length": 134,
+   "view": 4112,
+   "pic": "https://i2.hdslb.com/bfs/archive/5744ee6b6589d18a0799f4969937863bfcca43a4.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1J34y1X7RN",
+   "title": "荷电中和后的样品结合能如何计算",
+   "pubdate": 1639108806,
+   "length": 146,
+   "view": 15943,
+   "pic": "https://i0.hdslb.com/bfs/archive/1c5bdf796a68ee3f616db81649bfaf5d842073f1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1xQ4y1e75a",
+   "title": "Xps谱图随结合能升高谱图台阶状的解释",
+   "pubdate": 1638849617,
+   "length": 187,
+   "view": 2538,
+   "pic": "https://i0.hdslb.com/bfs/archive/618e3841cf689ada2f5a78993b41a3b4ca29a481.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11U4y1M7oQ",
+   "title": "Xps相关制样工具介绍",
+   "pubdate": 1637294411,
+   "length": 291,
+   "view": 2548,
+   "pic": "https://i0.hdslb.com/bfs/archive/a792cf36d2371e4a18325efdd4be0b21496e5174.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Zf4y1M7g4",
+   "title": "为什么大部分xps测试需要开中和枪，数据处理时需要荷电校正",
+   "pubdate": 1635739840,
+   "length": 192,
+   "view": 2817,
+   "pic": "https://i2.hdslb.com/bfs/archive/bfa9f64e80f0ef26a410ced8cc83a87c82590c52.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1W3411k7WW",
+   "title": "俄歇参数定义及其在化学态判断中的作用",
+   "pubdate": 1635393611,
+   "length": 413,
+   "view": 2293,
+   "pic": "https://i0.hdslb.com/bfs/archive/dc982652de9dab81f59dadddc66addd55c2f2f7e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1kF411e7F5",
+   "title": "Xps谱图的各种谱线解释1-俄歇峰的产生",
+   "pubdate": 1635134407,
+   "length": 155,
+   "view": 4974,
+   "pic": "https://i1.hdslb.com/bfs/archive/91efb8c0e940ac255059f8b21af95a27cbc28471.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Y34y1m7vk",
+   "title": "元素周期表在xps中的应用",
+   "pubdate": 1634875201,
+   "length": 197,
+   "view": 2837,
+   "pic": "https://i1.hdslb.com/bfs/archive/10d9f3edb8eaeee08800face18e2ab61f4d3176c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mq4y1975u",
+   "title": "查询结合能办法5-其他在线网站",
+   "pubdate": 1634616008,
+   "length": 133,
+   "view": 2388,
+   "pic": "https://i2.hdslb.com/bfs/archive/86487c50490bc1db612d0e4a1a72c1a0645ac9e2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11U4y1w76E",
+   "title": "查询结合能方法4-nist谱库使用",
+   "pubdate": 1634184015,
+   "length": 231,
+   "view": 6056,
+   "pic": "https://i1.hdslb.com/bfs/archive/784fbf0434bfbbcb7fb428eeca33b612aed6b267.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Lb4y1Y72t",
+   "title": "查询结合能方法3-avantage软件",
+   "pubdate": 1633924819,
+   "length": 497,
+   "view": 5017,
+   "pic": "https://i0.hdslb.com/bfs/archive/0c0e6f166e7e101756606f34a4adbc9de37081fa.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1dq4y1P7QQ",
+   "title": "查询结合能方法2-handbook使用",
+   "pubdate": 1633665600,
+   "length": 230,
+   "view": 3437,
+   "pic": "https://i2.hdslb.com/bfs/archive/eb02eec3a106227b61e7865e853ad81e4b32e378.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mr4y117Vg",
+   "title": "查询结合能方法1-thermo在线谱库",
+   "pubdate": 1633320015,
+   "length": 177,
+   "view": 2601,
+   "pic": "https://i1.hdslb.com/bfs/archive/dcfa3cd688c160eab85a9098eb0376f316bc768d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1d341127tH",
+   "title": "薄膜厚度测试的角分辨样品制备",
+   "pubdate": 1632975902,
+   "length": 121,
+   "view": 1670,
+   "pic": "https://i1.hdslb.com/bfs/archive/c8876b6706d79f62d50720a3036e1bd161fe70bd.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1sq4y1P7fj",
+   "title": "Ups样品放样操作",
+   "pubdate": 1632721905,
+   "length": 281,
+   "view": 2311,
+   "pic": "https://i2.hdslb.com/bfs/archive/107917761a19af3a0457d89e4e280dfb84725941.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16g411c7Hf",
+   "title": "液体样品xps制备操作",
+   "pubdate": 1632456007,
+   "length": 273,
+   "view": 3912,
+   "pic": "https://i2.hdslb.com/bfs/archive/0981c3a1f793b5591dcb6e607e386e77930b5bd7.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1YL411t7Be",
+   "title": "Xps微量样品送样建议操作",
+   "pubdate": 1631765406,
+   "length": 210,
+   "view": 4596,
+   "pic": "https://i2.hdslb.com/bfs/archive/ebcf398f9c4bd15ba741ae75ed022c3de63feb0e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JL4y1h7BS",
+   "title": "multipak查询谱库方法2",
+   "pubdate": 1631166738,
+   "length": 102,
+   "view": 3806,
+   "pic": "https://i2.hdslb.com/bfs/archive/07df5b64688fd6594e51dd28a56e3f491cf95c45.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV123411i72R",
+   "title": "casaxps如何查询干扰元素",
+   "pubdate": 1630986816,
+   "length": 109,
+   "view": 1676,
+   "pic": "https://i0.hdslb.com/bfs/archive/2785c6499ba0c554569ffbefe65d06bb026cba75.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1xQ4y117Dc",
+   "title": "xpspeak拟合W钨的基本操作",
+   "pubdate": 1630487589,
+   "length": 369,
+   "view": 5746,
+   "pic": "https://i2.hdslb.com/bfs/archive/09e20e990e6991fd58ca9cdd5d6579c34530a25e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1uh411q76y",
+   "title": "钨的分峰拟合（avantage法）",
+   "pubdate": 1629686788,
+   "length": 345,
+   "view": 10015,
+   "pic": "https://i2.hdslb.com/bfs/archive/26e909fa01e389e5548f0c8ff6bd7b6eb0539407.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Mq4y1M7zq",
+   "title": "Xps制样直播之各种样品如何制样",
+   "pubdate": 1629345316,
+   "length": 519,
+   "view": 4327,
+   "pic": "https://i2.hdslb.com/bfs/archive/ecaae35a216939f6565d7e72c3f4ea2568be3038.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1db4y1z7Fq",
+   "title": "avantage定量公式",
+   "pubdate": 1628477289,
+   "length": 167,
+   "view": 6030,
+   "pic": "https://i0.hdslb.com/bfs/archive/f0abff69e65f15d496523bff66d24ed5b9597518.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1MU4y1H75a",
+   "title": "xpspeak如何进行数据校正",
+   "pubdate": 1627611616,
+   "length": 317,
+   "view": 9796,
+   "pic": "https://i2.hdslb.com/bfs/archive/bc00f55d3b349d1848d938e926c549a20f75619e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1qq4y1W73s",
+   "title": "multipak如何查询谱库（视频）",
+   "pubdate": 1626843614,
+   "length": 291,
+   "view": 5104,
+   "pic": "https://i2.hdslb.com/bfs/archive/1047e873d375783bc648f98021551e0e3a467657.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1By4y1T74P",
+   "title": "xps灵敏度因子查询的几种办法",
+   "pubdate": 1626678055,
+   "length": 279,
+   "view": 4058,
+   "pic": "https://i1.hdslb.com/bfs/archive/85a1481f0085b612cac631ac6a61d90d01c6102c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11v411H7e4",
+   "title": "一个有机化合物的单晶解析",
+   "pubdate": 1625546103,
+   "length": 540,
+   "view": 8904,
+   "pic": "https://i0.hdslb.com/bfs/archive/6cd23ad4f5a0c5b8b5db7ac462f8c5d2c866db81.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1HB4y1T7gX",
+   "title": "casaxps如何查询谱库",
+   "pubdate": 1625455764,
+   "length": 226,
+   "view": 2689,
+   "pic": "https://i0.hdslb.com/bfs/archive/2d6e26600a3d38c6ddc1fbea650f5c1039a0f35b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Hh411Y7Tt",
+   "title": "avantage如何正确快速打开谱库",
+   "pubdate": 1624973416,
+   "length": 59,
+   "view": 7694,
+   "pic": "https://i0.hdslb.com/bfs/archive/f4aaec9102f3a6f11556275ea7e328bba676e9e0.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1mf4y1t7ab",
+   "title": "avantage如何正确的删除积分(绿线) (1)",
+   "pubdate": 1624865560,
+   "length": 42,
+   "view": 9242,
+   "pic": "https://i2.hdslb.com/bfs/archive/9991a6de54d9ad268091710c6ec86c7effe11251.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1c64y197fx",
+   "title": "avantage荷电校正数值设置",
+   "pubdate": 1624323792,
+   "length": 85,
+   "view": 9809,
+   "pic": "https://i2.hdslb.com/bfs/archive/ae40e7aab9687b7f139216257b6aad7e5bbfb478.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vM4y1u7ty",
+   "title": "avantage如何调整谱图显示",
+   "pubdate": 1624025406,
+   "length": 86,
+   "view": 5272,
+   "pic": "https://i1.hdslb.com/bfs/archive/88b442c04c894f1139b16055f6ffeb8575915b35.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1XQ4y197cy",
+   "title": "casaxps如何固定参数",
+   "pubdate": 1623811033,
+   "length": 123,
+   "view": 5346,
+   "pic": "https://i2.hdslb.com/bfs/archive/915cb79b5997d98bbdb732b2a1eb3f0281f3b453.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1P64y1C7hC",
+   "title": "origin填充谱图的万能办法",
+   "pubdate": 1623208216,
+   "length": 397,
+   "view": 28145,
+   "pic": "https://i0.hdslb.com/bfs/archive/0fcb5a9d98141e33b3bd2c28fbc95f0885cb41c1.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV12b4y1Z7Jo",
+   "title": "文本格式数据如何转换为spe格式",
+   "pubdate": 1623029035,
+   "length": 257,
+   "view": 3600,
+   "pic": "https://i0.hdslb.com/bfs/archive/6100bd374f89de962e7a18faf26ee893947bf99b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1A64y1R7Fs",
+   "title": "avantage如何查询测试参数",
+   "pubdate": 1622685600,
+   "length": 134,
+   "view": 4108,
+   "pic": "https://i2.hdslb.com/bfs/archive/cb2654af0a6638fdc68d2b2f7bd87a1bb6e07469.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1864y1k77t",
+   "title": "xpspeak拟合镍的基本操作",
+   "pubdate": 1622165406,
+   "length": 343,
+   "view": 10106,
+   "pic": "https://i2.hdslb.com/bfs/archive/69717848fe1af20354c46999f9e5aef89a480b43.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1SB4y1F7da",
+   "title": "如何查询特定元素特定轨道的双峰差值",
+   "pubdate": 1621470076,
+   "length": 224,
+   "view": 2602,
+   "pic": "https://i1.hdslb.com/bfs/archive/b4deccce93584e6c875a7e2982187f396fa2d942.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1V64y1y7JC",
+   "title": "avantage如何撤回操作或删除积分",
+   "pubdate": 1621219691,
+   "length": 130,
+   "view": 28888,
+   "pic": "https://i0.hdslb.com/bfs/archive/6f4de776679f9db9c74b84fbf20e9a223db2b897.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV14A411G74J",
+   "title": "casaxps手动标峰的基本操作",
+   "pubdate": 1620792311,
+   "length": 200,
+   "view": 4845,
+   "pic": "https://i1.hdslb.com/bfs/archive/7180f866d0fcf900246a8660e9326340318fa95a.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1h54y1575C",
+   "title": "avantage如何手动添加峰以及识别干扰元素（有声版）",
+   "pubdate": 1620356220,
+   "length": 261,
+   "view": 11046,
+   "pic": "https://i0.hdslb.com/bfs/archive/789cea694d134d18ed84e2fc2713a9d7b12fbfb4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ho4y127U3",
+   "title": "avantage如何手动添加峰以及识别干扰元素",
+   "pubdate": 1620273876,
+   "length": 326,
+   "view": 9340,
+   "pic": "https://i1.hdslb.com/bfs/archive/525d797c50c060d70316e4d63473c1f4ecbe0107.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Wy4y1s7nZ",
+   "title": "xpspeak导出拟合参数的两种办法",
+   "pubdate": 1619485455,
+   "length": 149,
+   "view": 6908,
+   "pic": "https://i1.hdslb.com/bfs/archive/c6ed934d1284afd7557bcd9773528cc66c9fc95f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1J54y1b7A2",
+   "title": "数据点格式数据如何用avantage双峰拟合",
+   "pubdate": 1618545302,
+   "length": 380,
+   "view": 5405,
+   "pic": "https://i1.hdslb.com/bfs/archive/caf564bcf9a19f224f635e815c05b7905fe1872e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1bK4y1K781",
+   "title": "avantage如何显示含量比",
+   "pubdate": 1618449793,
+   "length": 170,
+   "view": 37989,
+   "pic": "https://i1.hdslb.com/bfs/archive/3b5830830a168136f0f204e072d71605bc2e0462.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1KK4y1n79S",
+   "title": "Ti分峰拟合(avantage)",
+   "pubdate": 1615190571,
+   "length": 324,
+   "view": 20955,
+   "pic": "https://i1.hdslb.com/bfs/archive/968e203446c94ca85a4643541f1d302b44341588.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1EK4y1D7VD",
+   "title": "jade基本操作8-校正峰位",
+   "pubdate": 1615173912,
+   "length": 294,
+   "view": 15057,
+   "pic": "https://i0.hdslb.com/bfs/archive/665640dfade319c95b64bffea3f4d042d1a9cc9d.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1GV411h7dy",
+   "title": "jade基本操作7-删除峰",
+   "pubdate": 1607676672,
+   "length": 148,
+   "view": 14042,
+   "pic": "https://i2.hdslb.com/bfs/archive/dcee0e0d11151ce506d76e74e3acf47e2dc3abc6.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV18i4y1G7nD",
+   "title": "origin双峰拟合的基本操作",
+   "pubdate": 1592705411,
+   "length": 696,
+   "view": 15151,
+   "pic": "https://i0.hdslb.com/bfs/archive/390dc9cd9ae0b122dca2a1c32617c067a360decb.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1D5411W7bv",
+   "title": "origin单峰拟合的基本操作",
+   "pubdate": 1592622624,
+   "length": 552,
+   "view": 11399,
+   "pic": "https://i1.hdslb.com/bfs/archive/5a90aa670a3bd722b8092ab187890325f1b9c0e7.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1bz411e7zC",
+   "title": "origin填充曲线避免基线上扬",
+   "pubdate": 1592449430,
+   "length": 223,
+   "view": 8427,
+   "pic": "https://i2.hdslb.com/bfs/archive/2356f9f9cad35f2916265de60a3edfb6a6283729.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1XV411C7he",
+   "title": "avantage如何切换中英文",
+   "pubdate": 1592190303,
+   "length": 125,
+   "view": 30259,
+   "pic": "https://i2.hdslb.com/bfs/archive/07563ae372aa63d13a948b3067919e807ee41f1c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Ag4y1q7bm",
+   "title": "olex2如何计算孔洞率",
+   "pubdate": 1591603551,
+   "length": 187,
+   "view": 3797,
+   "pic": "https://i0.hdslb.com/bfs/archive/6c5cf4cda32e922235f4408cbaa85d9fb4ef61ab.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1mi4y1s7su",
+   "title": "xps分峰拟合时结合能位置如何选择，双峰之间的关系的限定",
+   "pubdate": 1591491947,
+   "length": 523,
+   "view": 16817,
+   "pic": "https://i1.hdslb.com/bfs/archive/3b1c9c0222c7356524f13ce7a5aba2944598d226.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1TK411p7Uy",
+   "title": "avantage格式vgd如何快速转化为avg格式用于casaxps分析",
+   "pubdate": 1591079798,
+   "length": 261,
+   "view": 9885,
+   "pic": "https://i2.hdslb.com/bfs/archive/5f6a5b92ed3423ec008fe435ff9e164f7f2b5b50.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1yT4y1u7oA",
+   "title": "olex2如何绘制pei-pei堆积图",
+   "pubdate": 1590862547,
+   "length": 451,
+   "view": 3480,
+   "pic": "https://i2.hdslb.com/bfs/archive/de56ec7278aef27783bd4900543e2fa4f53e3890.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1Fz4y1972G",
+   "title": "xpspeak拟合xps谱图的基本操作",
+   "pubdate": 1590375614,
+   "length": 775,
+   "view": 95082,
+   "pic": "https://i1.hdslb.com/bfs/archive/a10cb346484b7a74628550f995b5e579e9483cbd.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16t4y1C7oW",
+   "title": "五种xps拟合软件avantage xpspeak casaxps peakfit origin优缺点比较",
+   "pubdate": 1590203403,
+   "length": 1132,
+   "view": 22868,
+   "pic": "https://i2.hdslb.com/bfs/archive/ac46d634921594efe21b9d87d8a2494f060f8c49.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1Kg4y167kT",
+   "title": "masslynx质谱软件安装和基本操作",
+   "pubdate": 1589083226,
+   "length": 511,
+   "view": 53501,
+   "pic": "https://i1.hdslb.com/bfs/archive/f905bf13bd7ec3c92a6e4ef63ed2eccefe1b288d.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1Ja4y1i728",
+   "title": "如何用origin拉平xps曲线的基线",
+   "pubdate": 1588651256,
+   "length": 257,
+   "view": 32996,
+   "pic": "https://i0.hdslb.com/bfs/archive/7365a58bff9c4d8fc6a068b6d92b6ada5206ec18.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1Ki4y1b7Dp",
+   "title": "origin如何调平基线方法2",
+   "pubdate": 1588392057,
+   "length": 247,
+   "view": 15602,
+   "pic": "https://i0.hdslb.com/bfs/archive/fe187e4041d1ccdcdffeaf2faf3d4148406bf122.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1Lp4y197P6",
+   "title": "jade如何调平XRD谱图基线",
+   "pubdate": 1588219245,
+   "length": 173,
+   "view": 52550,
+   "pic": "https://i2.hdslb.com/bfs/archive/6b62186176dc8cdcd7ebfb712fd977fdd25d51e8.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1ZA411b7Zs",
+   "title": "avantage拟合硫以及归属",
+   "pubdate": 1587878327,
+   "length": 298,
+   "view": 13748,
+   "pic": "https://i1.hdslb.com/bfs/archive/36627161fdd814393391ce39803d66fbf4319fc2.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV15k4y1R7vn",
+   "title": "如何用高分辨质谱软件peakview模拟二级碎片",
+   "pubdate": 1587543587,
+   "length": 271,
+   "view": 9459,
+   "pic": "https://i2.hdslb.com/bfs/archive/3d31e017fe5ff50941a0ce4cbaab44232ef69ade.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1DA411877o",
+   "title": "科普-单晶绝对构型的判定",
+   "pubdate": 1586750441,
+   "length": 256,
+   "view": 6547,
+   "pic": "https://i1.hdslb.com/bfs/archive/f03b322d445d5a4ed39ec39de96129f6de96d52b.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1pi4y1b7d6",
+   "title": "office不兼容时avantage如何导出拟合数据和参数",
+   "pubdate": 1586577635,
+   "length": 240,
+   "view": 16882,
+   "pic": "https://i2.hdslb.com/bfs/archive/eedba4f930d6454cbecb7d02d5464966ddba30df.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1pZ4y1j7y7",
+   "title": "高分辨质谱软件peakview如何计算峰的信噪比、积分面积等",
+   "pubdate": 1586404827,
+   "length": 139,
+   "view": 10655,
+   "pic": "https://i0.hdslb.com/bfs/archive/c1b7d00d5d3d2a4783958fbf8ca720886dcca79c.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1ck4y1o7q3",
+   "title": "xpspeak基线参数选择",
+   "pubdate": 1585886420,
+   "length": 371,
+   "view": 20045,
+   "pic": "https://i2.hdslb.com/bfs/archive/bbfacf49dd5087f2585d13de16a0f378eeb50615.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV13E411A7ZG",
+   "title": "科普-查询XPS结合能的6种方式（重新录制）",
+   "pubdate": 1585195244,
+   "length": 534,
+   "view": 17135,
+   "pic": "https://i0.hdslb.com/bfs/archive/5dfd3f65224705e134bc3bcd92e20772dc25096f.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1PE411A7Lr",
+   "title": "origin堆叠图的添加和删除",
+   "pubdate": 1584702240,
+   "length": 232,
+   "view": 13647,
+   "pic": "https://i0.hdslb.com/bfs/archive/290080d9474b1040b10df73c2f3a7e6930a147dd.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV11E41157gt",
+   "title": "科普-origin绘制双Y轴箱线图",
+   "pubdate": 1584333603,
+   "length": 206,
+   "view": 13419,
+   "pic": "https://i0.hdslb.com/bfs/archive/b19bc5fb19952c031b6c3aeb558b35b2fd969715.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1cE411p7Dj",
+   "title": "olex2解析晶体举例7（有机物）",
+   "pubdate": 1584072041,
+   "length": 416,
+   "view": 6903,
+   "pic": "https://i2.hdslb.com/bfs/archive/90d97d412977c2f044b4c09e422d8305f2eae2af.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1FE411T7x5",
+   "title": "avantage分峰拟合注意事项 先分峰后拟合",
+   "pubdate": 1583849735,
+   "length": 473,
+   "view": 68372,
+   "pic": "https://i0.hdslb.com/bfs/archive/957bbc195491f9537c561a432d6d6cfa262f676c.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1cE411p7BW",
+   "title": "olex2解析晶体举例6",
+   "pubdate": 1583726439,
+   "length": 233,
+   "view": 5241,
+   "pic": "https://i2.hdslb.com/bfs/archive/8846a7c328b37c8eb77cb291a2e298bd5e3440a5.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1cE411p7rx",
+   "title": "olex2解析晶体举例5",
+   "pubdate": 1583640017,
+   "length": 520,
+   "view": 6151,
+   "pic": "https://i2.hdslb.com/bfs/archive/fcee76c9bf7e726e194897b3bcade4ddd035c05c.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV13E41147HL",
+   "title": "origin如何绘制双Y轴堆积条形图",
+   "pubdate": 1583550003,
+   "length": 206,
+   "view": 8866,
+   "pic": "https://i2.hdslb.com/bfs/archive/3d399d50ce7f5aa72a70faaeb27eedd2360fdca6.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV13E41147Uc",
+   "title": "origin如何绘制双Y轴图",
+   "pubdate": 1583313249,
+   "length": 168,
+   "view": 11029,
+   "pic": "https://i1.hdslb.com/bfs/archive/f321b6e58a85277b5b0f611c3099089ce27a86cb.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1i7411N79B",
+   "title": "avantage转excel格式特殊情况处理",
+   "pubdate": 1583190005,
+   "length": 225,
+   "view": 15663,
+   "pic": "https://i1.hdslb.com/bfs/archive/38243a7e55b7e2ff5a32e1b97a2bc5309bc5f1ad.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1a7411N7kh",
+   "title": "olex2解析单晶示例4（上）",
+   "pubdate": 1583103638,
+   "length": 437,
+   "view": 6916,
+   "pic": "https://i2.hdslb.com/bfs/archive/af20e2d707716200a714910c2bfb73de4d82341d.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1q7411N7My",
+   "title": "如何用avantage软件绘制元素含量随刻蚀深度变化的曲线图",
+   "pubdate": 1582870642,
+   "length": 267,
+   "view": 19160,
+   "pic": "https://i1.hdslb.com/bfs/archive/e49c7e08a7536c77f776a7d4d0490d02ed4b52eb.jpg",
+   "collections": [
+    "(恢复)",
+    "xps"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1S7411i7ma",
+   "title": "科普-xpspeak41软件分峰拟合的基本操作（以钼为例）",
+   "pubdate": 1580511632,
+   "length": 293,
+   "view": 15867,
+   "pic": "https://i0.hdslb.com/bfs/archive/8ead13a9ee7019540e87f88b0d7c487cd0d5efb1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV11J41177hF",
+   "title": "olex2水分子加氢的问题",
+   "pubdate": 1580425231,
+   "length": 372,
+   "view": 5963,
+   "pic": "https://i1.hdslb.com/bfs/archive/a249c03a38ef91c8b104ca025616fd049ac1ea1c.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1NJ411n7d7",
+   "title": "olex2解析配合物举例3",
+   "pubdate": 1580338801,
+   "length": 238,
+   "view": 5644,
+   "pic": "https://i2.hdslb.com/bfs/archive/d052a232460ae3080632c0c15e616e8016313081.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1MJ411n7QW",
+   "title": "olex2无序处理步骤",
+   "pubdate": 1579906858,
+   "length": 602,
+   "view": 13632,
+   "pic": "https://i0.hdslb.com/bfs/archive/10a44bb9bb3bb664fc5431a73591ae32e3a8d7c0.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1WJ411V7Cb",
+   "title": "科普-xps数据从测试到画图操作流程",
+   "pubdate": 1579820426,
+   "length": 327,
+   "view": 15239,
+   "pic": "https://i0.hdslb.com/bfs/archive/34e9deb184de0a3d842a354265143a0ec9118097.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1CJ411G7da",
+   "title": "olex2消除AB警告举例",
+   "pubdate": 1579474819,
+   "length": 786,
+   "view": 7756,
+   "pic": "https://i2.hdslb.com/bfs/archive/eada189323111256b38d0ba6ee99ad2c642f923d.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1AJ411H7TZ",
+   "title": "olex2加氢的技巧",
+   "pubdate": 1578956449,
+   "length": 770,
+   "view": 9700,
+   "pic": "https://i1.hdslb.com/bfs/archive/0709f7a465c94813ac6279aba4a73053f0e421a3.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1WJ41157tQ",
+   "title": "科普-olex2解析单晶数据的基本操作",
+   "pubdate": 1578697208,
+   "length": 728,
+   "view": 65084,
+   "pic": "https://i2.hdslb.com/bfs/archive/a54f6a9453d2f74b1a3761c080e742b2538c75ba.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1HJ41177V9",
+   "title": "科普-avantage软件的基本操作",
+   "pubdate": 1578351606,
+   "length": 1485,
+   "view": 66573,
+   "pic": "https://i0.hdslb.com/bfs/archive/2404f3ba68ac043b9b3181763280a9c2e0994cd7.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV15J41187pk",
+   "title": "origin如何实现曲线的颜色填充",
+   "pubdate": 1578265247,
+   "length": 204,
+   "view": 46877,
+   "pic": "https://i2.hdslb.com/bfs/archive/9908e6b15affcef42ebd897e63222b4bc6dbc289.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1JJ4118776",
+   "title": "origin实现曲线的放大镜功能",
+   "pubdate": 1578178855,
+   "length": 420,
+   "view": 9246,
+   "pic": "https://i0.hdslb.com/bfs/archive/263f48996fc1a2004621c7f9aca171c88c49044f.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1JJ4118775",
+   "title": "科普-xps定量公式释疑（公式中各参数数值的查找和物理意义）",
+   "pubdate": 1578092431,
+   "length": 468,
+   "view": 10871,
+   "pic": "https://i2.hdslb.com/bfs/archive/86cd33b93c4094fc26d227f1ddd184206da0801a.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1JJ41187nT",
+   "title": "科普-银单质和银离子的XPS谱图释疑",
+   "pubdate": 1578006054,
+   "length": 252,
+   "view": 13952,
+   "pic": "https://i0.hdslb.com/bfs/archive/db9a61a2077bc4ba0ed636cce696f8ff3564cdde.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1kJ411a7Tf",
+   "title": "如何在origin中加上下标",
+   "pubdate": 1577746849,
+   "length": 283,
+   "view": 36679,
+   "pic": "https://i1.hdslb.com/bfs/archive/389aa0204ad97cb6a763e07f6f4555ef2ef1b28d.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1vJ411e7pc",
+   "title": "科普-avantage如何查询仪器采集的参数",
+   "pubdate": 1577660431,
+   "length": 229,
+   "view": 10008,
+   "pic": "https://i1.hdslb.com/bfs/archive/741793fe585bea1c5ed032321f09056838f40ba5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1vJ411e7xw",
+   "title": "如何用origin对XPS能谱层叠达到压缩版面的目的",
+   "pubdate": 1577588416,
+   "length": 483,
+   "view": 15286,
+   "pic": "https://i1.hdslb.com/bfs/archive/95e4ceb3f8c92144831b75b472921f06238af783.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1AJ411x76D",
+   "title": "origin如何实现对局部弱峰谱图的放大",
+   "pubdate": 1577228454,
+   "length": 398,
+   "view": 32767,
+   "pic": "https://i0.hdslb.com/bfs/archive/73b5010c95659a1d5022b18a4539a3324cf14968.jpg",
+   "collections": [
+    "(恢复)",
+    "origin"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1CJ41147Rq",
+   "title": "如何用origin制作类似3D柱状图的二维柱状图",
+   "pubdate": 1577142053,
+   "length": 284,
+   "view": 20070,
+   "pic": "https://i1.hdslb.com/bfs/archive/23bfb8ca4e825114b48b92a0a2d05cdbf5e2d943.jpg",
+   "collections": [
+    "(恢复)",
+    "origin",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1TJ411b7sa",
+   "title": "科普-5个常用的查询xps元素结合能的方式",
+   "pubdate": 1577055608,
+   "length": 396,
+   "view": 35958,
+   "pic": "https://i1.hdslb.com/bfs/archive/6ca158190dcde7c6338e1390dee3b320f8889286.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱",
+    "xpspeak",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1gJ411b7ym",
+   "title": "如何对xps全谱或精细谱数据进行比较、转换数据、用orgin绘制三维图",
+   "pubdate": 1576969239,
+   "length": 513,
+   "view": 17213,
+   "pic": "https://i0.hdslb.com/bfs/archive/204bbf2573f2a2f8063b9183c54f939bd8aca952.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "xpspeak",
+    "casaXPS",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV13J411b7FK",
+   "title": "如何用origin软件绘制三维效果图",
+   "pubdate": 1576882831,
+   "length": 209,
+   "view": 44613,
+   "pic": "https://i2.hdslb.com/bfs/archive/7c79f181d265dfc329e2d14aadab65a73215efd7.jpg",
+   "collections": [
+    "(恢复)",
+    "origin",
+    "多晶衍射\\粉末衍射",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1XJ41147Ur",
+   "title": "如何用avantage分析全谱数据并标峰",
+   "pubdate": 1576796414,
+   "length": 216,
+   "view": 43028,
+   "pic": "https://i0.hdslb.com/bfs/archive/f704426861775e49167f616c724800c27fd3803e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1XJ41147Cf",
+   "title": "如何用avantage实现堆叠效果",
+   "pubdate": 1576710048,
+   "length": 258,
+   "view": 9534,
+   "pic": "https://i0.hdslb.com/bfs/archive/3bf52fcd93f8e7b84172f47edd7717f5d94d292d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1dJ41167dp",
+   "title": "如何用origin绘制堆叠效果图",
+   "pubdate": 1576623628,
+   "length": 335,
+   "view": 47937,
+   "pic": "https://i2.hdslb.com/bfs/archive/954c54173145699f9d5991f6058816b6d276de08.jpg",
+   "collections": [
+    "(恢复)",
+    "origin",
+    "多晶衍射\\粉末衍射",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1gJ41167tk",
+   "title": "科普-casaXPS，xpspeak41，avantage三种xps分峰软件的优缺点和比较",
+   "pubdate": 1576537254,
+   "length": 709,
+   "view": 24879,
+   "pic": "https://i0.hdslb.com/bfs/archive/863b8346db6e1a2765ee7f99b876ca1cdd932065.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱",
+    "xpspeak",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1dJ411r7Ta",
+   "title": "科普-高分辨质谱软件peakview的基本操作",
+   "pubdate": 1576450822,
+   "length": 463,
+   "view": 21676,
+   "pic": "https://i2.hdslb.com/bfs/archive/79c64a34cb329b6a13281c91d50fced9978d8066.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1BJ411C7RK",
+   "title": "casaXPS导出数据注意事项 and origin画图注意事项",
+   "pubdate": 1576219301,
+   "length": 236,
+   "view": 20019,
+   "pic": "https://i1.hdslb.com/bfs/archive/b7a67b2fd51b837195857fea824815b7cd369fd9.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "其他",
+    "casaXPS",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1CJ411k7Rb",
+   "title": "科普-如何用origin对做好的图进行调色",
+   "pubdate": 1576110068,
+   "length": 320,
+   "view": 19449,
+   "pic": "https://i0.hdslb.com/bfs/archive/9e754e825c6bf43516cc3c2dd1d0c6e99e4ba77c.jpg",
+   "collections": [
+    "(恢复)",
+    "origin",
+    "XPS光电子能谱",
+    "绘图"
+   ],
+   "category": "dataplot"
+  },
+  {
+   "bvid": "BV1wJ411B7r2",
+   "title": "科普-如何通过ups谱图得到HOS, 1st HOMO ,2nd HOMO Ef cut-off",
+   "pubdate": 1575673206,
+   "length": 200,
+   "view": 8619,
+   "pic": "https://i2.hdslb.com/bfs/archive/6deea44ea600efc89689d461d0836bc55a6b801c.jpg",
+   "collections": [
+    "(恢复)",
+    "ups",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1FJ411B7ap",
+   "title": "如何用银标样的UPS数据校正样品的数据",
+   "pubdate": 1575586805,
+   "length": 192,
+   "view": 6977,
+   "pic": "https://i1.hdslb.com/bfs/archive/d242508193702a57f5dd30712d1da0b9e5c0a15b.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1CJ411z72m",
+   "title": "科普-如何方便快捷的更改物理地址",
+   "pubdate": 1575414003,
+   "length": 190,
+   "view": 4206,
+   "pic": "https://i0.hdslb.com/bfs/archive/18b6cea83ee35a0cc9c0ba64ac9ff50eed86c3c7.jpg",
+   "collections": [
+    "(恢复)",
+    "其他"
+   ],
+   "category": "other"
+  },
+  {
+   "bvid": "BV1XJ411Q7X2",
+   "title": "科普-高分辨质谱软件sciex os常用功能介绍与使用技巧",
+   "pubdate": 1575327659,
+   "length": 544,
+   "view": 13070,
+   "pic": "https://i1.hdslb.com/bfs/archive/369cbf6e904b9f18bf7fc4f12271a59ef41b2061.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1vJ411X7d6",
+   "title": "科普--钴的xps图2，3，4价释疑",
+   "pubdate": 1575068408,
+   "length": 163,
+   "view": 33125,
+   "pic": "https://i2.hdslb.com/bfs/archive/371a21b76a75347ad8b8c2996ef7d142b7a262d0.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱",
+    "xpspeak",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1VJ411X7se",
+   "title": "科普-如何用casaXPS对XPS谱图进行双峰拟合(以ag为例)",
+   "pubdate": 1574982345,
+   "length": 898,
+   "view": 22348,
+   "pic": "https://i2.hdslb.com/bfs/archive/098b42990d22f264195252b6b2ad19846b692214.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1VJ411X7j3",
+   "title": "科普-如何用casaXPS对XPS谱图进行碳C校正",
+   "pubdate": 1574895940,
+   "length": 228,
+   "view": 25418,
+   "pic": "https://i2.hdslb.com/bfs/archive/11f301fe68bfd55e00ef9ce90f11cc290069414f.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1BJ411d7Vp",
+   "title": "科普--质谱分析中的TIC XIC BPC的概念与区别",
+   "pubdate": 1574730043,
+   "length": 335,
+   "view": 14656,
+   "pic": "https://i1.hdslb.com/bfs/archive/739854cdf1004c5bf32a3ea11e64628455e7e4df.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1iJ411d7Z2",
+   "title": "如何用sicex os对高分辨数据进行定量分析和未知物筛查",
+   "pubdate": 1574636443,
+   "length": 819,
+   "view": 9100,
+   "pic": "https://i0.hdslb.com/bfs/archive/3350ee3168948e1509d1da770dd3761ab35fa66c.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1xJ411d7RD",
+   "title": "如何用MetabolitePilot软件进行代谢产物分析和鉴定（下）",
+   "pubdate": 1574564428,
+   "length": 323,
+   "view": 4172,
+   "pic": "https://i1.hdslb.com/bfs/archive/f796fb3a08532d46292bf238ac55b8c820c1a57b.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1eJ411d7yM",
+   "title": "如何用MetabolitePilot软件进行代谢产物分析和鉴定（上）",
+   "pubdate": 1574484219,
+   "length": 868,
+   "view": 9584,
+   "pic": "https://i1.hdslb.com/bfs/archive/8c93b119587179515c1599e0d8a49357b9b11292.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1NJ411d7Zo",
+   "title": "科普-如何安装高分辨质谱软件sciex os 和MetabolitePilot",
+   "pubdate": 1574428973,
+   "length": 777,
+   "view": 9113,
+   "pic": "https://i0.hdslb.com/bfs/archive/956da2e2d98001cf9b330c68b694785bc910d03d.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV12J411m757",
+   "title": "avantage碳校正补充说明2（校正后位置不变的解决办法）",
+   "pubdate": 1574204732,
+   "length": 155,
+   "view": 10182,
+   "pic": "https://i0.hdslb.com/bfs/archive/a81953b5387fdc76a2786e7900bb54825d3c7980.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV12J411m7tR",
+   "title": "用jade软件计算晶粒尺寸方法2",
+   "pubdate": 1574150308,
+   "length": 248,
+   "view": 40472,
+   "pic": "https://i1.hdslb.com/bfs/archive/a523222a892f96aebb22471ccfd05351c3f14ab5.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1kJ411D7NL",
+   "title": "avantage数据库调出",
+   "pubdate": 1573950635,
+   "length": 94,
+   "view": 10858,
+   "pic": "https://i0.hdslb.com/bfs/archive/77a51eb585e4b3cbac9f3c94583fbd74acf8a726.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1rJ411D79r",
+   "title": "用avantage进行碳元素C校正的补充说明",
+   "pubdate": 1573867236,
+   "length": 138,
+   "view": 24119,
+   "pic": "https://i0.hdslb.com/bfs/archive/20bd50b403ed09868d1e241dd37331a66eaf7e5b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16J411D7Jn",
+   "title": "科普-用casaXPS分析XPS数据的基本操作",
+   "pubdate": 1573809320,
+   "length": 997,
+   "view": 143107,
+   "pic": "https://i2.hdslb.com/bfs/archive/857adce0310edc5130bdff1618d4064fd3404c6a.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1tE411q7qy",
+   "title": "科普-xps分峰拟合时结合能位置如何选择，双峰之间的关系的限定",
+   "pubdate": 1573269009,
+   "length": 493,
+   "view": 49474,
+   "pic": "https://i2.hdslb.com/bfs/archive/23bad4eb645b2b596c100f443c2790990c296781.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1AE411B7ct",
+   "title": "科普-如何将avantage软件采集的VGP格式数据快捷转换成casaXPS可以识别的AVG格式",
+   "pubdate": 1572922827,
+   "length": 211,
+   "view": 13510,
+   "pic": "https://i0.hdslb.com/bfs/archive/f556629ea4e6e534fd1c157ffab8baf72cf7aef4.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱",
+    "casaXPS"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1wE411B7Ci",
+   "title": "科普-如何用jade软件计算结晶化度（多峰分离法）",
+   "pubdate": 1572909629,
+   "length": 171,
+   "view": 26867,
+   "pic": "https://i2.hdslb.com/bfs/archive/074188aa649ddbb5ef27c4df247a58193d44752c.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1ZE411q7LC",
+   "title": "xpspeak41软件怎么对碳元素C进行矫正和分峰拟合",
+   "pubdate": 1572850691,
+   "length": 453,
+   "view": 48540,
+   "pic": "https://i2.hdslb.com/bfs/archive/ffdcf078729102773bcc789c5bed05bbc2c2672e.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1iE41187JD",
+   "title": "用xpspeak41软件对氮元素N分峰拟合",
+   "pubdate": 1572739855,
+   "length": 213,
+   "view": 21443,
+   "pic": "https://i1.hdslb.com/bfs/archive/98dfda99926d922f1855a5fc6bcaea63d8c6afe5.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1iE41187bB",
+   "title": "用avantage软件对氮元素N进行分峰拟合",
+   "pubdate": 1572654029,
+   "length": 205,
+   "view": 27612,
+   "pic": "https://i1.hdslb.com/bfs/archive/1d3b1328c813651306c852893f1733c649222b02.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1eE41187hu",
+   "title": "科普-highscore软件进行物相鉴定",
+   "pubdate": 1572612024,
+   "length": 241,
+   "view": 16055,
+   "pic": "https://i2.hdslb.com/bfs/archive/3671077a5fe2926b68ed295c650a0ca116004092.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1DE411b7Hy",
+   "title": "科普-如何用jade软件进行物相鉴定，搜索谱库",
+   "pubdate": 1572512744,
+   "length": 168,
+   "view": 20691,
+   "pic": "https://i2.hdslb.com/bfs/archive/413235422fbfc302ab94d7de3f532f4ee17d3b2f.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1DE411b76P",
+   "title": "怎么用jade软件计算晶粒尺寸",
+   "pubdate": 1572497834,
+   "length": 157,
+   "view": 58961,
+   "pic": "https://i1.hdslb.com/bfs/archive/fed4e069f17c18a8342d65a3f72bfb9af1243b42.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1fE411h7Mt",
+   "title": "科普-xps数据从测试到画图操作流程",
+   "pubdate": 1572412706,
+   "length": 321,
+   "view": 13789,
+   "pic": "https://i1.hdslb.com/bfs/archive/8b57567aaa9f787c6cde8582df692246e287c5dd.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1KE411y7Zu",
+   "title": "科普-如何查询ccdc数据库",
+   "pubdate": 1571353801,
+   "length": 185,
+   "view": 15310,
+   "pic": "https://i1.hdslb.com/bfs/archive/602cc30008ed9448879c4b5656383f0bb4cf4448.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1CE411C7Yo",
+   "title": "xpspeak软件对铁元素Fe进行分峰拟合",
+   "pubdate": 1571233138,
+   "length": 12,
+   "view": 31364,
+   "pic": "https://i0.hdslb.com/bfs/archive/23088cc238579ebab6c1028a42da98a26176ccc7.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1GE411o7VC",
+   "title": "avantage软件如何进行碳的分峰拟合以及校正",
+   "pubdate": 1571120540,
+   "length": 204,
+   "view": 64655,
+   "pic": "https://i1.hdslb.com/bfs/archive/3d4c442f3c9b1150b79b3d2e979fcaae46df5b30.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1dE411f7Cb",
+   "title": "利用avantage软件对xps谱图元素进行半定量分析",
+   "pubdate": 1570687568,
+   "length": 327,
+   "view": 87731,
+   "pic": "https://i2.hdslb.com/bfs/archive/4b5febf0e3776380c452980216103204c82e883b.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1iJ411w77j",
+   "title": "利用XPSPEAK41软件对Mo进行分峰拟合",
+   "pubdate": 1568789569,
+   "length": 287,
+   "view": 16082,
+   "pic": "https://i1.hdslb.com/bfs/archive/2bde5020bd85ab58a6e3b62c9e56d046b80141ba.jpg",
+   "collections": [
+    "(恢复)",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1DJ411c7pF",
+   "title": "利用avantage软件快速校正ups数据并计算功函数",
+   "pubdate": 1568627161,
+   "length": 409,
+   "view": 46283,
+   "pic": "https://i1.hdslb.com/bfs/archive/253e760ed61259743226d182ba73edbbc67bd7d2.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1YJ411P7Yf",
+   "title": "科普-如何上传单晶数据到CCDC数据库",
+   "pubdate": 1568292815,
+   "length": 432,
+   "view": 12514,
+   "pic": "https://i1.hdslb.com/bfs/archive/475a44c7d8e5e710c9580a5e353013f158e77971.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1CJ411K7i6",
+   "title": "olex2解单晶AB警告消除2",
+   "pubdate": 1568184244,
+   "length": 780,
+   "view": 8564,
+   "pic": "https://i2.hdslb.com/bfs/archive/aa186d23433a0cbe7426c6c71dacf6b8fb5864b0.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1JJ411K7U2",
+   "title": "科普-俄歇、价态谱(xps和ups模式)测试的基本操作",
+   "pubdate": 1568115709,
+   "length": 309,
+   "view": 9650,
+   "pic": "https://i2.hdslb.com/bfs/archive/59d458d350e79d2f47d611993e7e38121c8137fc.jpg",
+   "collections": [
+    "(恢复)",
+    "ups",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV16J411N79Q",
+   "title": "科普-xpspeak41软件拟合xps复杂谱图的基本操作（以Ce铈为例）",
+   "pubdate": 1568011683,
+   "length": 354,
+   "view": 40538,
+   "pic": "https://i0.hdslb.com/bfs/archive/a99d0bdd9d624dd84fce1097ecbf13aafba50178.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "XPS光电子能谱",
+    "xpspeak"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1o4411y7nH",
+   "title": "avantage软件对复杂谱图进行非线性最小二乘法拟合基本操作",
+   "pubdate": 1567772964,
+   "length": 665,
+   "view": 9952,
+   "pic": "https://i2.hdslb.com/bfs/archive/8911b946221b6e287b71b9dcc6539309bdbbb0cd.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1X4411C7Jm",
+   "title": "光电子能谱xps软件avantage快速处理UPS数据",
+   "pubdate": 1567583038,
+   "length": 313,
+   "view": 25016,
+   "pic": "https://i1.hdslb.com/bfs/archive/82d9ee0982fb85c309d85d533a51f3dc216061cd.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1D441117UV",
+   "title": "高分辨质谱一级二级数据提取和注意事项",
+   "pubdate": 1567490092,
+   "length": 613,
+   "view": 33181,
+   "pic": "https://i1.hdslb.com/bfs/archive/eac547d023b24a6bd6c7a7bf02abedd568aa319d.jpg",
+   "collections": [
+    "(恢复)",
+    "高分辨质谱"
+   ],
+   "category": "hrms"
+  },
+  {
+   "bvid": "BV1E441117Ju",
+   "title": "科普-光电子能谱xps软件avantage基本操作",
+   "pubdate": 1567404833,
+   "length": 641,
+   "view": 20037,
+   "pic": "https://i2.hdslb.com/bfs/archive/537f269b4660b5453fd75e9f9006a5b7578628a1.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1b4411m77Z",
+   "title": "olex2解配合物晶体实例3",
+   "pubdate": 1567383050,
+   "length": 1736,
+   "view": 9236,
+   "pic": "https://i1.hdslb.com/bfs/archive/7b275afebc3d61ed978bfcac3fa1dd5d67af9a62.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶衍射",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1H4411m72m",
+   "title": "OLEX2解配合物实例2（1）",
+   "pubdate": 1567311733,
+   "length": 1225,
+   "view": 3817,
+   "pic": "https://i2.hdslb.com/bfs/archive/27fad4e91caba0315ea9b70ad47977665924eec0.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1U441197FS",
+   "title": "科普-利用DIAMOND软件绘制ortep椭球图",
+   "pubdate": 1566468384,
+   "length": 403,
+   "view": 10032,
+   "pic": "https://i0.hdslb.com/bfs/archive/fbe8141fc73df2a855158b727ab4edbca5d3676b.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  },
+  {
+   "bvid": "BV1v4411d7nJ",
+   "title": "科普-XRD数据转换小工具使用说明",
+   "pubdate": 1566386523,
+   "length": 300,
+   "view": 18590,
+   "pic": "https://i1.hdslb.com/bfs/archive/efdf57d1ab3e1cfb7c8bd335f9c3b823b2e9145b.jpg",
+   "collections": [
+    "(恢复)",
+    "粉末衍射",
+    "多晶衍射\\粉末衍射"
+   ],
+   "category": "xrd-powder"
+  },
+  {
+   "bvid": "BV1F4411d7F8",
+   "title": "利用光电子能谱xps软件avantage处理ups数据",
+   "pubdate": 1566311174,
+   "length": 272,
+   "view": 20907,
+   "pic": "https://i0.hdslb.com/bfs/archive/fc65e9cded8729f07e08eea2c3c7ec06fc3d6cd6.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1T4411S7yV",
+   "title": "光电子能谱xps软件avantage 处理刻蚀数据",
+   "pubdate": 1565939174,
+   "length": 288,
+   "view": 10019,
+   "pic": "https://i2.hdslb.com/bfs/archive/2bd0a227fb5c752fccf563c7dc3a72df51c7ad8d.jpg",
+   "collections": [
+    "(恢复)",
+    "xps",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1t4411U7Nr",
+   "title": "科普-光电子能谱xps软件avantage基本操作",
+   "pubdate": 1565859982,
+   "length": 1689,
+   "view": 271527,
+   "pic": "https://i2.hdslb.com/bfs/archive/b4293e4df41a9638b9f518394326131ce30fd7bc.jpg",
+   "collections": [
+    "(恢复)",
+    "avantage",
+    "XPS光电子能谱"
+   ],
+   "category": "xps"
+  },
+  {
+   "bvid": "BV1V4411U7fj",
+   "title": "科普-OLEX2的基本操作",
+   "pubdate": 1565829922,
+   "length": 927,
+   "view": 32100,
+   "pic": "https://i2.hdslb.com/bfs/archive/dd4b209d2a308d7994f134e5d3b85561cae77567.jpg",
+   "collections": [
+    "(恢复)",
+    "单晶解析"
+   ],
+   "category": "scxrd"
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "account": "单晶多晶衍射分部",
+ "articles": [
+  {
+   "title": "粉末衍射操作-样品台高度",
+   "link": "https://mp.weixin.qq.com/s/CGK0ZQf8lhJb1vCXC4eMnQ",
+   "cover": "",
+   "create_time": 1778688000,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "jade如何转换不同靶材的数据",
+   "link": "https://mp.weixin.qq.com/s/pVLa6IdXBT4zz3Uyf_DoqA",
+   "cover": "",
+   "create_time": 1758988800,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "氢键与电荷的问题2",
+   "link": "https://mp.weixin.qq.com/s/x8me3oHYE8jcIBgMbsueSg",
+   "cover": "",
+   "create_time": 1757779200,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "孪晶拆分后的高R1&wR2的数据解析以及其它问题",
+   "link": "https://mp.weixin.qq.com/s/G_GmZtBfgEPbLcjOGIesFQ",
+   "cover": "",
+   "create_time": 1755360000,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "金属原子附近残余峰的消除-无序",
+   "link": "https://mp.weixin.qq.com/s/hb_Pz2P66-EMVEBqVUVRDw",
+   "cover": "",
+   "create_time": 1754150400,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "如何拆分合并的多组xrd数据-Highscore",
+   "link": "https://mp.weixin.qq.com/s/1Eev7IFIjsUCYy-TBaSUoQ",
+   "cover": "",
+   "create_time": 1753545600,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "olex2不能添加键的解决方案",
+   "link": "https://mp.weixin.qq.com/s/tMy_VnW5n2G6hy0Z-Z3q8Q",
+   "cover": "",
+   "create_time": 1752940800,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "残余峰消除",
+   "link": "https://mp.weixin.qq.com/s/N1KjcwtyrHtJwXnmlI43Aw",
+   "cover": "",
+   "create_time": 1751731200,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "手性化合物Friedel对太少的问题",
+   "link": "https://mp.weixin.qq.com/s/RHUDGxVfML-FzFAQzPWoeA",
+   "cover": "",
+   "create_time": 1751126400,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "未知片段的确认",
+   "link": "https://mp.weixin.qq.com/s/o5QSe7GeapCFfiQH7RU9sw",
+   "cover": "",
+   "create_time": 1750003200,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "如何拆分合并的多组xrd数据-EVA",
+   "link": "https://mp.weixin.qq.com/s/rtn5AvxYIZAKLpDpoUyLnw",
+   "cover": "",
+   "create_time": 1748188800,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "高强度模式和高分辨模式应用-2",
+   "link": "https://mp.weixin.qq.com/s/AdCYC3C45p9Br4VXzcExBw",
+   "cover": "",
+   "create_time": 1746979200,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "氢键与电荷问题",
+   "link": "https://mp.weixin.qq.com/s/6YfeRyz7amZ0gfOxYq1H5g",
+   "cover": "",
+   "create_time": 1745769600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "精修后绝对构型信息消失",
+   "link": "https://mp.weixin.qq.com/s/XP1D6PQzK4fSCT4ZK5ntpg",
+   "cover": "",
+   "create_time": 1743264000,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "多晶衍射高强度和高分辨率的选择",
+   "link": "https://mp.weixin.qq.com/s/NiT-ksNOPUBUKmQEoSy7_g",
+   "cover": "",
+   "create_time": 1742659200,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "升空间群+孪晶处理\n原创\n已修改",
+   "link": "https://mp.weixin.qq.com/s/MY_F3JirBpmZkKPYQtH99g",
+   "cover": "",
+   "create_time": 1741449600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "olex2中shift为什么是黑色的",
+   "link": "https://mp.weixin.qq.com/s/lkdXLfsPYjB0dR75T0boQw",
+   "cover": "",
+   "create_time": 1730649600,
+   "c": "scxrd",
+   "y": "p"
+  },
+  {
+   "title": "highscore导入ISCD数据库",
+   "link": "https://mp.weixin.qq.com/s/zXV1pIz9K-qMfLqi_QPv8A",
+   "cover": "",
+   "create_time": 1712678400,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "文本格式的xrd如何转为EVA软件可以分析的格式",
+   "link": "https://mp.weixin.qq.com/s/K7ZxSm4FuLx0Ifh6dzkNiA",
+   "cover": "",
+   "create_time": 1711209600,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "ccdc2023.3更新教程",
+   "link": "https://mp.weixin.qq.com/s/Un_AqleXbxKdIJFDOsxcJQ",
+   "cover": "",
+   "create_time": 1700323200,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "特殊粉末数据文本格式的导出",
+   "link": "https://mp.weixin.qq.com/s/iTYtuNtzEytViJelswYsHA",
+   "cover": "",
+   "create_time": 1697731200,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "晶体学软件ccdc2023.2安装/升级教程",
+   "link": "https://mp.weixin.qq.com/s/0calabidqYFPg4V8ZUVB5A",
+   "cover": "",
+   "create_time": 1690473600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "晶体学软件ccdc2023.1安装教程",
+   "link": "https://mp.weixin.qq.com/s/4HzbI4eSxBnNRgM5NL0mNA",
+   "cover": "",
+   "create_time": 1682870400,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "search-match物相分析软件安装教程",
+   "link": "https://mp.weixin.qq.com/s/Xw-ZHBNFjksgmbz48SmDYw",
+   "cover": "",
+   "create_time": 1681660800,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "间隔时间连续扫描采集谱图",
+   "link": "https://mp.weixin.qq.com/s/kmsOG7on7nfmDRHUkgBHww",
+   "cover": "",
+   "create_time": 1680537600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "Finalcif软件的安装",
+   "link": "https://mp.weixin.qq.com/s/OuXxLDWkek60Tfh1Nm5BSQ",
+   "cover": "",
+   "create_time": 1680105600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "software protection",
+   "link": "https://mp.weixin.qq.com/s/xZ7fb6lMTmf_2ggYuSCT6A",
+   "cover": "",
+   "create_time": 1679932800,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "数据没保存不要慌，两种办法解决",
+   "link": "https://mp.weixin.qq.com/s/9b_zqwRZZZSRdhEy1K30xQ",
+   "cover": "",
+   "create_time": 1678204800,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "CCDC2022.3版本更新教程",
+   "link": "https://mp.weixin.qq.com/s/nhcP2XqWnqanHqTSzdWneA",
+   "cover": "",
+   "create_time": 1671552000,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "ccdc2022版11月数据库更新包安装教程",
+   "link": "https://mp.weixin.qq.com/s/CfU3-yuH5UtFMfbJPf2n1Q",
+   "cover": "",
+   "create_time": 1670774400,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "粉末衍射数据定性定量软件match!2.2安装教程",
+   "link": "https://mp.weixin.qq.com/s/OOSZpxKk3ewx1hQd1qXmLQ",
+   "cover": "",
+   "create_time": 1670342400,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-18-标准谱图更改波长的方法2",
+   "link": "https://mp.weixin.qq.com/s/NBtxeubKkM2PWkmHU0h5bA",
+   "cover": "",
+   "create_time": 1666022400,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-17-画图（放大局部小衍射峰的两种办法、叠加、差值图）",
+   "link": "https://mp.weixin.qq.com/s/XhMiMHpuVRfW_pNTtM65sQ",
+   "cover": "",
+   "create_time": 1665417600,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-16-半定量分析",
+   "link": "https://mp.weixin.qq.com/s/mhqxAUCxCJj6FjaVuyllgA",
+   "cover": "",
+   "create_time": 1665331200,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-15-如何更改标准卡片的计算波长",
+   "link": "https://mp.weixin.qq.com/s/B-WKyS-x9knW5hKYxO4mWQ",
+   "cover": "",
+   "create_time": 1665244800,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-14-如何删除异常峰",
+   "link": "https://mp.weixin.qq.com/s/82xNaMctg4Yg5zfrkhHe2w",
+   "cover": "",
+   "create_time": 1664726400,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-13-已知物相自建数据库",
+   "link": "https://mp.weixin.qq.com/s/awGNWtTntrpfLCsbyRUkHw",
+   "cover": "",
+   "create_time": 1664640000,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-12-新物相自建数据库",
+   "link": "https://mp.weixin.qq.com/s/piQu-YxRR0tUs4vpgGTfQg",
+   "cover": "",
+   "create_time": 1664553600,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-11-自建数据库",
+   "link": "https://mp.weixin.qq.com/s/XK6Ix4sZJRLEJ_9wxcHZjA",
+   "cover": "",
+   "create_time": 1664467200,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "ccdc2022.2 9月份数据库升级包安装与下载",
+   "link": "https://mp.weixin.qq.com/s/vWhh4Rti7uakzgzMSyfM0g",
+   "cover": "",
+   "create_time": 1664208000,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "ccdc2022.2安装教程",
+   "link": "https://mp.weixin.qq.com/merchant/mppaysubscribe?action=go_paid_article&article_url=http%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzg3MjgxNzIzOA%3D%3D%26tempkey%3DMTQwMF9KYnExTG4rUVBYaHJtVUdaak8tMXU2UFlmY3pzVFhhRW9RM2RNZDRXQ0g4U0JtUm5pY2lkTFQ4SmpVM3NXVnRaMWxhQXJFekZkbW16ZEV2Um5vdXNLRzduVXZiS2JLMW13aVp3X19pbXVTYS1BeXFWU09NOEpFYnZkbHowQzVUazhvSWU4eW9KcW9ubUZFeWVVYVNOZ183QTJxVlk0Z0YxeEVVMkNRfn4%253D%26chksm%3Dcee83482f99fbd94dc60e70c1530858ba00c3e17176b53dde4b38e9dd2065125aa988f4815a1%23rd&token=533412659",
+   "cover": "",
+   "create_time": 1662652800,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "如何找回未及时保存的测试数据",
+   "link": "https://mp.weixin.qq.com/s/HTasNITwf_9_btKEeOkWHw",
+   "cover": "",
+   "create_time": 1662048000,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-2-COD2016数据库的安装和导入\n付费",
+   "link": "https://mp.weixin.qq.com/merchant/mppaysubscribe?action=go_paid_article&article_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FjIdUNS45CqFMALaVpbmIDQ&token=533412659",
+   "cover": "",
+   "create_time": 1661702400,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "Bruker AXS Diffrac.EVA V4.2.1软件使用-1-安装教程\n付费",
+   "link": "https://mp.weixin.qq.com/merchant/mppaysubscribe?action=go_paid_article&article_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FJmBDht62twIk-ThOLuLCLQ&token=533412659",
+   "cover": "",
+   "create_time": 1661097600,
+   "c": "xrd-powder",
+   "y": "s"
+  },
+  {
+   "title": "highscore如何导入ICSD数据库",
+   "link": "https://mp.weixin.qq.com/s/V3vForaW1XAFijCVEPNt6w",
+   "cover": "",
+   "create_time": 1660320000,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "cif文件的下载--5-finit软件",
+   "link": "https://mp.weixin.qq.com/s/H71g37M7wD9_7zYy0yPhRQ",
+   "cover": "",
+   "create_time": 1656604800,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "cif文件的下载--4-cod官网",
+   "link": "https://mp.weixin.qq.com/s/WtNlrzhOKaNMQYV0UPImKA",
+   "cover": "",
+   "create_time": 1656518400,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "mp中crystal toolkit使用",
+   "link": "https://mp.weixin.qq.com/s/410y4QGyRTdV9DCV-FEcIg",
+   "cover": "",
+   "create_time": 1656432000,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "晶面间距计算-1-diamond",
+   "link": "https://mp.weixin.qq.com/s/msI36SSYWH9GWUTOBt90AQ",
+   "cover": "",
+   "create_time": 1656259200,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "cif文件的下载--3-ccdc官网",
+   "link": "https://mp.weixin.qq.com/s/AJDCNx1KXwu63gM1ZEp7Ow",
+   "cover": "",
+   "create_time": 1656172800,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "cif文件的下载--2-ccdc软件",
+   "link": "https://mp.weixin.qq.com/s/Eg1qXf-ZCCxSH7Zu1D2uKg",
+   "cover": "",
+   "create_time": 1656086400,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "cif文件的下载--1-materials project",
+   "link": "https://mp.weixin.qq.com/s/QJft1hUbQAOMJqS7ylv-Sw",
+   "cover": "",
+   "create_time": 1655913600,
+   "c": "scxrd",
+   "y": "a"
+  },
+  {
+   "title": "沉浸式gsas-II精修",
+   "link": "https://mp.weixin.qq.com/s/r7G2TvLvbC_wIMP7-NEP8A",
+   "cover": "",
+   "create_time": 1655827200,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "GSAS-II精修的基本操作",
+   "link": "https://mp.weixin.qq.com/s/ujrm5DQ9dyZgH7vLHhYz7g",
+   "cover": "",
+   "create_time": 1655740800,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法9-match!3",
+   "link": "https://mp.weixin.qq.com/s/FEWS6l2m_ID-cXe5a9GAMA",
+   "cover": "",
+   "create_time": 1655481600,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "CCDC2022年6月更新包下载与安装",
+   "link": "https://mp.weixin.qq.com/s/fi3GJAyTdOlvT16I-ITeng",
+   "cover": "",
+   "create_time": 1655308800,
+   "c": "scxrd",
+   "y": "s"
+  },
+  {
+   "title": "模拟XRD谱图的方法8-profex",
+   "link": "https://mp.weixin.qq.com/s/i9BjTflULL3c7-yK6ZvPRA",
+   "cover": "",
+   "create_time": 1655222400,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法7-Materials Studio",
+   "link": "https://mp.weixin.qq.com/s/r2XJQprEvV8otH4AYeMjow",
+   "cover": "",
+   "create_time": 1655136000,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法6-materials project",
+   "link": "https://mp.weixin.qq.com/s/lpZLl8WksAG0ep4P8ZzjEA",
+   "cover": "",
+   "create_time": 1655049600,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "多晶/粉末衍射仪水冷机维护之换水和滤芯",
+   "link": "https://mp.weixin.qq.com/s/FHt1FED7kHqr2DvNtXg5mg",
+   "cover": "",
+   "create_time": 1654963200,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法5-reciprOgraph(免安装)",
+   "link": "https://mp.weixin.qq.com/s/JrPkmkB5XKU2h6U1tuGYkQ",
+   "cover": "",
+   "create_time": 1654790400,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法4-highscore",
+   "link": "https://mp.weixin.qq.com/s/IxkLBj9r8v-mKVyKI7j10g",
+   "cover": "",
+   "create_time": 1654790400,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法3-mercury",
+   "link": "https://mp.weixin.qq.com/s/JlFHuZQSsoqlEXjfEgvpMQ",
+   "cover": "",
+   "create_time": 1654531200,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法2-diamond",
+   "link": "https://mp.weixin.qq.com/s/H8sg0HJQvELlWBYcs-k9lw",
+   "cover": "",
+   "create_time": 1654444800,
+   "c": "xrd-powder",
+   "y": "a"
+  },
+  {
+   "title": "模拟XRD谱图的方法1-vesta",
+   "link": "https://mp.weixin.qq.com/s/M6CGOX_M2CCihNsU4YtdXA",
+   "cover": "",
+   "create_time": 1654358400,
+   "c": "xrd-powder",
+   "y": "a"
+  }
+ ]
+}
