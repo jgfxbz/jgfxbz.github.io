@@ -257,20 +257,33 @@
       return isLitPage ? (a.y === "lit" || a.c === "general") : a.c === page;
     });
     var aType = "all", aShown = 18, aSrc = "all";
-    /* 来源筛选 chips：按当前板块实际出现的公众号动态生成 */
+    /* 来源筛选 chips：按当前板块实际出现的公众号动态生成（语言切换时重建） */
     var srcChipsEl = document.getElementById("asrc-chips");
-    if (srcChipsEl) {
+    var buildSrcChips = function () {
+      if (!srcChipsEl) return;
       var srcs = [];
       catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
       if (srcs.length > 1) {
-        var srcShort = { "结构分析表征": "主号", "光电子能谱分部": "XPS分部", "单晶多晶衍射分部": "衍射分部" };
+        var srcShort = {
+          "结构分析表征": { zh: "主号", en: "Main" },
+          "光电子能谱分部": { zh: "XPS分部", en: "XPS" },
+          "单晶多晶衍射分部": { zh: "衍射分部", en: "XRD" }
+        };
+        var srcLabel = function (s) {
+          var o = srcShort[s];
+          return o ? (lang === "en" ? o.en : o.zh) : s;
+        };
         var chipsHtml = '<button class="chip active" data-asrc="all">' + t("chip.srcAll") + '</button>';
         srcs.forEach(function (sname) {
-          chipsHtml += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcShort[sname] || sname) + "</button>";
+          chipsHtml += '<button class="chip" data-asrc="' + esc(sname) + '">' + esc(srcLabel(sname)) + "</button>";
         });
         srcChipsEl.innerHTML = chipsHtml;
         srcChipsEl.style.display = "";
-        srcChipsEl.addEventListener("click", function (e) {
+        /* 语言切换重建后，保持当前选中的来源 */
+        srcChipsEl.querySelectorAll(".chip").forEach(function (c) {
+          c.classList.toggle("active", (c.getAttribute("data-asrc") || "all") === aSrc);
+        });
+        srcChipsEl.onclick = function (e) {
           var chip = e.target.closest(".chip");
           if (!chip) return;
           srcChipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
@@ -278,10 +291,15 @@
           aSrc = chip.getAttribute("data-asrc") || "all";
           aShown = 18;
           renderArticles();
-        });
+        };
       } else {
         srcChipsEl.style.display = "none";
       }
+    };
+    if (srcChipsEl) {
+      var srcs = [];
+      catArticles.forEach(function (a) { if (a.s && srcs.indexOf(a.s) < 0) srcs.push(a.s); });
+      buildSrcChips();
       /* URL ?src= 参数：从矩阵页等入口进入时自动选中对应来源 */
       try {
         var qsrc = new URLSearchParams(location.search).get("src");
@@ -328,6 +346,7 @@
   function rerenderDynamic() {
     rerenderLatest();
     rerenderCat();
+    if (typeof buildSrcChips === "function") buildSrcChips();
     rerenderArticles();
     rerenderSearch();
   }
