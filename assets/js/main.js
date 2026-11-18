@@ -100,7 +100,7 @@
     var pic = a.p ? '<img class="v-thumb" loading="lazy" src="' + esc(a.p) + '" alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : "";
     var srcCls = a.s === "光电子能谱分部" ? " src-xps" : a.s === "单晶多晶衍射分部" ? " src-xrd" : " src-main";
     var rel = "";
-    if (withRelated) {
+    if (withRelated && a.rel) {
       var rels = relatedVideos(a);
       if (rels.length) {
         rel = '<div class="v-rel">' + esc(lang === "en" ? "▶ Related videos" : "▶ 相关视频") + "：";
@@ -396,7 +396,20 @@
       return t2.slice(0, 18);
     }
 
-    var aType = "all", aShown = 18, aSrc = "all", aSub = "all", aYear = "all", aView = "list", aKw = "";
+    var aType = "all", aShown = 18, aSrc = "all", aSub = "all", aYear = "all", aView = "list", aKw = "", aSort = "new";
+    /* 文章排序 chips（最新在前 / 最早在前） */
+    var asortChipsEl = document.getElementById("asort-chips");
+    if (asortChipsEl) {
+      asortChipsEl.addEventListener("click", function (e) {
+        var chip = e.target.closest(".chip");
+        if (!chip) return;
+        asortChipsEl.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("active"); });
+        chip.classList.add("active");
+        aSort = chip.getAttribute("data-asort") || "new";
+        aShown = 18;
+        renderArticles();
+      });
+    }
 
     /* 来源筛选 chips */
     var srcChipsEl = document.getElementById("asrc-chips");
@@ -510,12 +523,18 @@
       .sort(function (x, y) { return seriesOf[y].length - seriesOf[x].length; });
 
     function renderArticles() {
+      try {
+        window.__dbg = { aType: aType, aSrc: aSrc, aSub: aSub, aSort: aSort, aKw: aKw, aView: aView,
+          catLen: catArticles.length, listLen: 0 };
+      } catch (e) { window.__dbg = { err: e.message }; }
       var list = catArticles.filter(function (a) {
         if (!((aType === "all" || a.y === aType) && (aSrc === "all" || a.s === aSrc))) return false;
         if (aSub !== "all" && subOf(a) !== aSub) return false;
         if (aKw && a.t.toLowerCase().indexOf(aKw) < 0) return false;
         return true;
       });
+      window.__dbg.listLen = list.length;
+      if (aSort === "old") list = list.slice().reverse();
       document.getElementById("a-count").textContent = t("articles.count").replace("{n}", list.length);
       if (aView === "series" && seriesList.length) {
         /* 系列视图 */
