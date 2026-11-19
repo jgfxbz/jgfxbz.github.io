@@ -493,3 +493,28 @@ nav a { padding: 6px 7px; font-size: 12.5px; white-space: nowrap; }
   .buy-grid { grid-template-columns: 1fr; }
   .sw-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- 暗色模式补全（2026-11-20）：分类卡/购书卡/统计卡/面板/二维码 ---------- */
+[data-theme="dark"] .cat-card { background: #16202b; }
+[data-theme="dark"] .cat-card p { color: #9fb3c8; }
+[data-theme="dark"] .buy-card { background: #16202b; border-color: #2c3947; }
+[data-theme="dark"] .buy-card strong { color: #d9e4ee; }
+[data-theme="dark"] .buy-card span { color: #9fb3c8; }
+[data-theme="dark"] .buy-card:hover { background: #1a2836; }
+[data-theme="dark"] .contact-panel { background: #16202b; border-color: #2c3947; }
+[data-theme="dark"] .contact-panel h2,
+[data-theme="dark"] .contact-panel h3 { color: #d9e4ee; }
+[data-theme="dark"] .note-panel { background: #16202b; border-color: #2c3947; color: #b8c8d8; }
+[data-theme="dark"] .coop-types > span { background: #1a2430; color: #b8c8d8; border-color: #2c3947; }
+[data-theme="dark"] .hero-stats > div { background: #16202b; border-color: #2c3947; }
+[data-theme="dark"] .coop-qr img { background: #fff; border-color: #2c3947; }
+[data-theme="dark"] .matrix-qr img { background: #fff; border-color: #2c3947; }
+[data-theme="dark"] .about-body p, [data-theme="dark"] .about-body li { color: #b8c8d8; }
+[data-theme="dark"] .home-search input { background: #1a2430; color: #d9e4ee; }
+[data-theme="dark"] .cat-filter-wrap input { background: #1a2430; color: #d9e4ee; }
+
+/* ---------- 暗色模式修复二（2026-11-20 全站审计）：激活项/主按钮/普通按钮/原生控件 ---------- */
+[data-theme="dark"] { color-scheme: dark; }
+[data-theme="dark"] nav a.active { color: #0f1720; font-weight: 600; }
+[data-theme="dark"] .btn.primary { background: var(--primary); color: #0f1720; font-weight: 600; }
+[data-theme="dark"] .btn { background: #1a2430; color: #b8c8d8; border-color: #2c3947; }
