@@ -252,6 +252,8 @@
         return true;
       });
       if (state.sort === "hot") list = list.slice().sort(function (x, y) { return (y.v || 0) - (x.v || 0); });
+      else if (state.sort === "old") list = list.slice().sort(function (x, y) { return String(x.d || "").localeCompare(String(y.d || "")); });
+      else list = list.slice().sort(function (x, y) { return String(y.d || "").localeCompare(String(x.d || "")); });
       return list;
     }
 
