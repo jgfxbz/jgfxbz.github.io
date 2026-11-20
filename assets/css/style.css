@@ -21,7 +21,7 @@ body {
 }
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
-.wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: min(1600px, 96vw); margin: 0 auto; padding: 0 24px; }
 h1, h2, h3 { line-height: 1.3; }
 h2 { font-size: 22px; margin: 0 0 16px; }
 .h-num { color: var(--primary); font-size: 14px; margin-right: 8px; font-weight: 700; }
@@ -89,7 +89,7 @@ nav a.active { background: var(--primary); color: #fff; }
 .section-sub { margin: -8px 0 16px; color: var(--muted); font-size: 13px; }
 
 /* ---------- category cards (home) ---------- */
-.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
 .cat-card {
   display: block; background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
   padding: 20px; color: var(--ink); box-shadow: var(--shadow); transition: .15s;
@@ -101,7 +101,7 @@ nav a.active { background: var(--primary); color: #fff; }
 .cat-meta { color: var(--primary); font-size: 13px; font-weight: 600; }
 
 /* ---------- software cards ---------- */
-.sw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.sw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
 .sw-card {
   background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
   padding: 16px 18px; cursor: pointer; transition: .15s;
@@ -129,7 +129,7 @@ nav a.active { background: var(--primary); color: #fff; }
 .count-badge { font-size: 13px; color: var(--muted); font-weight: 400; margin-left: 6px; }
 
 /* ---------- video cards ---------- */
-.v-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 12px; }
+.v-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
 .v-thumb {
   display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
   border-radius: 8px; background: var(--bg-alt); margin-bottom: 8px;
