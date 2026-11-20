@@ -185,7 +185,7 @@ a.v-card:hover { text-decoration: none; }
 .wechat-line { margin: 4px 0; }
 .wechat-line strong, .coop-wechat strong { font-size: 16px; color: var(--primary-dark); letter-spacing: .5px; }
 .coop-wechat { margin: 2px 0 4px; font-size: 14px; }
-.qr-row { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 18px; }
+.qr-row { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 18px; justify-content: space-evenly; }
 .qr-box { width: 160px; text-align: center; }
 .qr-box img { width: 150px; height: 150px; object-fit: contain; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-alt); min-height: 150px; }
 .qr-tip { display: block; font-size: 12px; color: var(--muted); margin-top: 6px; }
@@ -539,4 +539,13 @@ nav a { padding: 6px 7px; font-size: 12.5px; white-space: nowrap; }
   .course-banner { flex-direction: column; align-items: flex-start; padding: 18px 18px; }
   .course-banner h2 { font-size: 18px; }
   .course-cta { padding: 10px 18px; }
+}
+
+/* ---------- 商务合作页铺满（2026-11-20） ---------- */
+.acc-grid.acc-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 900px) {
+  .acc-grid.acc-4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .acc-grid.acc-4 { grid-template-columns: 1fr; }
 }
