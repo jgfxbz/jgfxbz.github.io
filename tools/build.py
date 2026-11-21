@@ -10,7 +10,7 @@ import re
 import time
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent / "jgfxbz.github.io"
+ROOT = Path(__file__).resolve().parent.parent   # 修复: 工具链入库后, 仓库根即站点根(原多写的 /jgfxbz.github.io 使构建写进嵌套目录)
 RAW = Path(__file__).resolve().parent / "videos_raw.json"
 
 EMAIL = "jgfxbz@gmail.com"
@@ -538,6 +538,7 @@ def page_search():
     <input id="site-q" class="search site-search" type="search" data-i18n-ph="search.ph2" placeholder="输入关键词，如：拟合 / 结晶度 / 代谢 / 精修 …" autofocus>
     <p class="count-badge" id="s-count"></p>
     <div class="v-grid" id="search-grid"></div>
+    <div class="more-row"><button id="smore" class="btn ghost" hidden data-i18n="load.more">加载更多</button></div>
   </div>
 </section>"""
     return layout("search", I18N["title.search"]["zh"],

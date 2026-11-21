@@ -6,7 +6,7 @@
 <title data-i18n="title.xps">XPS / UPS 光电子能谱教程 — 结构分析表征</title>
 <meta name="description" content="X 射线光电子能谱 / 紫外光电子能谱的数据分析、分峰拟合与软件实操教程，覆盖 Avantage、CasaXPS、XPSPEAK、PeakForge 等主流软件。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e99'/%3E%3Ctext x='50' y='62' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E8%A1%A8%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../assets/css/style.css?v=20261120g">
+<link rel="stylesheet" href="../assets/css/style.css?v=202611220038">
 </head>
 <body data-page="xps">
 <header class="site-header">
@@ -16,19 +16,16 @@
       <span class="logo-text"><strong>结构分析表征</strong><small>Structure Analysis &amp; Characterization</small></span>
     </a>
     <nav><ul><li><a href="../index.html" data-i18n="nav.home">首页</a></li>
-<li><a href="../xps/index.html" class="active" data-i18n="nav.xps">光电子能谱</a></li>
+<li><a href="../xps/index.html" class="active" data-i18n="nav.xps">XPS / UPS</a></li>
 <li><a href="../xrd-powder/index.html" data-i18n="nav.xrd">粉末衍射</a></li>
 <li><a href="../scxrd/index.html" data-i18n="nav.scxrd">单晶衍射</a></li>
 <li><a href="../hrms/index.html" data-i18n="nav.hrms">高分辨质谱</a></li>
 <li><a href="../dataplot/index.html" data-i18n="nav.dataplot">数据与绘图</a></li>
 <li><a href="../scripts/index.html" data-i18n="nav.scripts">脚本工具</a></li>
-<li><a href="../matrix/index.html" data-i18n="nav.matrix">矩阵</a></li>
+<li><a href="../search/index.html" data-i18n="nav.search">搜索</a></li>
 <li><a href="../cooperation/index.html" data-i18n="nav.coop">商务合作</a></li>
 <li><a href="../about/index.html" data-i18n="nav.about">关于</a></li></ul></nav>
-    <div class="header-actions">
-      <a class="search-btn" href="../search/index.html" aria-label="搜索 / Search" title="站内搜索"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></a><button id="theme-btn" class="theme-btn" type="button" aria-label="深色模式 / Dark mode">🌙</button>
-    <button id="hamburger-btn" class="hamburger-btn" type="button" aria-label="菜单 / Menu">≡</button>
-    <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button></div>
+    <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言 / Switch language">EN</button>
   </div>
 </header>
 <main>
@@ -63,8 +60,6 @@
       </div>
       <input id="search" class="search" type="search" data-i18n-ph="search.ph" placeholder="搜索视频标题，如：拟合 / jade / 精修 …">
     </div>
-    
-    <div class="chips" id="sort-chips" style="margin:8px 0"><button class="chip active" data-sort="new">最新在前</button><button class="chip" data-sort="hot">最多播放</button></div>
     <div class="v-grid" id="video-grid"><div class="v-card" data-bvid="BV1srxL6DEyn" data-title="XPS_PeakForge_v2.35多组分拟合基本操作"><p class="v-title">XPS_PeakForge_v2.35多组分拟合基本操作</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">B站</span><span>📅 2026-11-02</span><span>⏱ 1:15</span><span>▶ 170</span></div></div>
 <div class="v-card" data-bvid="BV1r3xb6UErV" data-title="xps peakforge Ce3d多组分拟合操作视频"><p class="v-title">xps peakforge Ce3d多组分拟合操作视频</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-11-01</span><span>⏱ 2:11</span><span>▶ 356</span></div></div>
 <div class="v-card" data-bvid="BV1irnQ6ZEpi" data-title="内置拟合参数的xps拟合软件实操"><p class="v-title">内置拟合参数的xps拟合软件实操</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">B站</span><span>📅 2026-10-26</span><span>⏱ 5:37</span><span>▶ 482</span></div></div>
@@ -96,43 +91,26 @@
   <div class="wrap">
     <h2><span class="h-num">03</span><span data-i18n="sec.articles">图文教程 · 公众号</span> <span class="count-badge" id="a-count"></span></h2>
     <div class="toolbar">
-          <div class="cat-filter-wrap">
-      <input id="cat-filter" type="search" data-i18n-ph="catfilter.ph" placeholder="在本栏目内快速过滤，如：拟合 / 导出 / 校准 …">
-    </div>
-    <div class="chips" id="aview-chips"><button class="chip active" data-aview="list" data-i18n="chip.viewList">列表</button><button class="chip" data-aview="series" data-i18n="chip.viewSeries">按系列</button></div>
-<div class="chips" id="atype-chips">
-
+      <div class="chips" id="atype-chips">
         <button class="chip active" data-atype="all" data-i18n="chip.all">全部</button>
         <button class="chip" data-atype="a" data-i18n="chip.a">数据分析</button>
         <button class="chip" data-atype="s" data-i18n="chip.s">软件介绍</button>
         <button class="chip" data-atype="p" data-i18n="chip.p">原理科普</button>
         <button class="chip" data-atype="lit" data-i18n="chip.lit">文献解读</button>
       </div>
-
-    <div class="chips" id="asort-chips" style="margin-top:8px">
-      <button class="chip active" data-asort="new">最新在前</button>
-      <button class="chip" data-asort="old">最早在前</button>
-    </div>
-
-    <div class="chips" id="asub-chips" style="display:none"></div>
-    <div class="chips" id="aview-chips"><button class="chip active" data-aview="list" data-i18n="chip.viewList">列表</button><button class="chip" data-aview="series" data-i18n="chip.viewSeries">按系列</button></div>
-
-      <div class="chips" id="asrc-chips" style="display:none"></div>
-
-
     </div>
     <div class="v-grid" id="article-grid"><a class="v-card a-card" href="https://mp.weixin.qq.com/s/Jb90cu0XqN7W5d4zG38l0Q" target="_blank" rel="noopener"><p class="v-title">XPS PeakForge V2.01实操 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-10-26</span></div></a>
 <a class="v-card a-card" href="https://mp.weixin.qq.com/s/ZV4G8foDM6aQ-LdkcTPw-A" target="_blank" rel="noopener"><p class="v-title">vgd-excel和Metabolic-Analysis开放下载 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-10-26</span></div></a>
 <a class="v-card a-card" href="https://mp.weixin.qq.com/s/u6vW1ba7zDbzr946udCpTQ" target="_blank" rel="noopener"><p class="v-title">《光电子能谱数据分析 从入门到精通》出版 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-10-26</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/m0Z1ZTolp5JZjj_yk9FoVA" target="_blank" rel="noopener"><p class="v-title">vgd-excel和Metabolic-Analysis开放下载 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-10-11</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/l_k9AgA8Bw56rIn67rEzEA" target="_blank" rel="noopener"><p class="v-title">vgd-excel和Metabolic-Analysis开放下载 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-09-28</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/uBbr6OOnV2BnO0SJSzMNFg" target="_blank" rel="noopener"><p class="v-title">《光电子能谱数据分析 从入门到精通》出版 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-09-28</span></div></a>
 <a class="v-card a-card" href="https://mp.weixin.qq.com/s/U4IJxhPmU1rzdXMJa0CuzA" target="_blank" rel="noopener"><p class="v-title">XPS传输函数计算器 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-09-14</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/C-1y-3P-jjHIwRbY_i4Rkw" target="_blank" rel="noopener"><p class="v-title">《光电子能谱数据分析 从入门到精通》出版 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-09-14</span></div></a>
 <a class="v-card a-card" href="https://mp.weixin.qq.com/s/zbaVJC7AJ5KPhwFYPlai9w" target="_blank" rel="noopener"><p class="v-title">元素周期表XPS数据查询工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-17</span></div></a>
 <a class="v-card a-card" href="https://mp.weixin.qq.com/s/8a3NHhhCaGYNkk0pCHRHGg" target="_blank" rel="noopener"><p class="v-title">多层VGD to Excel 转换器 v4.0 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-17</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/pFXzz6nEpGUyUHnIQP8wMg" target="_blank" rel="noopener"><p class="v-title">多层VGD to Excel 转换器 v4.0 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-12</span></div></a>
-<a class="v-card a-card" href="https://mp.weixin.qq.com/s/LRm12rT59K0wC8zLdJ6Jag" target="_blank" rel="noopener"><p class="v-title">元素周期表XPS数据查询工具 - 使用说明 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-12</span></div></a></div>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/LmLGHndE9sEim1UL1N7Tcw" target="_blank" rel="noopener"><p class="v-title">XPS薄膜厚度计算器 v3 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-07-09</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/Y9ge8mqjUn7R_613sbilpg" target="_blank" rel="noopener"><p class="v-title">效率翻倍 vgd格式数据转文本加校正一键完成 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-06-11</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/Vkos2BBpm9CUQvkPOKxrww" target="_blank" rel="noopener"><p class="v-title">先测xps后测电镜更好 ↗</p><div class="v-meta"><span class="v-tag a">数据分析</span><span class="v-src">结构分析表征</span><span>📅 2026-05-31</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/mEijFo5QllvCM9o64fZTnw" target="_blank" rel="noopener"><p class="v-title">解锁光电子能谱数据解析难题——《光电子能谱数据分析 从入门到精通》出版 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-04-20</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/WyaIVkK1X0hcyKfmBbKHLQ" target="_blank" rel="noopener"><p class="v-title">光电子能谱数据分析新书介绍-Casaxps软件进行价带谱/ups数据处理 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-03-16</span></div></a>
+<a class="v-card a-card" href="https://mp.weixin.qq.com/s/gFFjyyCfcQg5_4Ss9FzXvw" target="_blank" rel="noopener"><p class="v-title">光电子能谱数据分析新书介绍-Casaxps软件全谱分析的基本操作 ↗</p><div class="v-meta"><span class="v-tag s">软件介绍</span><span class="v-src">结构分析表征</span><span>📅 2026-02-16</span></div></a></div>
     <div class="more-row"><button id="amore" class="btn ghost" data-i18n="load.more">加载更多</button></div>
     <p class="muted" style="margin-top:14px" data-i18n="cat.art2">图文内容持续收录中；也可直接移步微信公众号阅读原文。</p>
   </div>
@@ -149,7 +127,7 @@
 </main>
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-09</div>
+    <div>© 2026 结构分析表征 · 光电子能谱分部 · 单晶多晶衍射分部 · <span data-i18n="footer.updated">更新于</span> 2026-11-22</div>
     <div class="footer-links">
       <span class="bz">👁 <span id="busuanzi_value_site_pv"></span> · 👤 <span id="busuanzi_value_site_uv"></span></span>
       <a href="https://space.bilibili.com/386282560" target="_blank" rel="noopener" data-i18n="footer.bili">B站主页</a>
@@ -165,8 +143,8 @@
     <div class="modal-foot"><a id="modal-link" href="#" target="_blank" rel="noopener" data-i18n="modal.open">在 B 站打开（点赞投币收藏）↗</a></div>
   </div>
 </div>
-<script src="../assets/js/data.js?v=20261120f"></script>
-<script src="../assets/js/main.js?v=20261120f"></script>
+<script src="../assets/js/data.js?v=202611220038"></script>
+<script src="../assets/js/main.js?v=202611220038"></script>
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>

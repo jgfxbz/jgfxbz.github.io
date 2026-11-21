@@ -20,6 +20,27 @@
     });
   }
 
+    /* ---------- 搜索归一化：全角->半角、小写；查询按空白拆多词(AND) ---------- */
+  function norm(s) {
+    s = String(s || "").toLowerCase();
+    var full = "０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ";
+    var half = "0123456789abcdefghijklmnopqrstuvwxyz";
+    var out = "";
+    for (var i = 0; i < s.length; i++) {
+      var k = full.indexOf(s.charAt(i));
+      out += k >= 0 ? half.charAt(k) : s.charAt(i);
+    }
+    return out;
+  }
+  function qTerms(q) {
+    return norm(q).split(/\s+/).filter(Boolean);
+  }
+  function hayHit(hay, ts) {
+    hay = norm(hay);
+    for (var i = 0; i < ts.length; i++) if (hay.indexOf(ts[i]) < 0) return false;
+    return true;
+  }
+
   function viewsTxt(n) {
     if (lang === "en") {
       if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
@@ -248,7 +269,7 @@
     function filtered() {
       var list = catVideos.filter(function (v) {
         if (state.type !== "all" && v.y !== state.type) return false;
-        if (state.q && v.t.toLowerCase().indexOf(state.q) < 0) return false;
+        if (state.q && !hayHit(norm(v.t) + " " + norm(v.g || ""), qTerms(state.q))) return false;
         return true;
       });
       if (state.sort === "hot") list = list.slice().sort(function (x, y) { return (y.v || 0) - (x.v || 0); });
@@ -322,29 +343,38 @@
     var sCount = document.getElementById("s-count");
     var sCap = 60;
     function renderSearch() {
-      var kw = siteQ.value.trim().toLowerCase();
-      if (!kw) {
+      var ts = qTerms(siteQ.value);
+      if (!ts.length) {
         sCount.textContent = "";
         sGrid.innerHTML = "";
+        vShown = aShown = 0;
+        var m0 = document.getElementById("smore");
+        if (m0) m0.hidden = true;
         return;
       }
-      var vRes = videos.filter(function (v) { return v.t.toLowerCase().indexOf(kw) >= 0; });
-      var aRes = (D.articles || []).filter(function (a) { return a.t.toLowerCase().indexOf(kw) >= 0; });
+      var vRes = videos.filter(function (v) { return hayHit(norm(v.t) + " " + norm(v.g || ""), ts); });
+      var aRes = (D.articles || []).filter(function (a) { return hayHit(norm(a.t) + " " + norm(a.g || ""), ts); });
       vRes.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
       aRes.sort(function (x, y) { return x.d < y.d ? 1 : -1; });
       sCount.textContent = t("search.results").replace("{n}", vRes.length + aRes.length);
+      if (vShown === undefined || window.__lastQ !== ts.join(" ")) {
+        vShown = 30; aShown = 40; window.__lastQ = ts.join(" ");
+      }
       var html = "";
       if (vRes.length) {
         html += '<p class="facet-head">▶ ' + esc(lang === "en" ? "Videos" : "视频") + "（" + vRes.length + "）</p>";
-        html += vRes.slice(0, 30).map(function (v) { return vCard(v, true); }).join("");
+        html += vRes.slice(0, vShown).map(function (v) { return vCard(v, true); }).join("");
       }
       if (aRes.length) {
         html += '<p class="facet-head">📄 ' + esc(lang === "en" ? "WeChat articles" : "公众号图文") + "（" + aRes.length + "）</p>";
-        html += aRes.slice(0, 40).map(function (a) { return aCard(a, true); }).join("");
+        html += aRes.slice(0, aShown).map(function (a) { return aCard(a, true); }).join("");
       }
       sGrid.innerHTML = html ||
         '<p class="muted" style="grid-column:1/-1;padding:20px 4px">' + esc(t("empty")) + "</p>";
+      var moreBtn = document.getElementById("smore");
+      if (moreBtn) moreBtn.hidden = !(vRes.length > vShown || aRes.length > aShown);
     }
+    var vShown = 30, aShown = 40;
     var sTimer = null;
     siteQ.addEventListener("input", function () {
       clearTimeout(sTimer);
@@ -357,6 +387,15 @@
         setTimeout(renderSearch, 0);
       }
     } catch (e) {}
+    var smoreBtn = document.getElementById("smore");
+    if (smoreBtn) {
+      smoreBtn.addEventListener("click", function () {
+        vShown += 30; aShown += 40;
+        renderSearch();
+        var g = document.getElementById("search-grid");
+        if (g) g.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
     rerenderSearch = renderSearch;
   }
 
