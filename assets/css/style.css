@@ -63,10 +63,10 @@ nav a.active { background: var(--primary); color: #fff; }
 }
 .hero h1 { font-size: 40px; margin: 0 0 10px; letter-spacing: 2px; }
 .hero-sub { font-size: 17px; opacity: .92; margin: 0 0 28px; }
-.hero-stats { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
+.hero-stats { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; max-width: none; }
 .hero-stats > div {
   background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .25);
-  border-radius: var(--radius); padding: 10px 22px; text-align: center; min-width: 110px;
+  border-radius: var(--radius); padding: 10px 22px; text-align: center; min-width: 110px; flex: 1 1 0;
 }
 .hero-stats strong { display: block; font-size: 24px; }
 .hero-stats span { font-size: 12px; opacity: .85; }
@@ -191,7 +191,7 @@ a.v-card:hover { text-decoration: none; }
 .qr-tip { display: block; font-size: 12px; color: var(--muted); margin-top: 6px; }
 
 /* ---------- 首页商务合作横幅 ---------- */
-.coop-band { display: flex; gap: 28px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.coop-band { display: flex; gap: 30px; align-items: center; flex-wrap: nowrap; }
 .coop-info { flex: 1; min-width: 300px; }
 .coop-types { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .coop-types > span {
@@ -314,7 +314,7 @@ a.v-card:hover { text-decoration: none; }
 
 /* ---------- 首页搜索框 ---------- */
 .home-search {
-  display: flex; gap: 8px; margin-top: 18px; max-width: 640px;
+  display: flex; gap: 8px; margin-top: 18px; max-width: none;
 }
 .home-search input {
   flex: 1; padding: 11px 16px; border-radius: 24px; font-size: 14px;
@@ -548,4 +548,42 @@ nav a { padding: 6px 7px; font-size: 12.5px; white-space: nowrap; }
 }
 @media (max-width: 640px) {
   .acc-grid.acc-4 { grid-template-columns: 1fr; }
+}
+
+/* ---------- 首页预览版：hero 三分并排 + 商务合作 5 码（2026-11-21） ---------- */
+.hero-course {
+  flex: 0 0 300px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px;
+  background: linear-gradient(135deg, #083a52 0%, #0b6e99 60%, #18a999 100%);
+  border-radius: 14px; padding: 22px 24px; text-decoration: none; transition: .15s;
+}
+.hero-course:hover { transform: translateY(-3px); text-decoration: none; }
+.hc-badge { display: inline-block; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.42); border-radius: 20px; padding: 3px 12px; font-size: 12px; color: #fff; }
+.hc-title { font-size: 18px; color: #fff; line-height: 1.35; }
+.hc-desc { font-size: 12.5px; color: rgba(255,255,255,.85); line-height: 1.5; }
+.hc-cta { margin-top: auto; background: #fff; color: var(--primary-dark); font-weight: 700; font-size: 14px; border-radius: 10px; padding: 9px 18px; }
+[data-theme="dark"] .hero-course { background: linear-gradient(135deg, #0d2940 0%, #14506e 60%, #12876f 100%); }
+[data-theme="dark"] .hc-cta { color: #0f1720; }
+.coop-qr-row, .qr-row { display: flex; gap: 12px; flex-wrap: nowrap; justify-content: space-between; margin-top: 22px; }
+.coop-qr-row .coop-qr, .qr-row .qr-box { flex: 1 1 0; min-width: 0; max-width: none; cursor: zoom-in; transition: transform .15s; }
+.coop-qr-row .coop-qr:hover, .qr-row .qr-box:hover { transform: scale(1.05); }
+.coop-qr-row .coop-qr img, .qr-row .qr-box img { width: 100%; aspect-ratio: 1/1; height: auto; min-height: 90px; }
+.qr-zoom-overlay { position: fixed; inset: 0; background: rgba(6, 15, 24, .86); display: none; z-index: 9999; align-items: center; justify-content: center; flex-direction: column; cursor: zoom-out; }
+.qr-zoom-overlay.open { display: flex; }
+.qr-zoom-overlay img { width: min(88vmin, 640px); height: auto; border-radius: 12px; background: #fff; padding: 14px; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.qr-zoom-overlay .qr-zoom-tip { color: #fff; margin-top: 16px; font-size: 15px; letter-spacing: .5px; }
+@media (max-width: 1200px) {
+  .hero-course { flex-basis: 260px; }
+  .hero-book { flex-basis: 170px; }
+  .hero-book-cover { width: 170px; }
+}
+@media (max-width: 900px) {
+  .coop-band { flex-direction: column; align-items: stretch; gap: 10px; }
+  .coop-qr-row { flex: none; }
+}
+@media (max-width: 860px) {
+  .hero-flex { flex-direction: column; }
+  .hero-course { flex: none; width: 100%; }
+  .hero-book { flex: none; flex-direction: row; align-items: center; gap: 16px; }
+  .hero-book-cover { width: 112px; }
+  .hero-book-tip { text-align: left; margin-top: 0; }
 }
